@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "d1aa8f6c-1644-4347-b86d-2b771500f753")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "PCM_JLCPCB-Connectors_Buttons:Tactile Button, 160gf, 12V, 50mA, 5.1mm"
 			(pin_names
@@ -802,6 +802,28 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 13.97 17.78)
+		(end 210.82 151.13)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1faabdfe-38c4-4e31-833f-b58be32b003d")
+	)
+	(text "Keyboard\n"
+		(exclude_from_sim no)
+		(at 204.724 150.368 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ce2c288-f72a-47e7-8330-00e144223073")
 	)
 	(junction
 		(at 77.47 96.52)
