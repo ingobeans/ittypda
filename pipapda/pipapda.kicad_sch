@@ -5,161 +5,6 @@
 	(uuid "d1aa8f6c-1644-4347-b86d-2b771500f753")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MCU_ST_STM32F1:STM32F103RGTx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6240,7 +6085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 75.692 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -6463,7 +6308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 128.27 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -6817,7 +6662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 103.632 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -7042,7 +6887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 131.572 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -7267,7 +7112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 33.782 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -7492,7 +7337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 47.752 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -7715,7 +7560,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 86.36 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8069,7 +7914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 33.782 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -8294,7 +8139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 145.542 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -8517,7 +8362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 100.33 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -8869,7 +8714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 184.15 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9221,7 +9066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 128.27 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9573,7 +9418,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 58.42 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -9925,7 +9770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 58.42 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10277,7 +10122,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 30.48 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10631,7 +10476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 75.692 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -10856,7 +10701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 187.452 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -11081,7 +10926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 159.512 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -11306,7 +11151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 103.632 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -11531,7 +11376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 61.722 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -11756,7 +11601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 117.602 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -11981,7 +11826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 187.452 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -12204,7 +12049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 58.42 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -12558,7 +12403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 159.512 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -12750,88 +12595,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 264.16 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35a3b494-2949-4b43-86a3-613cc5523851")
-		(property "Reference" "C1"
-			(at 267.97 36.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 267.97 39.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.1252 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 264.16 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04fbc1af-f8cb-4d46-a47b-272eafb222bd")
-		)
-		(pin "2"
-			(uuid "287352c6-f1f1-429c-9ac4-9a19b2830029")
-		)
-		(instances
-			(project "pipapda"
-				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Connectors_Buttons:Tactile Button, 160gf, 12V, 50mA, 5.1mm")
 		(at 114.3 57.15 0)
 		(unit 1)
@@ -12863,7 +12626,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 114.3 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -13215,7 +12978,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 72.39 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -13567,7 +13330,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 170.18 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -13921,7 +13684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 145.542 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -14144,7 +13907,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 184.15 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -14498,7 +14261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 33.782 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -14721,7 +14484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 114.3 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -15075,7 +14838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 145.542 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -15300,7 +15063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 173.482 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -15523,7 +15286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 30.48 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -15877,7 +15640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 89.662 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -16100,7 +15863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 170.18 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -16452,7 +16215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 44.45 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -16806,7 +16569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 131.572 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -17031,7 +16794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 159.512 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -17254,7 +17017,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 170.18 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -17606,7 +17369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 58.42 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -17958,7 +17721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 142.24 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -18312,7 +18075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 159.512 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -18704,7 +18467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 44.45 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -19056,7 +18819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 142.24 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -19410,7 +19173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 47.752 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -19633,7 +19396,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 44.45 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -19985,7 +19748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 30.48 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -20339,7 +20102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 89.662 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -20564,7 +20327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 187.452 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -20789,7 +20552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 75.692 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -21014,7 +20777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 89.662 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -21237,7 +21000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 170.18 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -21589,7 +21352,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 100.33 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -21941,7 +21704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 86.36 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -22293,7 +22056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 100.33 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -22645,7 +22408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 30.48 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -22997,7 +22760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 142.24 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -23351,7 +23114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 117.602 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -23574,7 +23337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 72.39 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -23928,7 +23691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 173.482 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -24153,7 +23916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 145.542 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -24376,7 +24139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 114.3 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -24730,7 +24493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 187.452 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -24953,7 +24716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 100.33 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -25305,7 +25068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 72.39 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -25657,7 +25420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 142.24 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -26009,7 +25772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 184.15 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -26363,7 +26126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 33.782 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -26588,7 +26351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 75.692 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -26813,7 +26576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 89.662 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -27036,7 +26799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 72.39 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -27390,7 +27153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 61.722 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -27615,7 +27378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 47.752 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -27840,7 +27603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 173.482 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -28063,7 +27826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 156.21 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -28417,7 +28180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 117.602 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -28640,7 +28403,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 30.48 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -28994,7 +28757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 173.482 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -29217,7 +28980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 128.27 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -29569,7 +29332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 44.45 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -29921,7 +29684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 156.21 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -30273,7 +30036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 114.3 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -30625,7 +30388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 128.27 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -30979,7 +30742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 47.752 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -31202,7 +30965,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 184.15 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -31556,7 +31319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 61.722 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -31781,7 +31544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 47.752 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -32006,7 +31769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 117.602 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -32231,7 +31994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 103.632 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -32456,7 +32219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 75.692 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -32681,7 +32444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 187.452 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -32906,7 +32669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 103.632 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -33129,7 +32892,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 156.21 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -33483,7 +33246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 61.722 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -33977,7 +33740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 131.572 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -34200,7 +33963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 44.45 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -34554,7 +34317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 61.722 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -34779,7 +34542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 173.482 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -35002,7 +34765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 58.42 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -35354,7 +35117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 100.33 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -35708,7 +35471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 33.782 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -35931,7 +35694,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 72.39 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -36283,7 +36046,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 184.15 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -36637,7 +36400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 131.572 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -36860,7 +36623,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 142.24 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -37212,7 +36975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 156.21 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -37564,7 +37327,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 86.36 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -37918,7 +37681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 103.632 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -38143,7 +37906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 159.512 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -38366,7 +38129,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 156.21 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -38718,7 +38481,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 170.18 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -39072,7 +38835,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 			(at 145.542 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -39295,7 +39058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 86.36 67.31 0)
 			(hide yes)
 			(show_name no)
