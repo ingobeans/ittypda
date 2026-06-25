@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "pipapda.kicad_pro",
+    "filename": "ittypda.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -647,8 +647,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "pipapda.kicad_sch",
-        "name": "pipapda",
+        "filename": "ittypda.kicad_sch",
+        "name": "ittypda",
         "uuid": "d1aa8f6c-1644-4347-b86d-2b771500f753"
       }
     ],
@@ -658,7 +658,7 @@
   "sheets": [
     [
       "d1aa8f6c-1644-4347-b86d-2b771500f753",
-      "pipapda"
+      "ittypda"
     ]
   ],
   "text_variables": {},
