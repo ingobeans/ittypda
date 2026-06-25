@@ -1,4 +1,5 @@
 # cyberdeck / pda thingy
+<img src="render/render.png" width=800>
 
 hi! this is my little thing im working on.
 
