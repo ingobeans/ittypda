@@ -5252,6 +5252,17 @@
 		)
 		(uuid "02b736f4-21a4-4072-a078-c2f58a2c19fb")
 	)
+	(text "This should maybe be\nflipped vertically.\nTodo: check this before assembly"
+		(exclude_from_sim no)
+		(at 32.258 224.536 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "09803877-28b8-400f-9091-4f51da555f93")
+	)
 	(text "Voltage regulator"
 		(exclude_from_sim no)
 		(at 199.39 158.75 0)
@@ -5273,7 +5284,7 @@
 		)
 		(uuid "1916ba7d-9b8f-4800-9b3e-f78656954371")
 	)
-	(text "Disconnected since the display\ndoesn't have the touch module.\nThese 4 pins are I2C for\nthe touch module\n"
+	(text "Disconnected since the display\ndoesn't have the touch module.\nThese 4 pins are I2C + Int \nfor the touch module\n"
 		(exclude_from_sim no)
 		(at 22.352 259.842 0)
 		(effects
@@ -5569,6 +5580,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30b67667-0174-497e-abc3-4d09b1260348")
+	)
+	(junction
+		(at 63.5 271.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31066cf7-25b8-40b9-a06c-35498fb47e2a")
 	)
 	(junction
 		(at 320.04 41.91)
@@ -7242,6 +7259,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 228.6) (xy 63.5 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ffa9089-0c35-43a8-b89a-342db1cfd1f8")
+	)
+	(wire
+		(pts
 			(xy 30.48 208.28) (xy 34.29 208.28)
 		)
 		(stroke
@@ -8562,6 +8589,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 271.78) (xy 63.5 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed5f6dd2-23e5-4e8c-b5ef-758110855e39")
+	)
+	(wire
+		(pts
 			(xy 76.2 118.11) (xy 90.17 118.11)
 		)
 		(stroke
@@ -8619,6 +8656,16 @@
 			(type default)
 		)
 		(uuid "f02d6682-1dc3-4040-8848-678a079e206c")
+	)
+	(wire
+		(pts
+			(xy 63.5 273.05) (xy 63.5 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f052980c-088f-4f01-8a78-8cea7c5faf76")
 	)
 	(wire
 		(pts
@@ -8749,6 +8796,16 @@
 			(type default)
 		)
 		(uuid "f7c27275-b467-4333-a024-f91136a1f477")
+	)
+	(wire
+		(pts
+			(xy 57.15 228.6) (xy 63.5 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8686431-af89-446e-becd-ee54c37249bf")
 	)
 	(wire
 		(pts
@@ -8928,6 +8985,30 @@
 			)
 		)
 	)
+	(global_label "LCD_RS"
+		(shape input)
+		(at 48.26 243.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "189aea73-012f-4e47-8f25-3bf857b892e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.2596 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Col0"
 		(shape input)
 		(at 36.83 39.37 90)
@@ -9024,6 +9105,30 @@
 			)
 		)
 	)
+	(global_label "LCD_RST"
+		(shape input)
+		(at 48.26 241.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30978d15-74b7-4895-945b-61d2a6f26b99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.292 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "HSE_OUT"
 		(shape input)
 		(at 294.64 101.6 180)
@@ -9072,6 +9177,30 @@
 			)
 		)
 	)
+	(global_label "MISO"
+		(shape input)
+		(at 48.26 254 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4cdaecf6-22b8-4ded-9cbb-14e9088fac86")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.6786 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SWCLK"
 		(shape input)
 		(at 335.28 125.73 0)
@@ -9117,6 +9246,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "SD_CS"
+		(shape input)
+		(at 48.26 266.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64453695-24f6-4f68-9dbe-53f5af731822")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.3482 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -9312,6 +9465,30 @@
 			)
 		)
 	)
+	(global_label "LED"
+		(shape input)
+		(at 48.26 251.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "abe3a58f-6e99-47e5-b847-563efdeb10d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.8277 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Col1"
 		(shape input)
 		(at 50.8 39.37 90)
@@ -9360,6 +9537,30 @@
 			)
 		)
 	)
+	(global_label "LCD_VCC"
+		(shape input)
+		(at 48.26 233.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce4fa40c-e5cb-47d8-8e94-aa38c21395bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.1105 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Col2"
 		(shape input)
 		(at 64.77 39.37 90)
@@ -9381,6 +9582,54 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "LCD_CS"
+		(shape input)
+		(at 48.26 238.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4734917-6082-41d0-b4de-4b0bf03e4cda")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.2596 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SCK"
+		(shape input)
+		(at 48.26 248.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6c94396-00c4-4caf-94cc-1598a49491e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.5253 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -9501,6 +9750,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 48.26 246.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6dc2300-35b4-4a6e-8afd-0184b4b383c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.6786 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -13807,6 +14080,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 63.5 273.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b18a2cf-83f5-4fa0-a549-c761b7429bb9")
+		(property "Reference" "#PWR023"
+			(at 63.5 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 278.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae87d976-999e-435a-b325-fa356666b7f0")
+		)
+		(instances
+			(project "ittypda"
+				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Diodes:Schottky,1N5819WS")
 		(at 62.23 95.25 0)
 		(unit 1)
@@ -14797,6 +15148,85 @@
 			(project "ittypda"
 				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 236.22 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cb6214e-354d-44a1-8c4a-ac8fcbd95221")
+		(property "Reference" "#PWR024"
+			(at 41.91 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 236.2199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec167624-ba3a-406b-b04d-84b466c938ab")
+		)
+		(instances
+			(project "ittypda"
+				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -31801,7 +32231,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d8c4c12f-23ae-4634-b808-a5fd429fc7de")
 		(property "Reference" "FPC1"
 			(at 59.69 248.9199 0)
