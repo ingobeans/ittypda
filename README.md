@@ -1,5 +1,5 @@
 # ittyPDA
-<img src="render/render.png" width=800>
+<img src="render/render.png" width=800 height=235>
 
 hi! this is my little thing im working on.
 
