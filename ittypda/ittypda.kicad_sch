@@ -28566,7 +28566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SW-SMD_3P-L9.1-W3.5-P2.50_MST-12D18G2"
+		(property "Footprint" "easyeda2kicad:SW-SMD_MST-12D18G4-SPDT-SLIDE-SWITCH"
 			(at 220.98 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -28621,7 +28621,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C49023765"
+		(property "LCSC Part" "C49023767"
 			(at 220.98 148.59 0)
 			(hide yes)
 			(show_name no)
