@@ -9389,6 +9389,30 @@
 			)
 		)
 	)
+	(global_label "SD_CS"
+		(shape input)
+		(at 294.64 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f7006bb-26fb-421d-a604-bb58a53964d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 285.7282 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VBAT"
 		(shape input)
 		(at 307.34 76.2 90)
@@ -13713,7 +13737,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 374.65 69.85 0)
 			(hide yes)
 			(show_name no)
