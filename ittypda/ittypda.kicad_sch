@@ -4812,6 +4812,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:S2B-PH-SM4-TB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN"
+				(at 0 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "S2B-PH-SM4-TB"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/_JST-Sales-America_S2B-PH-SM4-TB-LF-SN_JST-Sales-America-S2B-PH-SM4-TB-LF-SN_C295747.html"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "JST"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "S2B-PH-SM4-TB(LF)(SN)"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C295747"
+				(at 0 -24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Wire To Board / Wire To Wire Connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "S2B-PH-SM4-TB_0_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 -6.35 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 6.35 270)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -5297,17 +5498,6 @@
 		)
 		(uuid "1916ba7d-9b8f-4800-9b3e-f78656954371")
 	)
-	(text "Placeholders til\nI find a JST PH2.0mm\nconnector"
-		(exclude_from_sim no)
-		(at 174.752 201.93 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "19a638c3-96a5-4489-8806-619421c50f40")
-	)
 	(text "Disconnected since the display\ndoesn't have the touch module.\nThese 4 pins are I2C for\nthe touch module\n"
 		(exclude_from_sim no)
 		(at 342.392 229.362 0)
@@ -5339,6 +5529,16 @@
 			)
 		)
 		(uuid "4ce2c288-f72a-47e7-8330-00e144223073")
+	)
+	(text "JST PH 2.0mm"
+		(exclude_from_sim no)
+		(at 195.326 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "543d679a-97ed-46db-92c7-f122afdb12c7")
 	)
 	(text "USB-C"
 		(exclude_from_sim no)
@@ -5500,6 +5700,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a5a7fcc-725d-4301-b340-62c59012072c")
+	)
+	(junction
+		(at 185.42 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21fbb4e6-38d0-4142-945b-af445615f368")
 	)
 	(junction
 		(at 90.17 54.61)
@@ -5752,6 +5958,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ebb9e8b-0714-4587-b7ca-dd48bcc2575b")
+	)
+	(junction
+		(at 172.72 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ec8c12e-cbe9-477f-9904-1af8c4216c6d")
 	)
 	(junction
 		(at 90.17 77.47)
@@ -6400,6 +6612,16 @@
 			(type default)
 		)
 		(uuid "0e47098c-8dc2-47f9-8152-da833164cb74")
+	)
+	(wire
+		(pts
+			(xy 172.72 214.63) (xy 172.72 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e53a077-3925-419f-90d0-fca1f58466d5")
 	)
 	(wire
 		(pts
@@ -7333,6 +7555,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 213.36) (xy 185.42 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50a9260d-b44c-48b1-97af-be24638c1789")
+	)
+	(wire
+		(pts
 			(xy 177.8 35.56) (xy 176.53 35.56)
 		)
 		(stroke
@@ -7943,6 +8175,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 200.66) (xy 187.96 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a124951-be76-4cb6-9097-a2aa4b478625")
+	)
+	(wire
+		(pts
 			(xy 100.33 182.88) (xy 100.33 196.85)
 		)
 		(stroke
@@ -8543,7 +8785,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 212.09) (xy 172.72 208.28)
+			(xy 172.72 213.36) (xy 172.72 208.28)
 		)
 		(stroke
 			(width 0)
@@ -8953,6 +9195,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 200.66) (xy 187.96 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdbbf000-de43-4938-becd-3f8da1982f24")
+	)
+	(wire
+		(pts
 			(xy 300.99 80.01) (xy 300.99 85.09)
 		)
 		(stroke
@@ -8960,6 +9212,16 @@
 			(type default)
 		)
 		(uuid "be3595c4-fbce-4ae9-8cf7-a8e4637e49a3")
+	)
+	(wire
+		(pts
+			(xy 187.96 213.36) (xy 185.42 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c04af050-f918-444a-a0d9-871d4e5d04f8")
 	)
 	(wire
 		(pts
@@ -9881,30 +10143,6 @@
 			)
 		)
 	)
-	(global_label "BAT+"
-		(shape input)
-		(at 177.8 205.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "22607a7f-731e-4c3c-b479-6ce5ab7f8c98")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.6838 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "Col3"
 		(shape input)
 		(at 64.77 29.21 90)
@@ -9990,30 +10228,6 @@
 		(uuid "4e980967-8d6b-43ba-b3a3-0f91590299ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 335.6042 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "BAT-"
-		(shape input)
-		(at 177.8 208.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5772897b-4e6e-40d3-a017-31603a7b71a6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.6838 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11083,6 +11297,127 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:S2B-PH-SM4-TB")
+		(at 181.61 207.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05525470-a0f3-44cc-924d-807f494f9efe")
+		(property "Reference" "CN1"
+			(at 187.96 205.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S2B-PH-SM4-TB"
+			(at 187.96 208.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN"
+			(at 181.61 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/_JST-Sales-America_S2B-PH-SM4-TB-LF-SN_JST-Sales-America-S2B-PH-SM4-TB-LF-SN_C295747.html"
+			(at 181.61 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 181.61 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "S2B-PH-SM4-TB(LF)(SN)"
+			(at 181.61 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C295747"
+			(at 181.61 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b43b76b-e683-4362-964d-258ce0b47a84")
+		)
+		(pin "3"
+			(uuid "fe501964-077e-4ea1-bf2b-e99d0411ef84")
+		)
+		(pin "2"
+			(uuid "01aac28a-50fb-4ddd-a298-88397921ac53")
+		)
+		(pin "4"
+			(uuid "fdd538c8-fc81-4487-ab15-2f3c2afc18f8")
+		)
+		(instances
+			(project "ittypda"
+				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
+					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Diodes:Schottky,1N5819WS")
 		(at 104.14 96.52 0)
 		(unit 1)
@@ -11759,7 +12094,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 212.09 0)
+		(at 172.72 214.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11770,7 +12105,7 @@
 		(fields_autoplaced yes)
 		(uuid "09f4026a-b4c3-4be9-947d-5d86b1f70de5")
 		(property "Reference" "#PWR022"
-			(at 172.72 218.44 0)
+			(at 172.72 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11781,7 +12116,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 217.17 0)
+			(at 172.72 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11791,7 +12126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 212.09 0)
+			(at 172.72 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11802,7 +12137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 212.09 0)
+			(at 172.72 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11813,7 +12148,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 212.09 0)
+			(at 172.72 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
