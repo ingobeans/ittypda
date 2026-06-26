@@ -1361,207 +1361,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -5381,6 +5180,234 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:YLED0603Y"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "YLED0603Y"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:LED0603-RD-1"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C19273152.pdf"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YONGYUTAI(永裕泰)"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "YLED0603Y"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C19273152"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "YLED0603Y_0_1"
+				(polyline
+					(pts
+						(xy -4.06 2.03) (xy -3.05 1.52) (xy -3.56 1.02) (xy -4.06 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.05 3.05) (xy -2.03 2.54) (xy -2.54 2.03) (xy -3.05 3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.29 0.25) (xy -3.3 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -2.29 2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.51) (xy -1.27 -3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.51) (xy -1.27 -1.27) (xy 1.27 -3.05) (xy 1.27 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -6082,9 +6109,9 @@
 		)
 		(uuid "e9ab60b4-2308-40d0-b0e1-7aa138fe8129")
 	)
-	(text "Todo: set these LED\nand resistor values"
+	(text "Charging status LED"
 		(exclude_from_sim no)
-		(at 150.368 171.45 0)
+		(at 146.558 173.736 0)
 		(effects
 			(font
 				(size 1 1)
@@ -6186,6 +6213,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19825e68-78eb-4e3e-8c1c-2a1285a02ee6")
+	)
+	(junction
+		(at 144.78 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a4a1676-6c23-46af-9ad1-883ea531d3e6")
 	)
 	(junction
 		(at 36.83 45.72)
@@ -6330,12 +6363,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4bfc72a0-f1a4-421c-b209-8c9a76fa0494")
-	)
-	(junction
-		(at 153.67 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50aa2eba-a86c-49d8-a505-dc004a98847e")
 	)
 	(junction
 		(at 104.14 118.11)
@@ -6494,12 +6521,6 @@
 		(uuid "6edc5e8a-1ad9-4f13-ace8-f1c4f84f6460")
 	)
 	(junction
-		(at 153.67 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73765436-6098-49fb-abea-9d5d2cda9e94")
-	)
-	(junction
 		(at 209.55 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6588,6 +6609,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93031998-0f83-4891-8a60-60d81d258648")
+	)
+	(junction
+		(at 168.91 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9563fa39-17e0-42b8-b702-f9576ed9c73c")
 	)
 	(junction
 		(at 62.23 60.96)
@@ -7305,13 +7332,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 177.8) (xy 172.72 177.8)
+			(xy 168.91 177.8) (xy 172.72 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26a2ca1f-18b6-44e4-b08d-ef02e8b1e026")
+		(uuid "2688e19c-e380-4033-9e33-1bd6dc47fbf5")
 	)
 	(wire
 		(pts
@@ -7445,7 +7472,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 190.5) (xy 144.78 190.5)
+			(xy 168.91 190.5) (xy 144.78 190.5)
 		)
 		(stroke
 			(width 0)
@@ -7695,6 +7722,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 177.8) (xy 168.91 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a12ab1-2543-42f8-914d-6975511601e6")
+	)
+	(wire
+		(pts
 			(xy 76.2 137.16) (xy 90.17 137.16)
 		)
 		(stroke
@@ -7755,7 +7792,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 187.96) (xy 153.67 190.5)
+			(xy 168.91 187.96) (xy 168.91 190.5)
 		)
 		(stroke
 			(width 0)
@@ -7855,7 +7892,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 177.8) (xy 153.67 180.34)
+			(xy 168.91 177.8) (xy 168.91 180.34)
 		)
 		(stroke
 			(width 0)
@@ -8032,16 +8069,6 @@
 			(type default)
 		)
 		(uuid "66c2dfd9-d640-4655-97b0-c3fe16fa733d")
-	)
-	(wire
-		(pts
-			(xy 144.78 167.64) (xy 149.86 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "672e2dca-ec4a-40dc-a755-adf98f43ed5c")
 	)
 	(wire
 		(pts
@@ -8535,16 +8562,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 182.88) (xy 144.78 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1e6305e-3251-45cf-807e-20ed343f56c7")
-	)
-	(wire
-		(pts
 			(xy 62.23 60.96) (xy 76.2 60.96)
 		)
 		(stroke
@@ -8605,7 +8622,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 182.88) (xy 144.78 182.88)
+			(xy 143.51 182.88) (xy 163.83 182.88)
 		)
 		(stroke
 			(width 0)
@@ -8615,7 +8632,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 167.64) (xy 160.02 167.64)
+			(xy 154.94 167.64) (xy 156.21 167.64)
 		)
 		(stroke
 			(width 0)
@@ -8655,7 +8672,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 177.8) (xy 153.67 177.8)
+			(xy 143.51 177.8) (xy 144.78 177.8)
 		)
 		(stroke
 			(width 0)
@@ -8722,6 +8739,16 @@
 			(type default)
 		)
 		(uuid "b125b292-c600-4dee-8588-04900e237bd6")
+	)
+	(wire
+		(pts
+			(xy 163.83 167.64) (xy 163.83 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b16f2159-cc43-4aba-a917-fabc9d447d21")
 	)
 	(wire
 		(pts
@@ -8875,16 +8902,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 190.5) (xy 167.64 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3275300-d7d9-4ece-9903-f6d04ced008d")
-	)
-	(wire
-		(pts
 			(xy 120.65 64.77) (xy 121.92 64.77)
 		)
 		(stroke
@@ -9015,16 +9032,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 190.5) (xy 167.64 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3fe5d82-9337-450e-a57d-98376b670631")
-	)
-	(wire
-		(pts
 			(xy 64.77 64.77) (xy 64.77 83.82)
 		)
 		(stroke
@@ -9142,6 +9149,16 @@
 			(type default)
 		)
 		(uuid "e088ab31-d360-4a0c-95b8-755ee6db4a37")
+	)
+	(wire
+		(pts
+			(xy 144.78 167.64) (xy 144.78 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e10e1f4e-19be-4512-b2a4-493f7ededf89")
 	)
 	(wire
 		(pts
@@ -15300,7 +15317,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 163.83 167.64 90)
+		(at 160.02 167.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15310,7 +15327,7 @@
 		(dnp no)
 		(uuid "24e5468c-0bd8-42b2-b8de-a5098aa77e12")
 		(property "Reference" "R7"
-			(at 163.83 163.576 90)
+			(at 160.02 163.576 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15319,8 +15336,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 163.83 165.354 90)
+		(property "Value" "1k"
+			(at 160.02 165.354 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15330,7 +15347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 169.418 90)
+			(at 160.02 169.418 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15341,7 +15358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 167.64 0)
+			(at 160.02 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15352,7 +15369,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 163.83 167.64 0)
+			(at 160.02 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17737,97 +17754,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 153.67 167.64 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4bf204c9-16e2-40f1-a7f5-b048469f451c")
-		(property "Reference" "D61"
-			(at 155.2575 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 155.2575 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 153.67 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 153.67 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a70c77e9-dc33-4dfb-b930-3e34668d92bf")
-		)
-		(pin "1"
-			(uuid "311ec0ae-ef4b-490e-bba3-16ecb550341b")
-		)
-		(instances
-			(project "ittypda"
-				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
-					(reference "D61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 144.78 195.58 0)
 		(unit 1)
@@ -17900,6 +17826,119 @@
 			(project "ittypda"
 				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:YLED0603Y")
+		(at 149.86 168.91 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e780f2c-6898-4e5e-9a90-77525f25172e")
+		(property "Reference" "LED1"
+			(at 150.62 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "YLED0603Y"
+			(at 150.62 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED0603-RD-1"
+			(at 149.86 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273152.pdf"
+			(at 149.86 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YONGYUTAI(永裕泰)"
+			(at 149.86 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "YLED0603Y"
+			(at 149.86 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19273152"
+			(at 149.86 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c86774f-794a-4b60-9e0b-531b88ebb3b7")
+		)
+		(pin "2"
+			(uuid "4a4fbb52-28b7-41f2-a897-85bbaa4abede")
+		)
+		(instances
+			(project "ittypda"
+				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -26556,7 +26595,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 153.67 184.15 0)
+		(at 168.91 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26564,10 +26603,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9c56f450-ea16-4143-91bc-7a3f7a38c51d")
 		(property "Reference" "C12"
-			(at 157.48 182.8799 0)
+			(at 162.306 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26578,7 +26616,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 157.48 185.4199 0)
+			(at 162.306 185.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26589,7 +26627,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.6352 187.96 0)
+			(at 169.8752 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26600,7 +26638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 184.15 0)
+			(at 168.91 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26611,7 +26649,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 153.67 184.15 0)
+			(at 168.91 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
