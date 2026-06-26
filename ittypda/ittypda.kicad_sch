@@ -6908,6 +6908,10 @@
 		(uuid "fe3823f4-95b2-4d83-90f4-81535f7df050")
 	)
 	(no_connect
+		(at 217.17 166.37)
+		(uuid "09627045-4ce7-4e0d-82aa-c409bbc3c43d")
+	)
+	(no_connect
 		(at 48.26 261.62)
 		(uuid "4af658a1-7a2e-4f08-b2b7-3d00ee30b049")
 	)
@@ -8121,7 +8125,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 170.18) (xy 209.55 170.18)
+			(xy 209.55 170.18) (xy 222.25 170.18)
 		)
 		(stroke
 			(width 0)
@@ -9038,6 +9042,16 @@
 			(type default)
 		)
 		(uuid "d83bb809-171e-4ec7-ab28-4d747f07fa52")
+	)
+	(wire
+		(pts
+			(xy 222.25 170.18) (xy 222.25 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a17047-5591-4194-92d2-aeefb6c6fe2f")
 	)
 	(wire
 		(pts
@@ -28520,7 +28534,8 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:MST-12D18G2SMDSLIDESWITCH")
-		(at 220.98 166.37 90)
+		(at 220.98 162.56 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28530,7 +28545,7 @@
 		(dnp no)
 		(uuid "b3d01180-9b58-48bf-844b-e91f5ef4c5d2")
 		(property "Reference" "SW25"
-			(at 229.108 170.434 0)
+			(at 216.916 154.432 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28541,7 +28556,7 @@
 			)
 		)
 		(property "Value" "SLIDE SWITCH"
-			(at 226.568 170.434 0)
+			(at 216.916 156.972 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28552,7 +28567,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SW-SMD_3P-L9.1-W3.5-P2.50_MST-12D18G2"
-			(at 224.79 166.37 0)
+			(at 220.98 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28563,7 +28578,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C49023765.pdf"
-			(at 227.33 166.37 0)
+			(at 220.98 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28574,7 +28589,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 166.37 0)
+			(at 220.98 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28585,7 +28600,7 @@
 			)
 		)
 		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 229.87 166.37 0)
+			(at 220.98 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28596,7 +28611,7 @@
 			)
 		)
 		(property "MPN" "MST-12D18G2 SMD Slide Switch"
-			(at 232.41 166.37 0)
+			(at 220.98 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28607,7 +28622,7 @@
 			)
 		)
 		(property "LCSC Part" "C49023765"
-			(at 234.95 166.37 0)
+			(at 220.98 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32855,7 +32870,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 217.17 160.02 90)
+		(at 227.33 166.37 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32865,7 +32880,7 @@
 		(dnp no)
 		(uuid "d38a1feb-c66f-4c3d-88ca-e12ed4d97bd4")
 		(property "Reference" "#PWR021"
-			(at 220.98 160.02 0)
+			(at 227.33 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32876,7 +32891,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 214.376 160.02 90)
+			(at 229.87 170.434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32887,7 +32902,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 160.02 0)
+			(at 227.33 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32898,7 +32913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 160.02 0)
+			(at 227.33 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32909,7 +32924,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 217.17 160.02 0)
+			(at 227.33 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
