@@ -6077,6 +6077,17 @@
 		)
 		(uuid "c1171dc8-044a-4ee7-8f72-1b5ced602eac")
 	)
+	(text "Todo: check whether\nstates should be\ninverted based on\nvibes"
+		(exclude_from_sim no)
+		(at 201.168 158.242 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "cb961f36-44e0-42f4-b770-b61aeb2f043c")
+	)
 	(text "FPC Connector"
 		(exclude_from_sim no)
 		(at 75.438 280.924 0)
