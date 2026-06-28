@@ -6414,6 +6414,12 @@
 		(uuid "8c14b457-bf6a-4bf3-adeb-6c21c27dc4be")
 	)
 	(junction
+		(at 157.48 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c1e8e4a-5f2c-4617-872d-071adac9a396")
+	)
+	(junction
 		(at 106.68 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6436,12 +6442,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93031998-0f83-4891-8a60-60d81d258648")
-	)
-	(junction
-		(at 168.91 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9563fa39-17e0-42b8-b702-f9576ed9c73c")
 	)
 	(junction
 		(at 62.23 60.96)
@@ -7149,16 +7149,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 177.8) (xy 172.72 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2688e19c-e380-4033-9e33-1bd6dc47fbf5")
-	)
-	(wire
-		(pts
 			(xy 64.77 39.37) (xy 64.77 45.72)
 		)
 		(stroke
@@ -7289,7 +7279,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 190.5) (xy 144.78 190.5)
+			(xy 157.48 190.5) (xy 144.78 190.5)
 		)
 		(stroke
 			(width 0)
@@ -7519,7 +7509,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 177.8) (xy 168.91 177.8)
+			(xy 144.78 177.8) (xy 157.48 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7589,7 +7579,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 187.96) (xy 168.91 190.5)
+			(xy 157.48 193.04) (xy 157.48 190.5)
 		)
 		(stroke
 			(width 0)
@@ -7689,7 +7679,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 177.8) (xy 168.91 180.34)
+			(xy 157.48 177.8) (xy 157.48 185.42)
 		)
 		(stroke
 			(width 0)
@@ -8796,6 +8786,16 @@
 			(type default)
 		)
 		(uuid "d055c155-17ef-4694-8b80-b4eca768494f")
+	)
+	(wire
+		(pts
+			(xy 157.48 177.8) (xy 172.72 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0738bd9-d9fe-4b7f-ac01-d217fc6f11dc")
 	)
 	(wire
 		(pts
@@ -19066,7 +19066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "easyeda2kicad:USB-C_SMD-TYPE-C-31-M-12_1"
 			(at 38.1 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -19089,6 +19089,17 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 34.29 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C165948"
 			(at 34.29 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -26449,7 +26460,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 168.91 184.15 0)
+		(at 157.48 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26459,7 +26470,7 @@
 		(dnp no)
 		(uuid "9c56f450-ea16-4143-91bc-7a3f7a38c51d")
 		(property "Reference" "C12"
-			(at 162.306 182.626 0)
+			(at 150.876 187.706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26470,7 +26481,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 162.306 185.166 0)
+			(at 150.876 190.246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26481,7 +26492,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 169.8752 187.96 0)
+			(at 158.4452 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26492,7 +26503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 184.15 0)
+			(at 157.48 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26503,7 +26514,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 168.91 184.15 0)
+			(at 157.48 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

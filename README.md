@@ -27,7 +27,7 @@ to open the kicad project, youll need to download some footprints. my parts are 
 the command you need to run is: 
 
 ```bash
-easyeda2kicad --full --lcsc_id C318884 C191023 C22435642 C13738 C81080 C49023767 C19273152
+easyeda2kicad --full --lcsc_id C318884 C191023 C22435642 C13738 C81080 C49023767 C19273152 C165948
 ```
 
 which will download footprints/symbols/3d models for the switches, diodes, etc.
