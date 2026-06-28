@@ -3441,196 +3441,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPDT"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_SPDT_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:05A20L14P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6328,6 +6138,12 @@
 		(uuid "3ad0b273-0a28-45ed-bfe6-16909384cd6b")
 	)
 	(junction
+		(at 279.4 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ee4a0b4-33c3-434e-9a73-4112009b0d56")
+	)
+	(junction
 		(at 162.56 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7273,16 +7089,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 91.44) (xy 271.78 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d50b97f-7627-465e-a809-d2633da51321")
-	)
-	(wire
-		(pts
 			(xy 83.82 172.72) (xy 83.82 173.99)
 		)
 		(stroke
@@ -7543,16 +7349,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 88.9) (xy 283.21 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3aa42c19-52a5-4fa6-bdc2-9130e83857d0")
-	)
-	(wire
-		(pts
 			(xy 252.73 31.75) (xy 256.54 31.75)
 		)
 		(stroke
@@ -7710,16 +7506,6 @@
 			(type default)
 		)
 		(uuid "47f5a461-eb48-4b69-9186-8705c6a444fe")
-	)
-	(wire
-		(pts
-			(xy 290.83 88.9) (xy 294.64 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "485b047e-70db-4c04-94f9-a884a8b73915")
 	)
 	(wire
 		(pts
@@ -8333,6 +8119,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 88.9) (xy 279.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c363ff1-3211-430e-8fe4-a186c17cc4ac")
+	)
+	(wire
+		(pts
 			(xy 106.68 121.92) (xy 107.95 121.92)
 		)
 		(stroke
@@ -8413,6 +8209,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 88.9) (xy 294.64 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91c6fd32-26ba-4073-af15-e6f2e2befd8e")
+	)
+	(wire
+		(pts
 			(xy 177.8 177.8) (xy 177.8 179.07)
 		)
 		(stroke
@@ -8460,16 +8266,6 @@
 			(type default)
 		)
 		(uuid "96166927-8406-4e1e-aedd-62efbc607ef9")
-	)
-	(wire
-		(pts
-			(xy 269.24 92.71) (xy 269.24 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "962343a3-2852-46ce-be95-f035e17fd413")
 	)
 	(wire
 		(pts
@@ -8580,16 +8376,6 @@
 			(type default)
 		)
 		(uuid "a2792387-d489-4a44-9740-6261106afc7d")
-	)
-	(wire
-		(pts
-			(xy 269.24 86.36) (xy 271.78 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2d5a191-4a4b-4ed0-99cb-3b78595f88c2")
 	)
 	(wire
 		(pts
@@ -8923,6 +8709,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 96.52) (xy 274.32 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c513ec00-52ad-4670-a567-89074e8067f2")
+	)
+	(wire
+		(pts
 			(xy 106.68 102.87) (xy 107.95 102.87)
 		)
 		(stroke
@@ -9130,6 +8926,16 @@
 			(type default)
 		)
 		(uuid "dfa13f63-4927-4f98-b090-c7f0278bc9cf")
+	)
+	(wire
+		(pts
+			(xy 279.4 92.71) (xy 279.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe1e49f-dd3a-4a33-a9ba-3e7d7a817cb4")
 	)
 	(wire
 		(pts
@@ -12866,7 +12672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 258.7752 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -14294,7 +14100,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 336.55 116.078 90)
 			(hide yes)
 			(show_name no)
@@ -15357,7 +15163,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 160.02 169.418 90)
 			(hide yes)
 			(show_name no)
@@ -16134,7 +15940,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 57.15 175.768 90)
 			(hide yes)
 			(show_name no)
@@ -16666,7 +16472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 280.3652 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -16748,7 +16554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 333.7052 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -17028,7 +16834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 307.0352 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -17534,6 +17340,84 @@
 			(project "ittypda"
 				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
 					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 274.32 100.33 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b27a2bc-e08e-479c-beeb-18689b9bab9c")
+		(property "Reference" "#PWR07"
+			(at 274.32 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 276.86 104.394 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 274.32 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33a96c58-4e5b-41b1-bba5-e3d887ba43b2")
+		)
+		(instances
+			(project "ittypda"
+				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -18451,7 +18335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 253.6952 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -18533,7 +18417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 321.0052 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -19182,7 +19066,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 38.1 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -21136,7 +21020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 293.0652 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -21217,7 +21101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 225.7552 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -21824,7 +21708,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 336.55 113.538 90)
 			(hide yes)
 			(show_name no)
@@ -22962,7 +22846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 210.312 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -23356,7 +23240,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 287.02 88.9 90)
+		(at 279.4 96.52 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23366,7 +23250,7 @@
 		(dnp no)
 		(uuid "7e2e22c0-e6de-487e-9168-8d41835a39dc")
 		(property "Reference" "R1"
-			(at 287.02 86.868 90)
+			(at 277.368 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23376,7 +23260,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 287.02 91.186 90)
+			(at 281.686 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23385,8 +23269,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 287.02 90.678 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 281.178 96.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23397,7 +23281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 88.9 0)
+			(at 279.4 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23408,7 +23292,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 287.02 88.9 0)
+			(at 279.4 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23428,6 +23312,125 @@
 			(project "ittypda"
 				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:TS-1187A-B-A-B")
+		(at 269.24 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "800351a8-d191-4341-b740-576f92baaaf8")
+		(property "Reference" "SW61"
+			(at 272.288 92.202 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 269.24 87.122 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
+			(at 269.24 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html"
+			(at 269.24 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XKB Connection(中国星坤)"
+			(at 269.24 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS-1187A-B-A-B"
+			(at 269.24 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C318884"
+			(at 269.24 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "00fc237c-246c-4f21-a53c-d52bf4d1f5bf")
+		)
+		(pin "1"
+			(uuid "c5c42528-edfc-4334-8503-1c3293dce1b7")
+		)
+		(pin "3"
+			(uuid "c22b4e4d-d90b-4747-8254-8ec4584cb75b")
+		)
+		(pin "2"
+			(uuid "fcc131c1-cca3-4d58-b781-8435bbdd5901")
+		)
+		(instances
+			(project "ittypda"
+				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
+					(reference "SW61")
 					(unit 1)
 				)
 			)
@@ -24036,7 +24039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 366.7252 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -24450,7 +24453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 210.312 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -24493,84 +24496,6 @@
 			(project "ittypda"
 				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 269.24 86.36 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8fe49efd-524d-4498-8b13-188c8778285b")
-		(property "Reference" "#PWR07"
-			(at 273.05 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 271.526 87.884 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 269.24 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8ff3f728-f1ad-48c0-ba08-a69a258f63dc")
-		)
-		(instances
-			(project "ittypda"
-				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -25442,7 +25367,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 96.012 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -26523,88 +26448,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 276.86 88.9 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9c3dce9b-2247-4344-a462-b9a648b324e4")
-		(property "Reference" "SW62"
-			(at 276.86 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 276.86 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.86 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 276.86 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2fbfdcd3-69b0-43a4-8a27-6f53d5c7c3ab")
-		)
-		(pin "1"
-			(uuid "5fc5fb66-8c3e-4ffa-8696-7700fcfc555a")
-		)
-		(pin "3"
-			(uuid "0bc5529e-457c-48d2-9e30-019f089ee097")
-		)
-		(instances
-			(project "ittypda"
-				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
-					(reference "SW62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 168.91 184.15 0)
 		(unit 1)
@@ -26637,7 +26480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 169.8752 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -26838,7 +26681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 380.6952 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -27501,7 +27344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 268.9352 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -29351,7 +29194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 178.7652 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -31580,7 +31423,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 269.24 92.71 0)
+		(at 279.4 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31588,10 +31431,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cc1d0d38-dfc3-4dc9-a01a-0601c2619f07")
 		(property "Reference" "#PWR06"
-			(at 269.24 99.06 0)
+			(at 279.4 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31602,7 +31444,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 269.24 97.79 0)
+			(at 279.4 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31612,7 +31454,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 92.71 0)
+			(at 279.4 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31623,7 +31465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 92.71 0)
+			(at 279.4 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31634,7 +31476,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 92.71 0)
+			(at 279.4 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32138,7 +31980,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 57.15 174.752 90)
 			(hide yes)
 			(show_name no)
@@ -33836,7 +33678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 84.7852 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -34193,7 +34035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 347.6752 41.91 0)
 			(hide yes)
 			(show_name no)
