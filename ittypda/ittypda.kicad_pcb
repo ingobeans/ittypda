@@ -90,11 +90,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "006dab78-f468-4aef-99d8-7f7e09a4dd10")
-		(at 38.25 127.5)
+		(at 38.25 68)
 		(property "Reference" "SW8"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "84792002-3dc4-4cde-b82b-f3c575d3efa9")
+			(uuid "79593982-3f14-40b8-bf70-08fbca112cfb")
 			(effects
 				(font
 					(size 1 1)
@@ -105,7 +105,7 @@
 		(property "Value" "Switch"
 			(at 0 14.45 0)
 			(layer "F.Fab")
-			(uuid "49b8240f-54dc-4ec5-b021-7e81a91ff45b")
+			(uuid "c0d6728c-eb4d-4edc-8561-ea6412adbce3")
 			(effects
 				(font
 					(size 1 1)
@@ -117,7 +117,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "65ecc345-72c4-4720-b272-757b20fd8914")
+			(uuid "328b7d65-fe2a-4b43-8253-4596e71bdd34")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -128,7 +128,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4da6bb02-09c4-4d6f-be7f-b0db6bd66c41")
+			(uuid "d8d03ecc-5ccf-4c11-a636-b37364fca4eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -508,11 +508,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "011f926d-6746-4ad9-8d6d-bfb98dd81c62")
-		(at 76.5 114.75 90)
+		(at 76.5 55.25 90)
 		(property "Reference" "D26"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "8b1ead5f-79e1-4c1e-adf4-00def0a20f34")
+			(uuid "b23e85e2-3ea6-476e-8dfc-cf648e87c587")
 			(effects
 				(font
 					(size 1 1)
@@ -523,7 +523,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "60ecaa8d-a633-4318-a7c6-42d3bf9612c0")
+			(uuid "4034fbb3-a8e7-48a0-b1a2-f54abfaebe71")
 			(effects
 				(font
 					(size 1 1)
@@ -535,7 +535,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f51ae42f-e46f-4c29-83c6-7a7534f9a7b6")
+			(uuid "c244b196-3f93-4210-8023-1c6ca9458650")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -546,7 +546,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "389db2fe-7416-4518-9d22-8ead609c139e")
+			(uuid "a8c86c6a-2d8f-4918-b71a-89e959290b79")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -916,11 +916,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "043304ee-150a-4ae0-8e48-ef565d02013e")
-		(at 29.75 110.5)
+		(at 29.75 51)
 		(property "Reference" "SW1"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "8f2cea99-b1d1-4479-a5ef-8126a76277ba")
+			(uuid "8cbefde7-2f3b-4090-baf4-edc48fdb3aba")
 			(effects
 				(font
 					(size 1 1)
@@ -931,7 +931,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "a344dd92-b74b-4f70-a542-eab3282807fc")
+			(uuid "e394e651-0cc2-4efb-9ba2-a21a41bf0f6a")
 			(effects
 				(font
 					(size 1 1)
@@ -943,7 +943,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e0d8bb26-6781-4db4-bdff-5a500167a2ab")
+			(uuid "70266bb1-c132-4a27-b623-493334722543")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -954,7 +954,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "62637b9a-a2f9-4877-a428-85908b0cf6aa")
+			(uuid "9cfb3294-43a4-4914-976b-f87feaeeea4c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1334,11 +1334,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "04eccec4-b082-4bfa-ba23-2ef39deb36d1")
-		(at 68 140.25 90)
+		(at 68 80.75 90)
 		(property "Reference" "D24"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "28349ac6-441a-4546-9185-b76befdb5072")
+			(uuid "58d896c5-f754-4532-8faa-e3783490217b")
 			(effects
 				(font
 					(size 1 1)
@@ -1349,7 +1349,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "de5a34dd-6ccb-43af-8125-2e98062d2fe4")
+			(uuid "fd3fe6f3-e5f1-4b18-bb5a-8cb233dc700b")
 			(effects
 				(font
 					(size 1 1)
@@ -1361,7 +1361,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "215b093d-15c4-41d5-85b2-8dbd969ff777")
+			(uuid "d2a498ea-e81c-417c-afec-e3d068527ccc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1372,7 +1372,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "94c7db57-9d9b-4161-9002-c58a608e8067")
+			(uuid "69d0c237-6ed4-452c-bb9e-3dedb4bacf9c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1742,11 +1742,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "074ca370-b5d6-4d59-999e-712237393f91")
-		(at 46.75 127.5)
+		(at 46.75 68)
 		(property "Reference" "SW13"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "1a0c1393-5f37-4764-93e9-7a4021e532de")
+			(uuid "3a03a323-db1f-442f-b0ac-41b2c092752a")
 			(effects
 				(font
 					(size 1 1)
@@ -1757,7 +1757,7 @@
 		(property "Value" "Switch"
 			(at 0 14.45 0)
 			(layer "F.Fab")
-			(uuid "1ef383d2-62a1-4ea6-b43f-7175688dbf16")
+			(uuid "f9e2a635-a22f-4bd8-9953-b656138fd15b")
 			(effects
 				(font
 					(size 1 1)
@@ -1769,7 +1769,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bd08ee2e-7980-429f-bece-35a41683b609")
+			(uuid "9cd82eae-bc10-441f-986b-1f228f0b76e1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1780,7 +1780,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0ff5fe41-f6f6-49e7-b6c9-aab1f90087a7")
+			(uuid "08d473a3-4a58-47be-9cc1-c1f2c7d37e3a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2160,11 +2160,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "07fec3e2-6b26-41af-bb3d-dded253ba331")
-		(at 97.75 127.5)
+		(at 97.75 68)
 		(property "Reference" "SW43"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "4ae2e51e-04d0-4990-bb98-4f41fbcfa5d4")
+			(uuid "cd533665-94a8-455c-b661-b36b01b6b8b5")
 			(effects
 				(font
 					(size 1 1)
@@ -2175,7 +2175,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "b399dbe1-fedc-46ee-b8f0-c44d64211285")
+			(uuid "b02f2eb9-6dac-425a-aa5a-1d23fb37ae52")
 			(effects
 				(font
 					(size 1 1)
@@ -2187,7 +2187,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0206e316-7910-4189-a4a4-db79cb287873")
+			(uuid "56604775-fa0e-46c4-831f-32076555d297")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,7 +2198,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "23967391-cb5d-491d-84ea-0f712559e22d")
+			(uuid "be8ff2cf-301a-45f6-868b-0a57cb931f55")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2578,11 +2578,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "088fb5ec-dc99-4d8e-9fd6-20ff55681177")
-		(at 55.25 127.5)
+		(at 55.25 68)
 		(property "Reference" "SW18"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "245bee02-0762-4209-8aef-76b8d03f7a90")
+			(uuid "3b9212f1-6b4e-45bd-9c81-641307a6d93a")
 			(effects
 				(font
 					(size 1 1)
@@ -2593,7 +2593,7 @@
 		(property "Value" "Switch"
 			(at 0 14.45 0)
 			(layer "F.Fab")
-			(uuid "9af3ab18-a9a0-4b04-bcc9-3ce32f66c3cb")
+			(uuid "43ad6c95-1e3b-4fe7-9f2d-eac30b32b4a2")
 			(effects
 				(font
 					(size 1 1)
@@ -2605,7 +2605,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f2df4e4e-add1-4d6d-b966-4fa2bb0fc750")
+			(uuid "2ae55d41-29a4-4db1-b74a-94de7a848caa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,7 +2616,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "41ea2347-9135-4ea0-912e-dec20d3d3251")
+			(uuid "b19db17c-d765-42ae-893a-e805ad3934e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2996,11 +2996,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "0a2abb58-3bd9-44aa-ad37-506009518b81")
-		(at 51 140.25 90)
+		(at 51 80.75 90)
 		(property "Reference" "D14"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "f362a320-2b49-4ba4-a41c-091db755ba9a")
+			(uuid "f98ff545-ae79-489a-a1fb-fa701d6925ae")
 			(effects
 				(font
 					(size 1 1)
@@ -3011,7 +3011,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "43a89d7e-ec1c-44ed-ab2d-9aa0708f9faf")
+			(uuid "385b767d-1e00-4076-9a0c-01853a58b075")
 			(effects
 				(font
 					(size 1 1)
@@ -3023,7 +3023,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "695efa52-697f-4927-895f-f5ec6be017ce")
+			(uuid "aae8c676-4032-4706-ab6b-41963a3c5839")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,7 +3034,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4decb31f-4c94-4f87-a041-b24728003049")
+			(uuid "1e941b2e-2dee-4251-a093-8ba7004bea2c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,13 +3404,13 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "0cf10e05-dee4-41b2-b8f0-423aeac6bdc0")
-		(at 113.425 38.5 90)
+		(at 112.625 41.25 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C7"
 			(at 0 -1.16 90)
 			(layer "F.SilkS")
-			(uuid "98c8fafd-96e2-431c-ad8f-27a569b93ea7")
+			(uuid "b1b079ff-ac86-48a0-8028-a9f5a565f855")
 			(effects
 				(font
 					(size 1 1)
@@ -3421,7 +3421,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
-			(uuid "a15864b9-9023-4652-9398-93af3a21558b")
+			(uuid "27fe4cca-f3ee-470a-9bd5-dbfca8d32732")
 			(effects
 				(font
 					(size 1 1)
@@ -3433,7 +3433,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "82f4ee9d-f467-457d-94a3-75ff23a6d60c")
+			(uuid "848c58c9-4276-4a7d-8094-8a561755bf49")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3444,7 +3444,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d3da9880-ad9a-45ae-b7a9-c7c659367ae6")
+			(uuid "5bd62c0b-b676-4420-a14b-0dd152c54203")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3562,11 +3562,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "0e33626d-f711-46e9-816c-9795a594d404")
-		(at 110.5 148.75 90)
+		(at 110.5 89.25 90)
 		(property "Reference" "D50"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "c37e246b-70c7-439d-9161-1797775ddc99")
+			(uuid "064d2b64-4ece-4cc3-ac64-3f67d8a23c29")
 			(effects
 				(font
 					(size 1 1)
@@ -3577,7 +3577,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "b4f2dba0-e9e4-45f2-84ac-8c0b75fe5f1f")
+			(uuid "e79a5219-bf0a-4430-b811-43f9da9d5344")
 			(effects
 				(font
 					(size 1 1)
@@ -3589,7 +3589,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19a6dd7a-3fa4-47fc-babb-e5cf5c252de5")
+			(uuid "4c010e7e-0936-4646-9590-766b4caf9462")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3600,7 +3600,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "624267da-0c89-4f44-a8b4-3b2ce1415cb0")
+			(uuid "30bbcfc3-c5e4-483b-96ec-4ba4b1353490")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,11 +3970,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "0f0e6307-767c-43a8-b71d-9975cfbbcbaa")
-		(at 127.5 148.75 90)
+		(at 127.5 89.25 90)
 		(property "Reference" "D60"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "74bfcc34-084c-47b2-8647-88f2f3e8f3e4")
+			(uuid "c7206bff-deb0-45ca-81ae-54d9f7b5bb4a")
 			(effects
 				(font
 					(size 1 1)
@@ -3985,7 +3985,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "44493d3b-a09f-4596-bc1d-02ed4805fa32")
+			(uuid "29bcb9a4-3714-40a9-a312-3cd79095386b")
 			(effects
 				(font
 					(size 1 1)
@@ -3997,7 +3997,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a112c0c2-ae67-487e-965f-bc36129a4f3d")
+			(uuid "9fd23694-1ee5-497c-a4be-cdb3fbd4f19e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4008,7 +4008,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8650f472-014e-43a1-b5ce-4f8b25b91eb2")
+			(uuid "ef5549c4-ad5e-4938-b132-e69d660ce72e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,11 +4536,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "142985f7-6566-466a-87f9-b26c9d1ed3cf")
-		(at 123.25 119)
+		(at 123.25 59.5)
 		(property "Reference" "SW57"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "2eab53e2-d517-41f8-8a74-a4b95d1916ca")
+			(uuid "9f8e4782-ba4b-45d4-920c-d6f277341d32")
 			(effects
 				(font
 					(size 1 1)
@@ -4551,7 +4551,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "57e654f2-8fd4-4272-b5a2-1097d88b21ef")
+			(uuid "ea7f723b-8219-446b-8e4d-68c1815c4fe4")
 			(effects
 				(font
 					(size 1 1)
@@ -4563,7 +4563,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cd5d9b0b-eb3f-4b07-9e4b-ee46657400c8")
+			(uuid "14b837dc-22ab-4d87-957e-cc350754e028")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,7 +4574,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "64f15fe4-8c02-4cc5-87bb-c8be409e6d57")
+			(uuid "32d43176-ab90-4fdf-99bf-e3db1121a842")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4954,11 +4954,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "16dbd31a-f6bb-4df8-a3ff-423e522216cb")
-		(at 72.25 119)
+		(at 72.25 59.5)
 		(property "Reference" "SW27"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "9a39d4aa-0cbd-4153-96ef-3f7df2a54672")
+			(uuid "235b57b0-8153-49d8-ba44-220dcedc5c38")
 			(effects
 				(font
 					(size 1 1)
@@ -4969,7 +4969,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "75a0f30e-a633-41be-9574-9dbcacec492f")
+			(uuid "bef2fa32-45be-4532-a7bd-40607956ec88")
 			(effects
 				(font
 					(size 1 1)
@@ -4981,7 +4981,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cdd6cdf2-3f40-4876-bf67-86ff62b81aed")
+			(uuid "a641a2e2-e08f-4e06-945b-10f5243da016")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,7 +4992,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "14b8ebe7-fcd5-4c89-8d43-ed3c481e1937")
+			(uuid "9fadca3e-5c5f-4bb1-ae2c-ce9c1b8b34b0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5372,11 +5372,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "16fb1b02-114d-4d74-bf85-bc7dc7404686")
-		(at 42.5 131.75 90)
+		(at 42.5 72.25 90)
 		(property "Reference" "D8"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "95437f7d-85be-4fae-8014-14c7ca8ebcb2")
+			(uuid "915c08bc-1ab2-4731-9673-4807a3773864")
 			(effects
 				(font
 					(size 1 1)
@@ -5387,7 +5387,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "29e70f19-566f-420f-8db4-f49dcbecd54b")
+			(uuid "5848e0e5-5108-4e51-b823-22f09adc6142")
 			(effects
 				(font
 					(size 1 1)
@@ -5399,7 +5399,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "481d9971-8a6f-4349-85e2-5eba95023d32")
+			(uuid "d6669ad4-ce52-4442-8538-d43f19e100bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5410,7 +5410,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "211a3497-37fa-45fc-bb83-2e7af9cc21f4")
+			(uuid "6ae38041-80a8-45ab-9345-03af5b75d648")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5780,13 +5780,13 @@
 	(footprint "Package_QFP:LQFP-64_10x10mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "174258ee-0575-4d3c-b403-e4891f386f72")
-		(at 120.75 36.75)
+		(at 119.95 39.5)
 		(descr "LQFP, 64 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf)")
 		(tags "LQFP QFP")
 		(property "Reference" "U1"
 			(at 0 -7.4 0)
 			(layer "F.SilkS")
-			(uuid "42e95313-0978-4aea-9874-d4fe42664112")
+			(uuid "67cb76b4-a257-4196-91e4-52d32dcd3735")
 			(effects
 				(font
 					(size 1 1)
@@ -5797,7 +5797,7 @@
 		(property "Value" "STM32F401RETx"
 			(at 0 7.4 0)
 			(layer "F.Fab")
-			(uuid "7165fa7b-8d42-4bd4-8922-a6b27724e0fa")
+			(uuid "cb507713-2998-4602-8b77-4ffc2a367d09")
 			(effects
 				(font
 					(size 1 1)
@@ -5809,7 +5809,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ec0934ea-674f-4aa2-9885-cfad4e2e353d")
+			(uuid "01ecc260-4918-43af-a85a-987044d14dd8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5820,7 +5820,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "586418e0-53b7-48b1-b100-b603636ff47b")
+			(uuid "04cf58b6-8a63-44ff-ad0d-fabf931a6c06")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6827,13 +6827,13 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "1dc7f16c-b068-479f-8b88-6cdb09a85dcb")
-		(at 124.675 44 180)
+		(at 123.875 46.75 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C2"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
-			(uuid "d2401c14-a150-495c-98b5-36b40fc6c949")
+			(uuid "2058d477-b05b-497e-be03-2f52d06d81d8")
 			(effects
 				(font
 					(size 1 1)
@@ -6844,7 +6844,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
-			(uuid "373e6aff-b3d8-46ac-b66b-32790d5207aa")
+			(uuid "dab7b13c-ec7d-4253-9049-d94dd2f25490")
 			(effects
 				(font
 					(size 1 1)
@@ -6856,7 +6856,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e43545cc-6eb7-4442-8b39-f3d5194381c0")
+			(uuid "f80a05fc-caa6-40e2-a92c-2975550aa352")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6867,7 +6867,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e4a98c74-57fd-428b-a0b1-9cec30e1a88d")
+			(uuid "13bf3775-7fb6-4a8c-98e5-dec110362625")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6985,11 +6985,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "1ea777a3-3ab8-4f10-b6c8-47327e3717ca")
-		(at 97.75 136)
+		(at 97.75 76.5)
 		(property "Reference" "SW44"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "dd25545d-c697-4ca5-99ad-e7ed5f442eee")
+			(uuid "3077e156-d9b4-4920-bfc1-82eacbbb0cfc")
 			(effects
 				(font
 					(size 1 1)
@@ -7000,7 +7000,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "2edd65b6-30d7-4a9b-8652-7866a49a9565")
+			(uuid "8cd39957-6dca-481c-a7a9-cef0bb3bae56")
 			(effects
 				(font
 					(size 1 1)
@@ -7012,7 +7012,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8b50102a-38f7-4a40-9c51-59dd99b0b7de")
+			(uuid "15c974a4-7a49-4e56-b52b-6593ede8dae9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7023,7 +7023,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "411a03e6-5921-4170-9e18-b75906e9bd1f")
+			(uuid "4a5bd43a-4195-4025-b5d5-5042a9828a60")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7403,11 +7403,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "217936fe-0a1c-4009-8b26-d0252cdc1914")
-		(at 59.5 114.75 90)
+		(at 59.5 55.25 90)
 		(property "Reference" "D16"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "fe97cca1-8104-477a-925f-f69ce17adc2c")
+			(uuid "8ce4dcc0-f354-4236-a530-69053fb84de1")
 			(effects
 				(font
 					(size 1 1)
@@ -7418,7 +7418,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "186c724a-9f90-4e44-9afb-65a425839a68")
+			(uuid "112dad28-8645-4d54-ab10-478418b34a3a")
 			(effects
 				(font
 					(size 1 1)
@@ -7430,7 +7430,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "47cae15a-8d6e-41ad-80e7-e586fa5e9493")
+			(uuid "614fa994-a059-4a85-a85b-61a47e98b903")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7441,7 +7441,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c40b09df-e6b5-4b50-8947-3546600a3abd")
+			(uuid "5c191573-2024-401f-817b-b152f008cdb1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8158,11 +8158,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "2398e491-86d8-4f3e-b9ff-dc88d5240077")
-		(at 76.5 123.25 90)
+		(at 76.5 63.75 90)
 		(property "Reference" "D27"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "0255fa3d-c4da-420d-824f-ce1f0a54b8a0")
+			(uuid "962f8405-9398-4487-8b7d-bbc98a7083c8")
 			(effects
 				(font
 					(size 1 1)
@@ -8173,7 +8173,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "6eb5ebf9-cf16-4569-8986-cb62c5bffe02")
+			(uuid "897e20af-9d33-4176-b627-fde51ddef78b")
 			(effects
 				(font
 					(size 1 1)
@@ -8185,7 +8185,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ecab3f59-036c-4559-87e2-0d4315510d4c")
+			(uuid "89af963a-c949-404f-ae9f-dae80fee9d72")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8196,7 +8196,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "63fe38e6-6b72-4a85-8541-3fb81f75b058")
+			(uuid "89c13115-2390-4a93-a7d2-c42d09f4afeb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8566,11 +8566,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "245a2ed8-0adc-4984-ad84-f3df36a5c25b")
-		(at 29.75 144.5)
+		(at 29.75 85)
 		(property "Reference" "SW5"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "af98758d-be78-4297-9cff-5930fafe1547")
+			(uuid "78486e8c-aa53-4c0a-a0fb-2a5b55cbae8a")
 			(effects
 				(font
 					(size 1 1)
@@ -8581,7 +8581,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "4de19b29-615e-41aa-a496-0e9c6505e2d2")
+			(uuid "8035422a-523f-496d-9124-88be0f9e5f1a")
 			(effects
 				(font
 					(size 1 1)
@@ -8593,7 +8593,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "827535b4-80eb-4595-8d1f-18a2f9bffe83")
+			(uuid "cb0373e1-fa70-4c15-b927-af9033ce6030")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8604,7 +8604,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8ce3f71c-aad5-4510-8554-08afdb4cab67")
+			(uuid "3fb2e8d8-2d36-42d2-8b0f-b801ce8d3b96")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8984,13 +8984,13 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "25545919-a32e-48fd-a8aa-fa160b8ecb52")
-		(at 127.979792 32.73 -90)
+		(at 127.179792 35.48 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C3"
 			(at 0 -1.16 90)
 			(layer "F.SilkS")
-			(uuid "09db5799-9c66-442d-b801-0e540f9e0287")
+			(uuid "d7f436e6-a2b9-4f83-986d-330974de6851")
 			(effects
 				(font
 					(size 1 1)
@@ -9001,7 +9001,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
-			(uuid "063dd456-6b86-43c9-ac6f-58590f7c1bea")
+			(uuid "7e99315e-6a19-4799-b959-5a88d46c3cea")
 			(effects
 				(font
 					(size 1 1)
@@ -9013,7 +9013,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c6db6276-7da6-4fd1-a85a-2e636d5bae07")
+			(uuid "88c489da-b3ba-43e2-8b77-c33657578ec1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9024,7 +9024,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4da34f16-d041-4bd2-865f-038f963f42b3")
+			(uuid "ef612b45-8e2a-4111-8664-825df7f156a3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9300,11 +9300,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "2b122e9f-c834-40ed-a7f8-0ffc66589cf6")
-		(at 102 114.75 90)
+		(at 102 55.25 90)
 		(property "Reference" "D41"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "871690b8-a5a1-4a10-9a38-dd487f7b497d")
+			(uuid "8f098dfd-f14f-4aac-b2f6-45b22f757d0f")
 			(effects
 				(font
 					(size 1 1)
@@ -9315,7 +9315,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "842899f7-d8b5-431b-b95c-3a616543ca1f")
+			(uuid "d85a8189-c792-4c14-9d50-032553cd5fbc")
 			(effects
 				(font
 					(size 1 1)
@@ -9327,7 +9327,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "621fa26a-a619-4427-bff5-9a70ef44096d")
+			(uuid "4465f125-de1f-46a4-aad9-b2c8b31adaac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9338,7 +9338,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d8aeb1bc-ac53-4f7d-80d0-86b5d8803d0c")
+			(uuid "79f13d13-ad40-473f-ba09-8c4cb1732a97")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9708,11 +9708,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "2b85528a-63cf-4ba2-b62e-e60988fee663")
-		(at 68 123.25 90)
+		(at 68 63.75 90)
 		(property "Reference" "D22"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "5ae902cc-c024-4a95-abd0-f0f732ecb946")
+			(uuid "fb305707-5e39-4b0e-9ca3-6d3bfc5b8d63")
 			(effects
 				(font
 					(size 1 1)
@@ -9723,7 +9723,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "9ade73df-b421-4989-8090-d610628bc342")
+			(uuid "7986463f-8cbb-4d0a-8da1-ca64eee4bf8d")
 			(effects
 				(font
 					(size 1 1)
@@ -9735,7 +9735,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "10ecc3f8-c142-4308-8678-12b35b4dacb3")
+			(uuid "1e6e09e0-96c9-40e9-a10f-d76194693db4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9746,7 +9746,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c547c73f-6280-4519-9786-b710e4dd834e")
+			(uuid "1ffe46e4-d004-4549-aceb-458a9bbca286")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10116,11 +10116,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "2e7ef5f9-7427-4173-a7ef-05a45c1b7c1f")
-		(at 123.25 136)
+		(at 123.25 76.5)
 		(property "Reference" "SW59"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "5f977508-17a9-4ddc-95b9-9eac1b659eed")
+			(uuid "0130c8f3-484a-4036-8501-fd798d321737")
 			(effects
 				(font
 					(size 1 1)
@@ -10131,7 +10131,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "33720f66-5a02-42ef-9929-54f851ed5d0e")
+			(uuid "022955fe-5f4e-4af8-b63f-f363256ab8fb")
 			(effects
 				(font
 					(size 1 1)
@@ -10143,7 +10143,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9628903d-8e77-4699-b293-153c4aadc4e2")
+			(uuid "c1b1a9ef-1366-4fef-bbc2-4f8b08b20e19")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10154,7 +10154,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bbba4e6d-e237-4532-aee9-955428586297")
+			(uuid "509f98b2-e6c6-4bd4-b2fa-6c5d272a1049")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10534,11 +10534,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "2f733028-db60-4de6-9183-02bd01541aee")
-		(at 127.5 131.75 90)
+		(at 127.5 72.25 90)
 		(property "Reference" "D58"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "e42f1f34-326f-4d21-a1a7-17bfed704f74")
+			(uuid "4e230be5-b191-42a9-b3ed-066ceea5cd48")
 			(effects
 				(font
 					(size 1 1)
@@ -10549,7 +10549,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "3492e3f8-6c2e-4080-a41b-bc3b00c09559")
+			(uuid "ee9ffb8a-4fba-4332-b4b4-96134aaaf504")
 			(effects
 				(font
 					(size 1 1)
@@ -10561,7 +10561,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ecca09ca-c0ce-462a-acd4-05a55c4daa30")
+			(uuid "81a7afe0-cd5e-47d5-8b2a-d85f61c2a311")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10572,7 +10572,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "002ec554-9de2-4961-8b8f-41372c5654d8")
+			(uuid "399ceede-8657-49d8-adce-67d69543bdaf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10942,11 +10942,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "2fbc5058-263a-4458-9c25-5721646de556")
-		(at 42.5 114.75 90)
+		(at 42.5 55.25 90)
 		(property "Reference" "D6"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "0b49a07c-da78-4217-aa75-d4236eb38497")
+			(uuid "5c1276eb-ab30-41c8-9dc4-ad7e6176b16b")
 			(effects
 				(font
 					(size 1 1)
@@ -10957,7 +10957,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "683a733d-a641-4f58-944d-09a4ff0cb4f3")
+			(uuid "05a15446-fd2f-4005-904a-b7378fd43512")
 			(effects
 				(font
 					(size 1 1)
@@ -10969,7 +10969,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e546a4a4-955c-4b2d-a486-0f027a8cd2fd")
+			(uuid "a9383b9f-7673-41ee-bd31-ccc4de2db6a8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10980,7 +10980,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3d8b4677-973c-419f-b210-5e9445874b4c")
+			(uuid "73d81715-dc45-4327-9520-3c2aa8681578")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11350,11 +11350,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "315f2fa1-dd91-44cd-92cc-dd319ded1f33")
-		(at 106.25 136)
+		(at 106.25 76.5)
 		(property "Reference" "SW49"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "1a4f171e-b77b-476e-b980-62ca8e28a89b")
+			(uuid "db95aed7-32ef-4bf5-8763-84cc663985e2")
 			(effects
 				(font
 					(size 1 1)
@@ -11365,7 +11365,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "11e440f8-a59c-4607-b1b9-57212a93beec")
+			(uuid "2a19d3ff-5578-44a7-8f18-e2051050beb2")
 			(effects
 				(font
 					(size 1 1)
@@ -11377,7 +11377,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da6bdcac-d52e-49dd-9562-a6cb1662aa3c")
+			(uuid "04b8b0b8-e879-49b6-94a8-bc2b4d4f9a43")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11388,7 +11388,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "018b6a38-f655-4220-8ed0-e4d1b2ffa125")
+			(uuid "97c35cfa-3582-4a9b-8450-e7320888af77")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11768,11 +11768,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "31e00bbf-4e12-4635-ab92-d0f72d776df8")
-		(at 102.5 35.75)
+		(at 101.7 38.5)
 		(property "Reference" "SW61"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "e5e21873-3173-4267-9c70-6010472f2948")
+			(uuid "eca387f8-423c-49a7-8253-cefe7dec1c75")
 			(effects
 				(font
 					(size 1 1)
@@ -11783,7 +11783,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "4019cdfb-995e-4bf5-8424-5f2a715210c7")
+			(uuid "3b5e7bb6-4cdc-4719-a799-40f754d04932")
 			(effects
 				(font
 					(size 1 1)
@@ -11795,7 +11795,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "753818bd-811a-4e64-ab9d-e28b90139d9a")
+			(uuid "f4bf8539-1cfc-40ab-8e5c-b9908fc1f8ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11806,7 +11806,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "32753f0e-da3b-4e9c-acf0-9daf74934379")
+			(uuid "a11a1493-5dda-40dc-b30b-e1c3646beeb2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12187,11 +12187,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "3406ad73-b5a4-4e19-9a53-fdbfb1eb9438")
-		(at 34 140.25 90)
+		(at 34 80.75 90)
 		(property "Reference" "D4"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "934d91f6-0748-4cfc-9b93-fd127a7ac69c")
+			(uuid "99013732-8171-4e1b-a4d8-e5a4790be360")
 			(effects
 				(font
 					(size 1 1)
@@ -12202,7 +12202,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "379ec3ec-e79d-4c18-af09-bc9c9d53a4ba")
+			(uuid "48b3a0b0-9ba6-48b7-bb15-ee828f1aed33")
 			(effects
 				(font
 					(size 1 1)
@@ -12214,7 +12214,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4ea91f58-bcb3-480a-80db-a1b20b0af356")
+			(uuid "6c4592b3-479d-4211-9001-87401e7a938b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12225,7 +12225,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc3de948-a1ef-440c-8543-350c9174c2ea")
+			(uuid "a599b584-3732-455d-969e-c805f7afa510")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12595,11 +12595,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "351b6041-199a-4211-afcb-8fe2c3b95330")
-		(at 59.5 123.25 90)
+		(at 59.5 63.75 90)
 		(property "Reference" "D17"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "be2e4b11-02da-4f93-9f85-38ad154437a3")
+			(uuid "1910cb06-fb3e-49cc-9a46-5073e5e98f68")
 			(effects
 				(font
 					(size 1 1)
@@ -12610,7 +12610,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "fda800aa-f394-4657-a0c9-527c33e18a00")
+			(uuid "cb34aa6e-feaa-408b-8053-96f8b82a99c2")
 			(effects
 				(font
 					(size 1 1)
@@ -12622,7 +12622,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7172d12d-8ded-4070-a775-b59fe0c15cf1")
+			(uuid "b5ab9222-8f35-4cf0-b477-3c237e33b152")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12633,7 +12633,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0ebbaabe-b7b6-4f03-9fed-32b10035eee8")
+			(uuid "3aab5879-ac27-413c-a1c5-1d3e0321e4a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13003,11 +13003,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "3684acae-3096-4ac0-bd46-3fd549a5a4c3")
-		(at 114.75 136)
+		(at 114.75 76.5)
 		(property "Reference" "SW54"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "1f9a7cef-53b4-4997-baa2-c2e5f4b0cd24")
+			(uuid "2ea62b01-784d-4353-9f6a-52f4616f4610")
 			(effects
 				(font
 					(size 1 1)
@@ -13018,7 +13018,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "bdb7cab2-b728-4274-9757-d1841c6aee6a")
+			(uuid "de14b90c-4c0c-4d01-ae7b-eef2996844fd")
 			(effects
 				(font
 					(size 1 1)
@@ -13030,7 +13030,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e9415e98-1540-4c07-b0cc-9fe1de1e985d")
+			(uuid "c78bdfa0-a65e-4f10-8935-89f136f6b202")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13041,7 +13041,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1f7b0959-47cd-43c5-9953-6b8ab59ddde6")
+			(uuid "b0b414c9-94a8-4244-9195-d7c28eb541af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13421,11 +13421,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "3b6d60a8-0d7f-4c12-b727-eeff80cad91e")
-		(at 55.25 119)
+		(at 55.25 59.5)
 		(property "Reference" "SW17"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "d7cd4e36-5e97-4c6b-965b-4dbe2e55c76c")
+			(uuid "918dfd93-6258-4cc6-84b3-4622a6d73347")
 			(effects
 				(font
 					(size 1 1)
@@ -13436,7 +13436,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "e0571997-cb72-4526-906d-5ed1f577a582")
+			(uuid "b15017d9-4a64-4c48-b36d-63d9f25d671d")
 			(effects
 				(font
 					(size 1 1)
@@ -13448,7 +13448,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "470b29bb-9082-4ac4-bb10-b3e9ada6f5d9")
+			(uuid "b42dd11b-fadd-4eb4-a99b-65afe50eabcb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13459,7 +13459,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4093c47d-7920-4d1d-bd9f-44c8d312e4cb")
+			(uuid "0f11e383-4838-40af-a15a-ff992db965c0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13839,11 +13839,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "3b7b9d86-72d8-44ad-8445-d113c419f6e0")
-		(at 102 131.75 90)
+		(at 102 72.25 90)
 		(property "Reference" "D43"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "f00b81c7-841a-4963-a4a9-2bb6bbe49f9d")
+			(uuid "0036d0a2-9b07-48c6-b566-964c6745ac6d")
 			(effects
 				(font
 					(size 1 1)
@@ -13854,7 +13854,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "138e2c08-1d63-4b73-ad60-655fb3b9c320")
+			(uuid "3e49d0ca-b996-48d4-8f09-ace83ef8506f")
 			(effects
 				(font
 					(size 1 1)
@@ -13866,7 +13866,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9fd22a48-a755-407e-8915-e8e1a4884a8a")
+			(uuid "580511b8-9722-47a8-a33d-72716df7d517")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13877,7 +13877,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5cdb9b3-dadf-4df8-81df-09c9c9443354")
+			(uuid "d7b285af-872b-403e-b3c3-86076650f92e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14247,13 +14247,13 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "3db3c3fd-db95-42fa-99cf-1aabeef64593")
-		(at 96.5 39.08 180)
+		(at 95.7 41.83 180)
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J2"
 			(at 0 -2.38 0)
 			(layer "F.SilkS")
-			(uuid "93b5129d-91f6-47aa-9b16-29992126e4d6")
+			(uuid "ee08219b-6884-42d4-84f4-af6ca1f351ea")
 			(effects
 				(font
 					(size 1 1)
@@ -14264,7 +14264,7 @@
 		(property "Value" "Conn_01x04_Pin"
 			(at 0 10 0)
 			(layer "F.Fab")
-			(uuid "ea0877dd-b187-4e18-bf2a-c3804c36059b")
+			(uuid "c8e1394e-b29e-40c8-9bf1-6c1ed95ab029")
 			(effects
 				(font
 					(size 1 1)
@@ -14276,7 +14276,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8f289e0f-0802-47c7-8909-3b8933fdc513")
+			(uuid "dbfd38d7-444e-4b8e-b9c8-6da9935bb44d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14287,7 +14287,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c628ea3e-3334-4d37-b570-aab93f4383ff")
+			(uuid "02274e1e-4e80-4448-b614-97c5b828210f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14510,11 +14510,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "3ef5311f-2a79-41a4-8aa5-2497676c8136")
-		(at 85 140.25 90)
+		(at 85 80.75 90)
 		(property "Reference" "D34"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "10ca34db-c53d-4202-81bd-846208346362")
+			(uuid "87f854da-c82b-4897-b2dc-3417f7fb045c")
 			(effects
 				(font
 					(size 1 1)
@@ -14525,7 +14525,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "fcd09134-75ff-4a01-be21-81786f191297")
+			(uuid "b2706b37-f857-43a5-99ea-a6c923488b84")
 			(effects
 				(font
 					(size 1 1)
@@ -14537,7 +14537,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc014d54-c5cc-4596-90a3-09c6d64caf8f")
+			(uuid "54ec7e5b-d220-4d39-8a9f-2902e5d2fdd5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14548,7 +14548,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "36092859-eb23-48db-8b53-a979ca0e47a6")
+			(uuid "70f22205-50c5-4acd-9625-93ab9a89e8ce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14918,11 +14918,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "432439c3-c60f-4010-8c4d-0b7cc05921ef")
-		(at 63.75 119)
+		(at 63.75 59.5)
 		(property "Reference" "SW22"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "a4e3f6bd-ca6a-4809-b098-022d597a8c7c")
+			(uuid "16cd7f2c-b764-4e18-a0ae-3f7b4c5c7815")
 			(effects
 				(font
 					(size 1 1)
@@ -14933,7 +14933,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "edc857ce-7b45-4dc9-ab43-d31d84568e69")
+			(uuid "3f72343c-1ef8-4068-b3c8-c7e4634d3661")
 			(effects
 				(font
 					(size 1 1)
@@ -14945,7 +14945,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a6981f02-f16c-486e-b363-2214f61ab711")
+			(uuid "d2a7d2a1-480b-4371-8319-7686755d4d7f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14956,7 +14956,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e540cc1c-1701-491b-a693-ce0f6d3eb7c1")
+			(uuid "18dd3c9b-bd70-4d95-8c9e-2cc50f22c196")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15336,11 +15336,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "4351432b-ccfb-48a0-a6ad-497845207c3f")
-		(at 59.5 131.75 90)
+		(at 59.5 72.25 90)
 		(property "Reference" "D18"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "0c855783-f86e-4afe-a4d8-c6f36399534e")
+			(uuid "9e93070b-f9ae-4d5a-8ae2-0e34f90be83a")
 			(effects
 				(font
 					(size 1 1)
@@ -15351,7 +15351,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "5941b112-1b0e-4653-ba8b-0e9c747a4a31")
+			(uuid "c100a752-4131-462c-9685-130f418cdc36")
 			(effects
 				(font
 					(size 1 1)
@@ -15363,7 +15363,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fae94d1b-29ca-47ca-bba6-5c7c7841c23c")
+			(uuid "273600c0-b341-4091-98e9-db97bfd4e093")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15374,7 +15374,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "262a147d-fb46-4052-8ed8-9c823bc9fb03")
+			(uuid "6a080ea7-a814-4121-90a6-4323094e8269")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15744,11 +15744,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "44c39892-e015-441e-9fa2-eb6771cdbe95")
-		(at 97.75 110.5)
+		(at 97.75 51)
 		(property "Reference" "SW41"
-			(at 0 -5.85 0)
+			(at -4.692154 -2.526272 0)
 			(layer "F.SilkS")
-			(uuid "8d2ce2db-28dc-43ed-bf65-ca5eefb03121")
+			(uuid "6e765874-ec7d-467e-9abd-beba03cbd1af")
 			(effects
 				(font
 					(size 1 1)
@@ -15759,7 +15759,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "34a3615c-4ec2-43c5-96ad-f9315b3f04f7")
+			(uuid "86925a96-ac55-4332-aad9-f2d0274cf67b")
 			(effects
 				(font
 					(size 1 1)
@@ -15771,7 +15771,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "67c3dcb9-fda1-42fd-82f1-3dc89347876c")
+			(uuid "1501168f-e720-45b2-8ea8-47a5804bb42a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15782,7 +15782,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "580a258b-877f-4e64-875b-7a09ad545837")
+			(uuid "ed680efa-23c7-4633-8e38-b0f107ddcbb2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16162,11 +16162,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "45a2077e-5a2c-4973-aff9-ee717ea55003")
-		(at 55.25 110.5)
+		(at 55.25 51)
 		(property "Reference" "SW16"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "910d3343-4f19-4b22-82c6-7e60a757880c")
+			(uuid "6f4834b1-d13e-4b21-9f6d-26839810dece")
 			(effects
 				(font
 					(size 1 1)
@@ -16177,7 +16177,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "57641d79-49bf-4c57-adea-d5eef294b061")
+			(uuid "892953eb-f592-45ad-82d4-dbc21d19b453")
 			(effects
 				(font
 					(size 1 1)
@@ -16189,7 +16189,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "45eb90f7-3bcb-4daf-b9aa-882bc594f33c")
+			(uuid "6f3cbd08-8a44-4c3f-84d2-c08d9f23e9d1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16200,7 +16200,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff047fd3-2d5e-4547-bd3d-936ef61ad89f")
+			(uuid "56f7b9a7-c2f2-481e-9bba-83656d6d34fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16580,11 +16580,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "45b9017c-ce2c-4468-975b-9ce058c1fc33")
-		(at 110.5 131.75 90)
+		(at 110.5 72.25 90)
 		(property "Reference" "D48"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "8ce2c9eb-7b9f-4804-98f3-4850538562e6")
+			(uuid "dbd093d1-b0d2-4dfd-9873-7a10d4b97bce")
 			(effects
 				(font
 					(size 1 1)
@@ -16595,7 +16595,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "c3b2907b-5945-47f9-930b-0d4c8cbc4521")
+			(uuid "7b01869e-bc4a-431a-b312-2133bdfe5831")
 			(effects
 				(font
 					(size 1 1)
@@ -16607,7 +16607,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "24376fa6-c507-4a30-b1f6-fbd0fc6facb7")
+			(uuid "4674e60e-c878-4909-834e-2fa56c8bcdfc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16618,7 +16618,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9bebfa1c-8734-4be0-a804-c57f797b7626")
+			(uuid "a51d7d99-d01c-44da-b89a-0c8b3def121d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16988,11 +16988,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "4daf96c4-6743-4736-8683-e023d85fd216")
-		(at 110.5 123.25 90)
+		(at 110.5 63.75 90)
 		(property "Reference" "D47"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "758d4fd2-6e77-4f24-ba1b-6981fadceaf3")
+			(uuid "eca01aec-fd9a-422c-ab78-517e355262a5")
 			(effects
 				(font
 					(size 1 1)
@@ -17003,7 +17003,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "e19d94aa-9d6a-4e4a-9836-b395ff0e0190")
+			(uuid "70dba432-1c0f-44e7-bf5b-0c87fe4690df")
 			(effects
 				(font
 					(size 1 1)
@@ -17015,7 +17015,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "998ba109-8c65-46db-accc-296a8c1a46f5")
+			(uuid "2682af8e-ab9b-417a-9e31-1cb050653004")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17026,7 +17026,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "83316dd9-ad89-40d8-b0b6-064a468fb9d5")
+			(uuid "abce6643-9a60-4c61-8ef3-2fc521701de0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17396,11 +17396,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "4fea308f-a009-4d8e-9a3d-8ec212fd701a")
-		(at 119 140.25 90)
+		(at 119 80.75 90)
 		(property "Reference" "D54"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "f7b653c1-9474-42a0-9900-2f1083637cca")
+			(uuid "cc7727ff-6d08-4725-a412-61f1d9840b2f")
 			(effects
 				(font
 					(size 1 1)
@@ -17411,7 +17411,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "3b74b4dc-6b46-4039-b873-5a97401d7418")
+			(uuid "aee4a7dd-35f7-43fa-8bb3-ee312f1f54bf")
 			(effects
 				(font
 					(size 1 1)
@@ -17423,7 +17423,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7e0f5043-7b9f-450b-9231-d302215ffc3a")
+			(uuid "ac8dd5cb-7d24-4f45-97a8-3449adc19e83")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17434,7 +17434,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "26724689-e266-41ee-be73-d0bc46a79383")
+			(uuid "ebb379e2-54a7-4dbd-bd01-49efa34a3878")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18275,11 +18275,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "56451bf9-7a45-4699-bbe2-0c842a6838d4")
-		(at 38.25 136)
+		(at 38.25 76.5)
 		(property "Reference" "SW9"
 			(at 0.105177 -5.793702 0)
 			(layer "F.SilkS")
-			(uuid "12a41c9b-2d08-47f5-b040-87211290e319")
+			(uuid "ff24338c-0656-419a-b34d-c44899d2893a")
 			(effects
 				(font
 					(size 1 1)
@@ -18290,7 +18290,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "1b290eec-19c8-4c02-a800-c2b40aad7842")
+			(uuid "a1a831f0-723f-4304-bafc-d9e8a2783abe")
 			(effects
 				(font
 					(size 1 1)
@@ -18302,7 +18302,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e3371264-ac4d-40f8-9b30-fd956c1a0ad5")
+			(uuid "c82bf793-03b1-4d9d-97c5-9c237e80c105")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18313,7 +18313,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "68e54a15-3502-442b-b816-a092629a8176")
+			(uuid "692189cc-05e7-413e-801b-3191691d7357")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18851,11 +18851,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "60119892-86e1-49f9-b591-02bcb596cf6c")
-		(at 72.25 127.5)
+		(at 72.25 68)
 		(property "Reference" "SW28"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "658d77b7-949f-4fdb-b5cc-47f4488900a9")
+			(uuid "a71ee05a-23d3-4ab9-8d08-c5435e3e821e")
 			(effects
 				(font
 					(size 1 1)
@@ -18866,7 +18866,7 @@
 		(property "Value" "Switch"
 			(at 0 14.45 0)
 			(layer "F.Fab")
-			(uuid "ab4c2b63-d7b7-4110-9ba8-6e9a330338ba")
+			(uuid "98b611a6-806e-46e6-977b-db824f6c35eb")
 			(effects
 				(font
 					(size 1 1)
@@ -18878,7 +18878,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "01cd3095-df89-4fc4-a86b-6a55ba0dfda9")
+			(uuid "acfb90d7-3784-48c9-b932-59d0c7a6688c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18889,7 +18889,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b648a468-f2ff-4adb-9ca4-5dfea5e67488")
+			(uuid "ee1f6706-5841-4d7e-85a9-b20c4f92cc30")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19269,13 +19269,13 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "60a64d1e-5b81-463d-9708-c40bfadfa413")
-		(at 128.452154 34.926272)
+		(at 127.652154 37.676272)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R4"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
-			(uuid "7c7f3da9-2078-497f-a6b7-579d2fe8cd2e")
+			(uuid "43df657c-cb9e-4dad-838f-3f26792961ed")
 			(effects
 				(font
 					(size 1 1)
@@ -19286,7 +19286,7 @@
 		(property "Value" "27"
 			(at 0 1.17 0)
 			(layer "F.Fab")
-			(uuid "9be45443-d30b-4bc1-9d15-765461a079ba")
+			(uuid "833b332b-53ef-4641-8625-5f6a8d492e8c")
 			(effects
 				(font
 					(size 1 1)
@@ -19298,7 +19298,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "56fb755f-0e94-42d0-8d4f-37649ebebba8")
+			(uuid "674c8bef-2ca8-4a87-bb55-7b26f3be5258")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19309,7 +19309,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "084b678f-f49d-4b0d-90f3-51fbc6e2ba86")
+			(uuid "c71cfbef-0b7c-4986-8ff1-6ea8352aa256")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19427,11 +19427,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "66bd620e-4406-4d2a-889a-6eebfe376894")
-		(at 80.75 127.5)
+		(at 80.75 68)
 		(property "Reference" "SW33"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "8a9b8376-29ee-44c8-bd0a-5b2d68eed554")
+			(uuid "274d4fe6-7df6-4aff-8653-820344a928be")
 			(effects
 				(font
 					(size 1 1)
@@ -19442,7 +19442,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "35906f3e-84e8-4739-bd80-2ec29d098917")
+			(uuid "928c9904-ad3f-4590-8c44-c5de8031e8c9")
 			(effects
 				(font
 					(size 1 1)
@@ -19454,7 +19454,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "077c1758-a53a-41c7-9bae-373ac921abd5")
+			(uuid "f5c28b32-a614-4849-a719-33d551862c62")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19465,7 +19465,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "acb182a8-dac5-48f6-9d89-dc5cadc77aba")
+			(uuid "d6322604-3821-45e7-a3e4-a8551beb072d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20003,13 +20003,13 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "678382ef-a697-4756-9465-d99690ade7cd")
-		(at 113 36 180)
+		(at 112.2 38.75 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C15"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
-			(uuid "7801424a-e703-46d2-bc30-8f1b27f97d03")
+			(uuid "f907b314-7209-455f-8aa5-288e00485ab2")
 			(effects
 				(font
 					(size 1 1)
@@ -20020,7 +20020,7 @@
 		(property "Value" "0.1uF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
-			(uuid "39488e9a-fe00-4c6f-8b8a-4c16d27fb3c5")
+			(uuid "fca9f039-9eb3-450e-8e0e-029606531ecb")
 			(effects
 				(font
 					(size 1 1)
@@ -20032,7 +20032,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dd78a73c-87b9-426e-9403-6e82015d9555")
+			(uuid "798c218e-63aa-4a04-a77b-d5e8eeaab106")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20043,7 +20043,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4389e3a1-6352-4ff3-9780-547c2b82973b")
+			(uuid "00284804-c41c-4212-82bb-57f7e3fd241b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20161,11 +20161,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "6a023b91-d4c0-4989-a394-b71f61bb9f82")
-		(at 63.75 136)
+		(at 63.75 76.5)
 		(property "Reference" "SW24"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "9dbc8486-4c00-4ad3-8341-d3b877474936")
+			(uuid "d7edc35f-9fbb-459b-ba6a-71fe0ee3aba3")
 			(effects
 				(font
 					(size 1 1)
@@ -20176,7 +20176,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "9a062e58-2124-407d-9dea-50b2aa83c04d")
+			(uuid "a8278a7e-8e64-436d-bd5b-9889aadc8c65")
 			(effects
 				(font
 					(size 1 1)
@@ -20188,7 +20188,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b8058a62-735a-41b8-bddf-5a5462d6d051")
+			(uuid "41de0cda-eb07-4f03-bb0b-b5c987647d9a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20199,7 +20199,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00ab840a-d835-43c5-afe6-b8662072ccbd")
+			(uuid "801ec880-f9ae-4195-a419-245f861b945e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20579,11 +20579,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "6ee2b5f3-bdd2-488b-943d-3825a219f0d0")
-		(at 46.75 110.5)
+		(at 46.75 51)
 		(property "Reference" "SW11"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "8a85dbae-995a-4248-86ab-ae6e4246ae3d")
+			(uuid "998baefb-25d1-46dc-a520-0faa6eed5c5d")
 			(effects
 				(font
 					(size 1 1)
@@ -20594,7 +20594,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "eff3b82e-8228-4197-b803-0c2b676f8dd2")
+			(uuid "9cf3d83c-678b-4f07-bbfe-cc5262120710")
 			(effects
 				(font
 					(size 1 1)
@@ -20606,7 +20606,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f63482d-3b81-4bde-aa12-15552f7824a9")
+			(uuid "c59bc895-2372-4676-b604-c1ea4b3fa147")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20617,7 +20617,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3635b4da-d67a-4338-aa8a-fb7a00c3ec7c")
+			(uuid "17070c63-ece8-4c72-98b2-75b1421ec423")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20997,11 +20997,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "6ef95a5b-b00f-492b-b9d8-eaa4896bb455")
-		(at 29.75 119)
+		(at 29.75 59.5)
 		(property "Reference" "SW2"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "ff8f40bc-56b8-43b4-a3a8-f182fbbe3118")
+			(uuid "c5f4bb21-431f-4fd6-bf40-c93fd4b8e49a")
 			(effects
 				(font
 					(size 1 1)
@@ -21012,7 +21012,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "b237704b-8857-48f9-8d10-419c61533c21")
+			(uuid "ef7791d0-fd76-4002-b579-dbf44f6caa2f")
 			(effects
 				(font
 					(size 1 1)
@@ -21024,7 +21024,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "03119e49-367d-416b-9d31-696d6578d8ae")
+			(uuid "f2f4c951-91ca-4e30-ac4e-ab08d18fda96")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21035,7 +21035,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c1b31486-98b1-4b35-b90d-2ebb50407176")
+			(uuid "749296db-7c36-4209-9a92-a78bbe205603")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21415,13 +21415,13 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "704c4396-f9b0-40e4-b5ae-9fac1996d2c7")
-		(at 116.925 29.5)
+		(at 116.125 32.25)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C4"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
-			(uuid "25a86703-0ac5-4dc9-b051-0f27ee60c3b3")
+			(uuid "59ed10d0-dfc9-4e54-95a4-f4aa452f2b60")
 			(effects
 				(font
 					(size 1 1)
@@ -21432,7 +21432,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
-			(uuid "f5fb113d-6fdc-4e69-a4d2-f46aa37dc9f3")
+			(uuid "b54987d0-6c1d-4f64-8552-1232418b1602")
 			(effects
 				(font
 					(size 1 1)
@@ -21444,7 +21444,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b2725839-67c3-4ca2-88a8-10a89173260b")
+			(uuid "5269ec0b-79e4-48dd-a2a0-ab213304672d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21455,7 +21455,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "13a23757-db89-455f-a261-e40192cfc9dc")
+			(uuid "9ccde0c0-0530-4a44-9c44-492dd4db54cc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21573,11 +21573,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "716772ce-0b00-430d-b397-86d30df5c0d8")
-		(at 85 131.75 90)
+		(at 85 72.25 90)
 		(property "Reference" "D33"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "cd5a0755-4bbf-45ce-8180-3a3316a2a294")
+			(uuid "ebfacc20-4931-4dbf-b0a4-1835b2f56c49")
 			(effects
 				(font
 					(size 1 1)
@@ -21588,7 +21588,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "5a2389b7-50c7-4b57-8ed7-077930070cec")
+			(uuid "a8262356-4cda-47f7-bc0f-c863e6f4dc1f")
 			(effects
 				(font
 					(size 1 1)
@@ -21600,7 +21600,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5d628881-7a74-4d60-8fd4-b445c7c3a9bd")
+			(uuid "77ef414c-3dc3-44a3-97a3-0a1a5b2f00b9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21611,7 +21611,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8421ed22-95f1-4a8b-83f6-c2998545268b")
+			(uuid "ddfbea68-3903-447e-a70f-e58b68e72f0f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21981,11 +21981,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "72e09852-f84c-4d8d-b0f1-b8a2bc8212be")
-		(at 34 148.75 90)
+		(at 34 89.25 90)
 		(property "Reference" "D5"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "627292d1-e7cc-4277-a558-e4877bd5a135")
+			(uuid "559564f4-61df-4538-a154-0f2b10d66b82")
 			(effects
 				(font
 					(size 1 1)
@@ -21996,7 +21996,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "aa4e3eab-166d-466f-89f5-dd3435826276")
+			(uuid "76076dd4-ba0f-480b-9e75-59cc93b46498")
 			(effects
 				(font
 					(size 1 1)
@@ -22008,7 +22008,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1e91ea49-b0f9-4db7-a21e-52f685876e88")
+			(uuid "7d889c57-8b92-4133-b9f8-634b95171cbd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22019,7 +22019,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5ecb0bc-5a9a-4fa7-ac1a-bfd55a9f0ace")
+			(uuid "b2a5d5c7-b736-4063-8d38-eebb00b35e85")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22547,11 +22547,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "76ccc348-b4c0-4f76-a17c-e17b3495ecd4")
-		(at 38.25 144.5)
+		(at 38.25 85)
 		(property "Reference" "SW10"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "ac92ae4c-e29d-4eb1-8851-76a7e5b1c331")
+			(uuid "23390ea2-5d12-49bf-801a-abcdc8e3ca5e")
 			(effects
 				(font
 					(size 1 1)
@@ -22562,7 +22562,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 180)
 			(layer "F.Fab")
-			(uuid "23d5ec2a-5dfb-4d99-8ea1-5fb80fc05c66")
+			(uuid "e977134a-864d-49f9-8ab9-159f9bf22410")
 			(effects
 				(font
 					(size 1 1)
@@ -22574,7 +22574,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2f9ef6c0-a1e3-4cd7-9902-bf424771d093")
+			(uuid "c80a2c21-a43f-4a24-b8ca-2112509d26ab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22585,7 +22585,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0da35055-636e-4717-ac91-58815eed5bb1")
+			(uuid "358df16f-5104-4ee6-9f49-35b66975b703")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22965,11 +22965,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "7762a14f-5af8-48ef-85a1-49487b196484")
-		(at 55.25 144.5)
+		(at 55.25 85)
 		(property "Reference" "SW20"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "b60eff54-5858-49cd-b2d8-76617f300216")
+			(uuid "d00fe042-5ce1-4cc1-8db1-8969b6dc8bde")
 			(effects
 				(font
 					(size 1 1)
@@ -22980,7 +22980,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "4955fbae-49f7-42a0-b856-04cd5e5058b6")
+			(uuid "ec070528-ed85-4ab2-847c-b2499e7a29f8")
 			(effects
 				(font
 					(size 1 1)
@@ -22992,7 +22992,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5edbc245-6442-4341-9ad9-626f97729110")
+			(uuid "8d461dec-a6b0-4928-aa44-dcae8e3b57d2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23003,7 +23003,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "449893ba-6b22-47e2-a3c9-9957f45b0295")
+			(uuid "9ca1cc24-5c42-4931-9869-db5df24db347")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23541,11 +23541,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "7f3bc466-4431-4814-b4b0-363334be53c6")
-		(at 34 123.25 90)
+		(at 34 63.75 90)
 		(property "Reference" "D2"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "76f12b29-1492-421a-a8fd-637e5db60b78")
+			(uuid "be8e4931-7c92-4f5a-bec8-9c4684b7758f")
 			(effects
 				(font
 					(size 1 1)
@@ -23556,7 +23556,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "2301489c-3320-4b31-b2bc-2106560245dd")
+			(uuid "b8a50944-f857-48a2-a17f-9d2111e4fdc8")
 			(effects
 				(font
 					(size 1 1)
@@ -23568,7 +23568,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c09af9d0-7d07-4fc1-9d92-dfe18fe0cc65")
+			(uuid "74104bde-e3b7-4f00-8919-a802d0abbad0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23579,7 +23579,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f1f24da6-b58f-4d3b-bc7c-c5a6752fc87b")
+			(uuid "d725a69f-661d-431e-8d8f-138035867697")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23949,11 +23949,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "7fdb259f-4531-484d-951a-f6039dfd2a7c")
-		(at 55.25 136)
+		(at 55.25 76.5)
 		(property "Reference" "SW19"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "8e362ff7-6dcb-470c-b86a-84accc1ee90f")
+			(uuid "d4efd577-c30f-44a2-8a62-925e61448530")
 			(effects
 				(font
 					(size 1 1)
@@ -23964,7 +23964,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "c70b3039-7fb3-4bda-b038-bc6ffbb3ec92")
+			(uuid "740db384-a8e0-4814-bcee-7a00d3aff259")
 			(effects
 				(font
 					(size 1 1)
@@ -23976,7 +23976,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c73b7956-a17d-49f8-b8e9-2d47e84584ab")
+			(uuid "09d64afd-8cbb-4a0f-b9ef-ee94a1fd1a7d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23987,7 +23987,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0aae1b81-c874-4cad-a8f4-3ccb5ae0bad8")
+			(uuid "c35cb850-244b-4768-bbcb-febc54ce2519")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24367,11 +24367,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "820fb308-2bd5-4bfa-9c7c-f5a2f0e8d622")
-		(at 93.5 114.75 90)
+		(at 93.5 55.25 90)
 		(property "Reference" "D36"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "c91ccc20-c593-41ba-9ef3-4657c285513f")
+			(uuid "7f997b04-79e9-45e8-b60d-8821be600f9d")
 			(effects
 				(font
 					(size 1 1)
@@ -24382,7 +24382,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "f38b9317-a41f-4ced-95e6-8a23b5f7cb20")
+			(uuid "f993529d-ff8e-4d81-b418-3149db5f4bbb")
 			(effects
 				(font
 					(size 1 1)
@@ -24394,7 +24394,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "651d46bb-2b2d-4614-bb42-8b5bcfbdb54f")
+			(uuid "8d2431ea-be41-4b39-89bb-d14a41daa1ef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24405,7 +24405,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "902ba03a-739a-466b-9bd7-202369beff4b")
+			(uuid "4e6b9c17-379b-4c3b-9f8e-996ea5e28cb1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24775,11 +24775,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "84aaf232-b286-43ba-8d53-9baadd12fcb9")
-		(at 42.5 140.25 90)
+		(at 42.5 80.75 90)
 		(property "Reference" "D9"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "7ad21a6a-b10a-4436-8a63-cdbb36013360")
+			(uuid "ff02cabb-0ae6-47c0-a8e8-199639ad5e40")
 			(effects
 				(font
 					(size 1 1)
@@ -24790,7 +24790,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "a512c95c-8028-4cdc-a074-bc556dac3311")
+			(uuid "db84e3e0-1040-47bf-a9a5-a5a8eb9fdaee")
 			(effects
 				(font
 					(size 1 1)
@@ -24802,7 +24802,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9bba832f-29e4-4db1-ab91-714aa93a5bb7")
+			(uuid "08d86b0d-1ab6-433f-ba48-0bde1154d2eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24813,7 +24813,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8f06b26a-f1f7-420e-8d2d-1a4aed718e29")
+			(uuid "fa70b2bf-e9bf-4c9d-aea2-b7ae83588967")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25183,11 +25183,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "862d30b1-093b-487e-83bc-eceb7a860530")
-		(at 106.25 144.5)
+		(at 106.25 85)
 		(property "Reference" "SW50"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "07559aa8-c684-477e-84ed-cff641e578ef")
+			(uuid "9a2f62e8-2c0e-45de-b9bb-69d4d99f60a2")
 			(effects
 				(font
 					(size 1 1)
@@ -25198,7 +25198,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "2e919de9-9ebb-4177-b48f-499623167d4b")
+			(uuid "a243c897-7dbd-4d8a-b4be-a4c8ea2e12e7")
 			(effects
 				(font
 					(size 1 1)
@@ -25210,7 +25210,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f77fca0f-082d-429d-ab4d-57f6afacf31f")
+			(uuid "682c2df2-6cfb-4425-bac4-20f11565cb77")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25221,7 +25221,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "643eb1ba-239d-4e08-a7ff-781ad08a0735")
+			(uuid "aff1c9a3-e503-4a29-8048-f64bb2e2dc30")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25601,11 +25601,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "88e95813-9ca7-4a38-bc27-9e2a189439a3")
-		(at 38.25 110.5)
+		(at 38.25 51)
 		(property "Reference" "SW6"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "55a09c51-8751-46f7-b2e9-79c7fe5f2bc1")
+			(uuid "53945c98-e24e-411c-a8fb-01e2963d6782")
 			(effects
 				(font
 					(size 1 1)
@@ -25616,7 +25616,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "a9f36446-1c3c-441b-b741-d0f32acfc8fa")
+			(uuid "a59ea2fb-fff2-45c4-b4ba-ab24eb75d2c9")
 			(effects
 				(font
 					(size 1 1)
@@ -25628,7 +25628,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0b7eb3b6-255b-41b1-9b6c-78d36505a087")
+			(uuid "3f58fecf-a2a2-4851-9496-360af393c3a6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25639,7 +25639,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fb80a069-9bb5-43b0-8e8f-799197e17da2")
+			(uuid "c474608e-1080-4276-a1ed-a44f82f8d418")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26019,11 +26019,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "8f84d343-5b4a-450e-8270-1d0ef2f47d07")
-		(at 29.75 136)
+		(at 29.75 76.5)
 		(property "Reference" "SW4"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "d7da8a39-393e-4935-9855-1412210b41ed")
+			(uuid "dba99aa5-9004-4b1e-8b4a-923b60e7463e")
 			(effects
 				(font
 					(size 1 1)
@@ -26034,7 +26034,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "84c88b5f-3439-4a4d-ae44-973d725b9414")
+			(uuid "f04629f0-fb80-4b82-9373-0a23b7303249")
 			(effects
 				(font
 					(size 1 1)
@@ -26046,7 +26046,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f115bef5-407d-4688-a504-f0930e2a92c6")
+			(uuid "11d4c010-bb33-4cb5-ae9a-ad8ed0d7dd67")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26057,7 +26057,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b786576-8442-440f-9c47-d8b6fa3a3214")
+			(uuid "c5fccaf9-1970-45a2-8438-94deee182bc2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26437,11 +26437,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "94677dbf-9503-4eca-a12d-8c391872cd4f")
-		(at 29.75 127.5)
+		(at 29.75 68)
 		(property "Reference" "SW3"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "97287b79-e6aa-4b67-9ca4-c9c37d89f97e")
+			(uuid "cb596067-b270-4520-8cd4-072863af5cca")
 			(effects
 				(font
 					(size 1 1)
@@ -26452,7 +26452,7 @@
 		(property "Value" "Switch"
 			(at 0 14.45 0)
 			(layer "F.Fab")
-			(uuid "4a567dbb-3648-41bb-b7ef-618368a9049a")
+			(uuid "3382f230-88c8-4aa4-8084-abfe6b97f5bc")
 			(effects
 				(font
 					(size 1 1)
@@ -26464,7 +26464,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e728ba7d-c965-467e-8461-8023da3ca3ad")
+			(uuid "8d20475f-9419-40bb-b639-e0eb6c5bf7fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26475,7 +26475,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1a93e9f8-f905-46b8-9cd9-469f6262276f")
+			(uuid "dd2bb8bb-5f99-4b68-b9a8-383cbb430d9f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26855,13 +26855,13 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "9591d1f5-fe79-4ee5-9f88-6b091adf8eb6")
-		(at 111.5 29.25)
+		(at 110.7 32)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C8"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
-			(uuid "b9a82c5d-8aa7-4f00-af7e-673b8b528004")
+			(uuid "908a9804-957a-44fa-8693-ab913229e1cb")
 			(effects
 				(font
 					(size 1 1)
@@ -26872,7 +26872,7 @@
 		(property "Value" "10pF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
-			(uuid "e935f8de-df50-4637-ba1e-32a18344f5b5")
+			(uuid "535f74fa-351f-42fa-aef4-594a9a12dc85")
 			(effects
 				(font
 					(size 1 1)
@@ -26884,7 +26884,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad9fdfc0-46cf-4b1d-aeac-56f4100b0389")
+			(uuid "ab15ab07-15a0-45a8-bf9c-d66ea024db07")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26895,7 +26895,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "be6a85ca-a9c4-478f-813e-2a6cd41ac71d")
+			(uuid "dfeaaf21-7f19-497f-b4c8-22dca2f043d2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27013,13 +27013,13 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "95b46e43-cbea-49e6-8ee1-55d9a1b1af77")
-		(at 119.76 29.25 180)
+		(at 118.96 32 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R1"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
-			(uuid "a0e4dcf0-af6d-44cd-a70c-3552766b2c7c")
+			(uuid "14c5a160-5395-4364-8815-61f93e59abe2")
 			(effects
 				(font
 					(size 1 1)
@@ -27030,7 +27030,7 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
-			(uuid "897387f5-ed11-435d-a14a-98e3d1ad3d64")
+			(uuid "66b21494-6eb5-4d83-a546-3144e8da1964")
 			(effects
 				(font
 					(size 1 1)
@@ -27042,7 +27042,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7cad3d59-3e6f-4896-9de7-46faa0a7b182")
+			(uuid "9fd5ee86-2765-4fe4-b93f-1450d771910f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27053,7 +27053,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c750713-e47a-4086-bd69-45c9cccca5d7")
+			(uuid "32430ca1-2995-432d-8390-f707795bef5f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27171,11 +27171,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "989688c1-c9ad-4da4-8a8c-770bbe181bb3")
-		(at 76.5 131.75 90)
+		(at 76.5 72.25 90)
 		(property "Reference" "D28"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "b501b85c-2e80-48e2-941b-cc13129d197d")
+			(uuid "da0c7c9f-4b63-434e-b06d-5bfce8d582ff")
 			(effects
 				(font
 					(size 1 1)
@@ -27186,7 +27186,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "5c3cf6a0-04f4-42c3-bc47-019ff1183127")
+			(uuid "50adb6b5-5807-40a2-abd9-2a58bcc24884")
 			(effects
 				(font
 					(size 1 1)
@@ -27198,7 +27198,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9352f88f-fc09-481b-91c0-e954a51e2bc8")
+			(uuid "de11e39c-b7fe-4484-bfc8-3d47eb633ecc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27209,7 +27209,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cd0b18e1-bd1b-430d-811a-cb9684c3da24")
+			(uuid "0ea71435-488b-4c06-942c-691c0398b183")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27579,11 +27579,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "997a6af6-e5e6-4569-9b53-a237cf359bec")
-		(at 119 123.25 90)
+		(at 119 63.75 90)
 		(property "Reference" "D52"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "9c8e33d5-5e3d-499a-a539-5004f55e940f")
+			(uuid "ab34ec6d-b1ff-4beb-81b7-1335b2627f1e")
 			(effects
 				(font
 					(size 1 1)
@@ -27594,7 +27594,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "0dd10cd8-ba28-480f-b364-89b84b3e874c")
+			(uuid "99a9733d-38a9-4687-a87a-e56f95a639a9")
 			(effects
 				(font
 					(size 1 1)
@@ -27606,7 +27606,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d6b91a6b-23e9-4b8d-a762-9c0674fc3391")
+			(uuid "d877ac48-8f62-4c07-b202-7f618d388229")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27617,7 +27617,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a30d8833-56dc-4473-b142-1d8873dc7363")
+			(uuid "408d51ba-b246-4da3-b818-0ce2cad8bdab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27987,11 +27987,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "9a00ec30-9f7e-4b89-b0c9-54a1123dff40")
-		(at 102 148.75 90)
+		(at 102 89.25 90)
 		(property "Reference" "D45"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "6fa34937-30bd-4213-8e20-c45871bdd686")
+			(uuid "334a93ce-755d-43c1-a6e7-f57450cf4d83")
 			(effects
 				(font
 					(size 1 1)
@@ -28002,7 +28002,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "87a5b152-5417-4787-9c8c-32aa951d4bd6")
+			(uuid "14d64a1c-a710-4598-af18-8589399008f7")
 			(effects
 				(font
 					(size 1 1)
@@ -28014,7 +28014,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "29060127-d2fb-4462-a859-bfad2a3777d3")
+			(uuid "82653bf6-65f3-4b5f-b193-e133449043f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28025,7 +28025,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6710c9a7-68d2-40b7-810f-915569a467a3")
+			(uuid "fb60184a-5747-4916-b7ab-3d57ea321100")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28395,11 +28395,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "9a56e7d1-96ad-44e0-a07c-5462cf6d48f1")
-		(at 59.5 140.25 90)
+		(at 59.5 80.75 90)
 		(property "Reference" "D19"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "2c52a83e-e18d-4ea6-a016-c00b4c91919b")
+			(uuid "8685505e-6f82-45ee-805f-1222bbdc1486")
 			(effects
 				(font
 					(size 1 1)
@@ -28410,7 +28410,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "e6ef5c96-8a33-43ef-b6c9-a0c49d583102")
+			(uuid "8032b746-1382-4459-988b-f3dd3affaba3")
 			(effects
 				(font
 					(size 1 1)
@@ -28422,7 +28422,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "73c63c53-61cd-44ea-922a-e3b62afe78f4")
+			(uuid "f4943a12-a3d2-4f9c-ba4a-e04a97842544")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28433,7 +28433,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c2dad249-5ac0-410d-abbf-fc52f2b17418")
+			(uuid "036672f1-5852-4bd5-a762-d726d7ff159a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28803,11 +28803,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "9b0da384-4c45-4fcb-b295-5998cfdeb16b")
-		(at 119 114.75 90)
+		(at 119 55.25 90)
 		(property "Reference" "D51"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "75f452cf-1fe4-4579-a7a7-7442498cbf6c")
+			(uuid "9e444d92-1584-4134-a522-fcc5973baae7")
 			(effects
 				(font
 					(size 1 1)
@@ -28818,7 +28818,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "bb9afbb8-7e0c-4132-b296-aa7deb0eee5f")
+			(uuid "1e6379a9-ed60-428b-bf1d-8c8016b7af8c")
 			(effects
 				(font
 					(size 1 1)
@@ -28830,7 +28830,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "acb26bc8-d369-4815-83a4-0480840347a9")
+			(uuid "7a4802f9-565c-430f-aeb0-3cc71956dd72")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28841,7 +28841,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3e1a489f-7cd3-47ee-887c-60645ca95f13")
+			(uuid "6e2195e2-38e4-4cda-b0ad-54566c585211")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29211,11 +29211,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "a1a5af3a-cb68-43ac-8019-9dac48fac825")
-		(at 106.25 127.4)
+		(at 106.25 67.9)
 		(property "Reference" "SW48"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "c958c604-f829-415b-9543-fdf760f1b5f4")
+			(uuid "37ecf5f1-5bc2-40ef-a6d5-9bba5ef38617")
 			(effects
 				(font
 					(size 1 1)
@@ -29226,7 +29226,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "7d266f61-2a74-4623-8a30-dd980d8be675")
+			(uuid "2148c145-99a5-468c-8c8d-59a1cb205cf7")
 			(effects
 				(font
 					(size 1 1)
@@ -29238,7 +29238,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f863a18d-35c7-408d-9642-dcd19f38b940")
+			(uuid "c5e83f8f-f747-4c39-b1c8-9f572d52209b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29249,7 +29249,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "15436364-ad39-45ce-a27a-d67fc93337fc")
+			(uuid "b57669ad-dae0-464f-bbdc-8a2b8644f957")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29629,11 +29629,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "a2c92a67-744b-48a8-bfbd-4f699e47f477")
-		(at 110.5 140.25 90)
+		(at 110.5 80.75 90)
 		(property "Reference" "D49"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "9ec224b8-1172-4eaa-a112-9a935b5d6526")
+			(uuid "9797728a-103b-4afd-9a40-2b5346a1b69b")
 			(effects
 				(font
 					(size 1 1)
@@ -29644,7 +29644,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "9fe1a39e-561d-4b85-b26a-852001553e25")
+			(uuid "b4fcd620-f103-44a3-a4c6-e71d52b54b08")
 			(effects
 				(font
 					(size 1 1)
@@ -29656,7 +29656,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cf94a2e2-995b-407c-8f47-3f237e2cc99d")
+			(uuid "0f64ca82-ff65-4479-970e-65b8fcee8d45")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29667,7 +29667,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b2bcf9fc-a242-4c68-8341-3930d5564d75")
+			(uuid "b569cf92-4163-4221-a726-e1ff83234c2e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30037,11 +30037,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "a5cde1a3-8a0b-4866-88a2-ad058611d6da")
-		(at 80.75 110.5)
+		(at 80.75 51)
 		(property "Reference" "SW31"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "30c6313d-1968-43b1-9e07-0a8020e1adad")
+			(uuid "3d13602c-ebc7-49f8-8272-8b1ebad31f33")
 			(effects
 				(font
 					(size 1 1)
@@ -30052,7 +30052,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "1bd2ac95-7310-402c-ad71-c6908ee81a63")
+			(uuid "74d55d29-bee8-44ee-9171-f3ab1f8cb17f")
 			(effects
 				(font
 					(size 1 1)
@@ -30064,7 +30064,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f0284ed6-5caa-4033-a6c6-3e1935c1d2a7")
+			(uuid "728d8836-3860-4b4d-98f4-448640519d73")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30075,7 +30075,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "837fdc3b-70ac-4fda-ad9f-333435faf4d6")
+			(uuid "7d1da2fc-0e0c-4e62-b482-eaa35f3dc6fe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30455,11 +30455,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "a6489838-e7d5-44c5-a813-53007c08f52e")
-		(at 80.75 148.75 90)
+		(at 80.75 89.25 90)
 		(property "Reference" "D30"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "36725090-3576-434a-9e79-00e7d05afe61")
+			(uuid "d8c35ae7-6913-4033-90b1-2e702009396c")
 			(effects
 				(font
 					(size 1 1)
@@ -30470,7 +30470,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "be07a35a-dbde-4bf8-a226-1acf1545b8bb")
+			(uuid "b3745136-46c1-4a7d-be1c-d4cd25d86fbe")
 			(effects
 				(font
 					(size 1 1)
@@ -30482,7 +30482,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3c9640f3-d72a-499c-b161-9acc7373a75e")
+			(uuid "ca69b193-2a7e-4a19-8f3b-9889ddebcb31")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30493,7 +30493,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e8ac91d6-ef3c-486e-968d-ce2b641bbdaf")
+			(uuid "bdda6919-efde-49be-965b-5efe104aa2da")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30863,11 +30863,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "a8740236-fbf7-4cb7-a315-ef5848f0ec39")
-		(at 68 131.75 90)
+		(at 68 72.25 90)
 		(property "Reference" "D23"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "b17cd8ff-58ec-4442-86ab-349f633419ba")
+			(uuid "f51bdfb4-cf85-460d-96d3-fcce013ca81c")
 			(effects
 				(font
 					(size 1 1)
@@ -30878,7 +30878,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "1875227d-65c8-475d-8f37-2aa53f4e3a24")
+			(uuid "6578aad4-a30b-4f72-8be4-fea490f8cb55")
 			(effects
 				(font
 					(size 1 1)
@@ -30890,7 +30890,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "17a019e3-127a-4b85-9553-ca0a713e57a8")
+			(uuid "c5aea637-1265-4e60-812b-bf079183e25c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30901,7 +30901,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ef4b786e-c040-4f13-ac08-1efd12dbe689")
+			(uuid "eba81ab2-12f2-4e1e-95a4-3be3f8cc1114")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31271,11 +31271,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "aa8c4313-7988-407a-bc25-73e8fe34d30f")
-		(at 72.25 136)
+		(at 72.25 76.5)
 		(property "Reference" "SW29"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "f68c2e38-8326-4a0b-b789-3b23d075719e")
+			(uuid "63dd2e6a-20c2-470f-b6e9-1fb9f301570f")
 			(effects
 				(font
 					(size 1 1)
@@ -31286,7 +31286,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "572af311-8d53-4d34-9d56-d18c3377bdc0")
+			(uuid "f3bf6fee-0f20-4ee1-b791-fa2c0c8404c6")
 			(effects
 				(font
 					(size 1 1)
@@ -31298,7 +31298,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3295bc86-8098-49ed-b0b7-65434892244f")
+			(uuid "10297439-1076-41ed-8168-46de10723e61")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31309,7 +31309,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "255b7079-0b5a-4fff-9159-2f3b679edd9e")
+			(uuid "cbb139dd-55ae-4e4d-a713-594b8f44f57f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31689,13 +31689,13 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "aac73380-30e5-44b2-a4f3-9773f8b1076c")
-		(at 123.221171 44.445034 90)
+		(at 122.421171 47.195034 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C6"
 			(at 0 -1.16 90)
 			(layer "F.SilkS")
-			(uuid "56ae21f1-8eca-4d90-aa4f-99c7f0adf23e")
+			(uuid "13ebdaeb-ff60-4725-ad9b-8ae081ac7f3a")
 			(effects
 				(font
 					(size 1 1)
@@ -31706,7 +31706,7 @@
 		(property "Value" "2.2uF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
-			(uuid "b1a1a030-d637-4194-b811-57dc1f1b6471")
+			(uuid "ce713e57-a368-477c-991b-c7a804ad2db3")
 			(effects
 				(font
 					(size 1 1)
@@ -31718,7 +31718,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cdd6e010-545d-4238-ad96-fb2b7660265e")
+			(uuid "b5034711-af90-4221-926d-15c09b24d2b9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31729,7 +31729,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da79acaf-6c3a-49dc-b51f-421d6bd2148c")
+			(uuid "a4e14ec0-90ba-4799-94ad-84f2cffa1dbc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31847,11 +31847,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "acf68dfc-0192-4fff-b7da-04440d7f6ee3")
-		(at 76.5 140.25 90)
+		(at 76.5 80.75 90)
 		(property "Reference" "D29"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "dc6e38ad-70fe-4942-80be-efaed1c7b043")
+			(uuid "3ff90a47-e682-43e7-a691-69a3456eb449")
 			(effects
 				(font
 					(size 1 1)
@@ -31862,7 +31862,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "c835f8c4-1cfb-4a6b-a374-96ae3d62fab9")
+			(uuid "d1a261e4-43c7-40e7-8061-134195011e08")
 			(effects
 				(font
 					(size 1 1)
@@ -31874,7 +31874,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2132eff8-2592-45d9-92af-ef3c09471160")
+			(uuid "15cd5330-5b62-4fe0-8968-199164e557a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31885,7 +31885,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "56a7f167-1951-4bfe-ae1d-63de8e545dc5")
+			(uuid "dd975f80-306b-422f-b3d6-6581767c5f92")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32255,11 +32255,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "ad370d86-f726-4a31-bde6-a4002c6b8b3d")
-		(at 85 123.25 90)
+		(at 85 63.75 90)
 		(property "Reference" "D32"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "4caca0ea-d45e-4f07-8d25-20abe2ba2c91")
+			(uuid "38ad29fe-8849-4036-b81b-ae8a68931cdf")
 			(effects
 				(font
 					(size 1 1)
@@ -32270,7 +32270,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "fbf11ab6-6e77-47c5-a056-22eaf9b98b27")
+			(uuid "9a8b84c8-7cec-41f9-8d01-bc76c123dbe3")
 			(effects
 				(font
 					(size 1 1)
@@ -32282,7 +32282,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fd341ceb-e249-472c-aaef-ff41e28f464c")
+			(uuid "b18cd213-da66-4bc9-91e5-813d7eb5df32")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32293,7 +32293,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5122b3d6-8d90-4d76-b86c-fb4712ddee5a")
+			(uuid "409bea6d-a447-4e1a-b381-7678a0fd0138")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32663,11 +32663,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "ad534652-706a-44c7-95bf-bd2178d3d1bb")
-		(at 34 114.75 90)
+		(at 34 55.25 90)
 		(property "Reference" "D1"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "3502088b-17c0-4c47-85e3-cd8179c49b3c")
+			(uuid "b1f1aa6f-34e3-4c05-8dea-5c94d34cd161")
 			(effects
 				(font
 					(size 1 1)
@@ -32678,7 +32678,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "d0bbc1a3-696f-453c-9755-2105740b26db")
+			(uuid "8b588dbe-d210-4ce3-aaca-f9a069564be8")
 			(effects
 				(font
 					(size 1 1)
@@ -32690,7 +32690,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4537b405-061a-4434-9ef5-3ab26f436810")
+			(uuid "1ce73edf-472e-4fb6-8bbe-7e5189227e01")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32701,7 +32701,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f7edecc6-c470-48d6-8e67-8d575c6bd67d")
+			(uuid "e0f53361-cf57-4007-be80-5fe8640b0bdc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33071,11 +33071,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "ae057b42-342d-4b58-a950-72ca0bb0ab42")
-		(at 68 114.75 90)
+		(at 68 55.25 90)
 		(property "Reference" "D21"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "7cf5526f-9745-4681-bd07-c9bd31a5ea23")
+			(uuid "d571d3eb-6032-49dc-9596-3148fed646e0")
 			(effects
 				(font
 					(size 1 1)
@@ -33086,7 +33086,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "11288da0-9e1c-4295-a3ef-aebce76bb5c0")
+			(uuid "164f6533-1fdd-4846-bc84-82c85e5e5655")
 			(effects
 				(font
 					(size 1 1)
@@ -33098,7 +33098,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff7f7ea5-151e-47ce-bf82-395483b03dbd")
+			(uuid "9a9a234c-b559-415e-9284-8f84b43fe9f7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33109,7 +33109,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4e2e2b44-0302-4a0c-b93f-1d286db75832")
+			(uuid "e0f3a21d-6860-4a69-a0b5-1674a8bfb469")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33479,11 +33479,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "aedfc34d-acc7-4ee0-a35d-ce44791e8a06")
-		(at 38.25 119)
+		(at 38.25 59.5)
 		(property "Reference" "SW7"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "624b5a0d-4dc5-4451-b664-1306efba1cb2")
+			(uuid "30dd8144-bf14-434a-9cda-496497618cda")
 			(effects
 				(font
 					(size 1 1)
@@ -33494,7 +33494,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "b0c22098-0435-46e9-a653-468041544a30")
+			(uuid "8a93096b-78c3-4b86-8d5b-a5e44aa464db")
 			(effects
 				(font
 					(size 1 1)
@@ -33506,7 +33506,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20fe26d1-6ac4-4e68-8b82-3379ce0f7cc6")
+			(uuid "a16c0b9b-f02e-473d-b580-e31564725da4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33517,7 +33517,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9da05230-534f-4d0a-8a73-fef8acb0a29f")
+			(uuid "ecb9d20c-5eeb-4414-86ad-13b668e7f00b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33897,11 +33897,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "b0b359a4-fb06-4533-b3f3-5cdaa85616fc")
-		(at 59.5 148.75 90)
+		(at 59.5 89.25 90)
 		(property "Reference" "D20"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "2a3b048f-5321-48de-b357-a48e04208487")
+			(uuid "f11453a5-fdb1-4afb-bdda-f73809b6f55b")
 			(effects
 				(font
 					(size 1 1)
@@ -33912,7 +33912,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "121ac9a5-124c-43c9-a20f-c3e80f44b849")
+			(uuid "ce14d273-104c-4a7b-affe-7345188e78f8")
 			(effects
 				(font
 					(size 1 1)
@@ -33924,7 +33924,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f11ebac2-9071-40e2-af65-79ce5b0d3d4f")
+			(uuid "4efdc97a-31c9-4ad5-8d7d-d823dab64147")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33935,7 +33935,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4ef11ad-6a1a-45cd-9837-d36ada39d37e")
+			(uuid "cd7e36b1-638d-4f63-a775-e613ded43a8f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34305,11 +34305,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "b31d0f21-ed6b-4e0a-b3ec-9a097466a5ca")
-		(at 114.75 110.5)
+		(at 114.75 51)
 		(property "Reference" "SW51"
-			(at 0 -5.85 0)
+			(at -4.692154 -2.526272 0)
 			(layer "F.SilkS")
-			(uuid "0e0763b9-5537-4225-adb3-c727d493f902")
+			(uuid "917be78d-a569-4a83-84d7-f0b5c6593d4f")
 			(effects
 				(font
 					(size 1 1)
@@ -34320,7 +34320,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "8a61bc5b-8870-4cb1-9277-99abe1482680")
+			(uuid "e30772b6-6dd5-49d2-a18a-e2f808c77f35")
 			(effects
 				(font
 					(size 1 1)
@@ -34332,7 +34332,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "58f623d6-a690-4596-9b00-f248bb7c795f")
+			(uuid "02c46e99-33af-403a-ae38-15bace2985b9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34343,7 +34343,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ca43db50-2bc5-409f-a0db-9a9c6db9dfe5")
+			(uuid "6fbb0457-e770-4ba7-afbd-e64992b78aee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34723,11 +34723,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "b3c3f599-96a2-4b79-aaa8-4d8c8e8d450f")
-		(at 46.75 144.5)
+		(at 46.75 85)
 		(property "Reference" "SW15"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "ac230bbe-5239-4089-bb2c-adbcbd938ca9")
+			(uuid "1d153b2b-ef58-4554-bbe5-974269e321f3")
 			(effects
 				(font
 					(size 1 1)
@@ -34738,7 +34738,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "b49782a7-f687-45b5-8a7c-f77de690e47d")
+			(uuid "46485dc1-cf4f-4c53-875d-2a89b7b47e48")
 			(effects
 				(font
 					(size 1 1)
@@ -34750,7 +34750,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "baee874f-a36f-4075-b6e8-f55de0c6e90b")
+			(uuid "db074f8f-0e68-473d-8750-72f61c07c3e9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34761,7 +34761,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7d4365e7-0482-4fb0-821a-0639b88c36c2")
+			(uuid "0ed6f795-6031-4d63-9c3f-316c4dbe37b8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35141,11 +35141,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "b49390b3-9422-493a-9a2f-bc502012e366")
-		(at 51 131.75 90)
+		(at 51 72.25 90)
 		(property "Reference" "D13"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "15dce1fe-8c89-44b8-9e9f-96330da818c9")
+			(uuid "7e5163fd-e88f-4dc7-953b-47e505cd3620")
 			(effects
 				(font
 					(size 1 1)
@@ -35156,7 +35156,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "0d89b555-f920-4756-a5ac-0c74aedeeed0")
+			(uuid "68021e72-3578-415b-8ffc-c7a44abe1633")
 			(effects
 				(font
 					(size 1 1)
@@ -35168,7 +35168,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6f9b6a75-8e41-4fe9-a6ad-d5493af39d49")
+			(uuid "d2342e03-2f04-48bd-93d0-4dd97dac144b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35179,7 +35179,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "906170fd-f7c3-4c8f-be98-bedf492f9147")
+			(uuid "7267e442-bceb-44d1-b76a-8c4067007d3e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35549,11 +35549,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "b5aef6d8-3d51-4f1b-875e-7bf401e91a10")
-		(at 80.75 119)
+		(at 80.75 59.5)
 		(property "Reference" "SW32"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "fb621d4b-b3be-41e0-b45b-6d7aca60323d")
+			(uuid "56dc5f98-e412-42dc-b55d-9a8dc84c7ef3")
 			(effects
 				(font
 					(size 1 1)
@@ -35564,7 +35564,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "5519162b-0a75-4d65-b665-047ab0020f37")
+			(uuid "70b90603-d31c-434e-887f-1733312bd3a4")
 			(effects
 				(font
 					(size 1 1)
@@ -35576,7 +35576,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a872583d-55de-43e5-8c60-6c12050f015e")
+			(uuid "c2deb6e1-a5ca-4040-93b9-6a06e83978ae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35587,7 +35587,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "59f7f2ae-46f6-4044-af71-6a25618a1191")
+			(uuid "2b717fa9-e796-47ff-96c6-106976f0bf2b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35967,11 +35967,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "b70be756-0f6b-41f2-bd17-3e7b04354267")
-		(at 89.25 136)
+		(at 89.25 76.5)
 		(property "Reference" "SW39"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "f6e9435e-63be-492f-b325-f48195c7c179")
+			(uuid "9044bdc7-cf06-4271-9f01-0fc45e6ed493")
 			(effects
 				(font
 					(size 1 1)
@@ -35982,7 +35982,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "2d008403-320e-412d-b02a-2a1c069ad9ad")
+			(uuid "0ebee99a-588d-451a-a98a-ee488647253f")
 			(effects
 				(font
 					(size 1 1)
@@ -35994,7 +35994,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "90cd8244-9e86-46e0-9cfc-8243dc7a3ef3")
+			(uuid "c49ec706-0e00-496c-920b-1192722d1381")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36005,7 +36005,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c71b7624-3f12-463d-9cf5-89bbc1763700")
+			(uuid "a8233d16-9682-4ccd-8b23-27397885649e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36385,11 +36385,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "b728dd34-858d-441e-9df4-655f4a93d206")
-		(at 97.75 144.5)
+		(at 97.75 85)
 		(property "Reference" "SW45"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "2765a001-9c0f-43a7-ab6d-5c8a5195dfc7")
+			(uuid "42180e7b-823e-4747-9165-37f9671ff7a2")
 			(effects
 				(font
 					(size 1 1)
@@ -36400,7 +36400,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "f5943f5d-cfba-4a6c-a5ef-786f0d7a4de3")
+			(uuid "80f41ae3-6220-4359-967a-17ca402634ea")
 			(effects
 				(font
 					(size 1 1)
@@ -36412,7 +36412,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a10be54c-a7ce-40e0-96fd-1977ad725fa3")
+			(uuid "980fac72-0fb0-4534-99ed-b5d812ee4035")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36423,7 +36423,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fc112676-f6bf-49d5-92ba-b63c7618e437")
+			(uuid "ac909b32-7ded-469b-aa46-2f52060d9ce9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36803,11 +36803,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "b8d9c242-67cf-4094-b2bf-deade5579d10")
-		(at 89.25 110.5)
+		(at 89.25 51)
 		(property "Reference" "SW36"
-			(at 0 -5.85 0)
+			(at -4.692154 -2.526272 0)
 			(layer "F.SilkS")
-			(uuid "720fb6b0-ae31-4677-9252-8144965c8c16")
+			(uuid "ff7a4f95-f617-44aa-80a1-5cd4180031fa")
 			(effects
 				(font
 					(size 1 1)
@@ -36818,7 +36818,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "e24d604e-9195-43a7-9bfb-bc1d6ce384a1")
+			(uuid "76dc3b77-9756-48fd-b4cf-7fe9223ece80")
 			(effects
 				(font
 					(size 1 1)
@@ -36830,7 +36830,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0815cba2-251e-458c-8f91-8b107eee77d9")
+			(uuid "54cbb195-990e-4d0a-9ecc-0c493ac6ca3e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36841,7 +36841,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3867d039-8b8d-4ef2-9965-e8790a9e0abd")
+			(uuid "cf05f64d-5641-41e4-ad4a-4ae9fdd6507e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37221,11 +37221,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "bcab1e84-1c38-4452-9629-4ea9781f7a45")
-		(at 123.25 127.5)
+		(at 123.25 68)
 		(property "Reference" "SW58"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "708e89f7-a5d4-4178-923c-09fba211d60d")
+			(uuid "9f82f713-60c8-4285-a54a-6fdc02f40515")
 			(effects
 				(font
 					(size 1 1)
@@ -37236,7 +37236,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "7930093d-b501-49cc-a541-d5f2f7811c12")
+			(uuid "c062c5fa-7f99-4668-acd2-f948f3b4e048")
 			(effects
 				(font
 					(size 1 1)
@@ -37248,7 +37248,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff734b79-93ba-4803-b408-6936507e008f")
+			(uuid "1ddfa4c1-6275-456e-b77e-0e0f9dbdcbf6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37259,7 +37259,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d443df64-5f00-49b8-bd56-b138e6c9299a")
+			(uuid "83130c60-aeea-48c2-a8f3-2ad813fdfeee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37639,13 +37639,13 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "be6cbf77-8d92-48a1-94a0-a180526788bf")
-		(at 112.175 38.5 90)
+		(at 111.375 41.25 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C10"
 			(at 0 -1.16 90)
 			(layer "F.SilkS")
-			(uuid "60dbbbe6-2d78-4c83-b171-cc01658d0af2")
+			(uuid "c1b1139a-b5fc-4e8b-ae50-8571468adce5")
 			(effects
 				(font
 					(size 1 1)
@@ -37656,7 +37656,7 @@
 		(property "Value" "100uF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
-			(uuid "96ba008c-abb0-43aa-a148-63d106bd647f")
+			(uuid "9a357b7e-f5b5-4c37-9b2e-71d6f6819e63")
 			(effects
 				(font
 					(size 1 1)
@@ -37668,7 +37668,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "77314fa3-3eee-4446-9c6a-33a1fbdd7022")
+			(uuid "b39512f7-87c8-4247-a6a2-f0bab2354b5e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37679,7 +37679,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f175c855-f921-46b2-bee5-0ac95fa36bcb")
+			(uuid "4e667b57-af53-4723-b5c6-016d5108afce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37955,11 +37955,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "c06cbbb1-5644-4dd8-bd3c-88ba2d80e35a")
-		(at 80.75 136)
+		(at 80.75 76.5)
 		(property "Reference" "SW34"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "0b1a1d6a-51f2-47b7-9feb-3f064509ccf7")
+			(uuid "ff8dbc09-b628-467c-bdba-9aee6b7e4d9f")
 			(effects
 				(font
 					(size 1 1)
@@ -37970,7 +37970,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "1c14ec9f-18a3-4276-9853-f48e9a584804")
+			(uuid "3ac7cbe7-faad-490e-80af-897772090245")
 			(effects
 				(font
 					(size 1 1)
@@ -37982,7 +37982,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "22a6c6e4-896a-4f12-9f9d-dda930f90c30")
+			(uuid "f39bd3ba-e5d8-4198-92c0-ee2735b8b5a3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37993,7 +37993,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fc1d0692-3f87-4a21-8dc8-18ac986260c6")
+			(uuid "bc4b4fbb-fa64-4a0a-8c0e-c17542701221")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38531,11 +38531,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "c334b299-d189-46bd-85f3-845bdbf56382")
-		(at 106.25 110.5)
+		(at 106.25 51)
 		(property "Reference" "SW46"
-			(at 0 -5.85 0)
+			(at -4.692154 -2.526272 0)
 			(layer "F.SilkS")
-			(uuid "b40a64c2-5378-4f06-986d-f22d7967f88f")
+			(uuid "18df217c-7262-4e35-b542-340fa4c082ea")
 			(effects
 				(font
 					(size 1 1)
@@ -38546,7 +38546,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "827a82ef-43ff-4d63-b40b-5934d7216b4b")
+			(uuid "3547533d-644b-4acf-bb4c-c3d2a49c78e2")
 			(effects
 				(font
 					(size 1 1)
@@ -38558,7 +38558,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51b5e27a-598c-4aa4-b0c0-6c573cd31078")
+			(uuid "c7a87ab8-d9cb-451a-b101-ba4cf8a6c0cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38569,7 +38569,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "21327b3f-e2ae-4b70-accc-459ad60a2be4")
+			(uuid "d101c97b-1323-4435-9cbf-9d36f99ea140")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38949,7 +38949,7 @@
 	(footprint "easyeda2kicad:CONN-SMD_05A20L14P"
 		(layer "F.Cu")
 		(uuid "c3562a88-913a-4861-a661-747be33b8d81")
-		(at 35.75 33.97 180)
+		(at 32.9375 36.125 180)
 		(property "Reference" "FPC1"
 			(at 0 -5.162 0)
 			(layer "F.SilkS")
@@ -39379,11 +39379,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "c777c959-8667-4133-9b8f-32caa9ea15d8")
-		(at 127.5 140.25 90)
+		(at 127.5 80.75 90)
 		(property "Reference" "D59"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "497ef72c-d9bf-4df1-943e-33a45e4af31c")
+			(uuid "e8764081-b158-4361-935a-215e343b2eb8")
 			(effects
 				(font
 					(size 1 1)
@@ -39394,7 +39394,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "264ae52c-c9e3-4861-be91-f952e094f10d")
+			(uuid "e517bbda-e25b-4c74-8c57-0cf15f5f9534")
 			(effects
 				(font
 					(size 1 1)
@@ -39406,7 +39406,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3c5897de-de0f-422d-b8ee-3f68bd2460d9")
+			(uuid "36f3cfce-a356-4dcb-8f81-50c0309372d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39417,7 +39417,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0109b19e-c6fd-4530-814f-1244dfb76ce2")
+			(uuid "1545e5e6-92d5-4275-a851-1ae2e42a48ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39787,13 +39787,13 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "c889c40e-2b05-4830-a1e3-4debbdf274da")
-		(at 111.5 34.25 180)
+		(at 110.7 37 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C9"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
-			(uuid "94eac30e-4ee5-4b60-954a-628818bbe6e9")
+			(uuid "c43260dd-ac38-409e-81c5-9059a7366714")
 			(effects
 				(font
 					(size 1 1)
@@ -39804,7 +39804,7 @@
 		(property "Value" "10pF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
-			(uuid "150bdb62-be9e-4092-bf63-92fcf7f485e3")
+			(uuid "c666ae4d-022f-44c7-81fd-4d8b2e51f520")
 			(effects
 				(font
 					(size 1 1)
@@ -39816,7 +39816,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "56ad077e-977e-4c9c-b356-8c3b62f13eed")
+			(uuid "0a3e9f90-e7e1-4a05-b984-4bfc78f8bb8b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39827,7 +39827,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "06941b51-0265-4550-9876-894cefcfe54d")
+			(uuid "6fa0af72-4f0e-4d52-b2d1-9ab085bcad2a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39945,11 +39945,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "cb2440d6-a83c-4c43-a397-c7be70583f41")
-		(at 76.5 144.5)
+		(at 76.5 85)
 		(property "Reference" "SW30"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "349d5cac-7475-44e4-a488-1462c131e1af")
+			(uuid "cc79ac30-b173-44aa-810f-67be82ce7f1d")
 			(effects
 				(font
 					(size 1 1)
@@ -39960,7 +39960,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "8799b672-38ef-4df6-8a1f-f96fbfadaa2b")
+			(uuid "ac7af8f3-0b76-4076-95e7-5588e86461b8")
 			(effects
 				(font
 					(size 1 1)
@@ -39972,7 +39972,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d1fc809d-2c8e-4e88-8b6d-3f8d9a7fdd4c")
+			(uuid "0e97e902-79ff-4289-a129-851ce0dda492")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39983,7 +39983,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b86249ad-f325-465a-bea9-7a88c10f1841")
+			(uuid "38e3e907-a72b-41eb-8918-a106198daca9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40363,11 +40363,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "ce17f882-0b98-4fd2-a127-6af292844541")
-		(at 93.5 123.25 90)
+		(at 93.5 63.75 90)
 		(property "Reference" "D37"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "d526be43-059b-405e-840e-7562ec4d2690")
+			(uuid "07a152d3-af71-41a2-8b27-a1a51e399a4e")
 			(effects
 				(font
 					(size 1 1)
@@ -40378,7 +40378,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "bb5d0a63-5c08-4a42-98fb-5fa4587c2e1d")
+			(uuid "0062d29f-767a-4deb-94ea-71c1e1bc2e13")
 			(effects
 				(font
 					(size 1 1)
@@ -40390,7 +40390,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5d89f1c4-989e-4a17-9783-1c35a9a1a2fa")
+			(uuid "cdf4c16d-01f3-486e-8f7c-23df63954fd7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40401,7 +40401,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57b00402-ca6d-4728-9be5-d271b9b5cc66")
+			(uuid "656b0477-43ec-4015-a01f-bc7729d2651e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40771,11 +40771,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "cea6a7dd-6530-43dd-ab88-5be56d6f6c58")
-		(at 114.75 119)
+		(at 114.75 59.5)
 		(property "Reference" "SW52"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "f87d7224-395b-4ecc-a61e-bdfe6004873b")
+			(uuid "a6114495-a23e-4d41-a69d-cb99075f8050")
 			(effects
 				(font
 					(size 1 1)
@@ -40786,7 +40786,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "5d3273de-9b15-4ff4-8b30-682757032ebc")
+			(uuid "297aab3b-633e-478d-b7f9-679a7fa6d0c5")
 			(effects
 				(font
 					(size 1 1)
@@ -40798,7 +40798,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3e8ab5c0-3c8d-448c-9c87-bb3930597627")
+			(uuid "1325f3e6-3fc1-49a7-b6d0-391462562c13")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40809,7 +40809,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "63f5df5a-71b9-4f7e-a4b4-d7639a167b3f")
+			(uuid "6607c239-9da2-4fdc-9687-ca0707dab478")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41189,11 +41189,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "d005cb3c-b6ed-443b-ac1e-dbcc0df6f2e2")
-		(at 51 148.75 90)
+		(at 51 89.25 90)
 		(property "Reference" "D15"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "ff7aff95-bbb6-4fa1-9209-a49ab5fc40ef")
+			(uuid "ed70d10c-3e20-45d3-9c77-71a899b30794")
 			(effects
 				(font
 					(size 1 1)
@@ -41204,7 +41204,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "ce1d8ced-ad6c-4823-b542-2ef6e60c84f7")
+			(uuid "ed3925f6-320c-47ba-bf90-34a6e382f31c")
 			(effects
 				(font
 					(size 1 1)
@@ -41216,7 +41216,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e0f1cf0a-a361-498d-b79b-e06b9c6f50f5")
+			(uuid "55b24d8b-92e4-41a9-b2f5-c4075d24e84f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41227,7 +41227,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "348cbb59-a6ab-405b-b360-cb9221ef7db6")
+			(uuid "1029896e-b4ce-41c7-b726-79d8cfcbaacd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41597,11 +41597,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "d1a8b965-91f9-4c9c-93a3-96384ca28670")
-		(at 102 140.25 90)
+		(at 102 80.75 90)
 		(property "Reference" "D44"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "c45bc55a-03fd-477e-ba1a-6646a3b35548")
+			(uuid "bd1ff0e7-1f4d-48fb-962f-e9fcb8b574a1")
 			(effects
 				(font
 					(size 1 1)
@@ -41612,7 +41612,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "fc1245b8-b244-4285-a23b-1bb0a175f46d")
+			(uuid "1197bb7a-20a4-4e5f-baee-54fe02b1b012")
 			(effects
 				(font
 					(size 1 1)
@@ -41624,7 +41624,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c1e163b1-836d-4a5b-910e-aeb0c099945e")
+			(uuid "ffd99053-e2fa-4ee5-b8da-6d6ab94549fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41635,7 +41635,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "982c9b2a-053b-4fcd-8270-e1def24a0df6")
+			(uuid "669a1a97-5243-4e4c-ba6d-cc6e91460163")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42005,13 +42005,13 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d3d5c99a-2cf0-42e5-a23b-eda304c49fe3")
-		(at 107 29.5)
+		(at 106.2 32.25)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C5"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
-			(uuid "a07609a7-76f8-42b8-86a1-71e6c2195f8b")
+			(uuid "043a3e53-a277-47ef-bc07-abfd9d6fd095")
 			(effects
 				(font
 					(size 1 1)
@@ -42022,7 +42022,7 @@
 		(property "Value" "4.7uF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
-			(uuid "74ca57d2-1bc9-4852-a940-5053650b6eac")
+			(uuid "0550cf01-05cb-46fd-82b3-34b041c9b139")
 			(effects
 				(font
 					(size 1 1)
@@ -42034,7 +42034,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d8840272-3f76-4956-acf9-0efefa16d415")
+			(uuid "15390569-2f44-48b0-8a3a-10b1a3a7ed05")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42045,7 +42045,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7e7f32b2-739a-428f-b179-5212ec811166")
+			(uuid "a79daad1-9ca5-4ce2-bc48-1182f5139d47")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42163,11 +42163,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "d85fc101-45b9-4589-a462-c328040c7dfc")
-		(at 119 148.75 90)
+		(at 119 89.25 90)
 		(property "Reference" "D55"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "86981ce3-691c-4cb4-b438-f3c99a7eb749")
+			(uuid "a41deac3-cc20-4f2d-b974-573f7f4dbec7")
 			(effects
 				(font
 					(size 1 1)
@@ -42178,7 +42178,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "34a39e64-ea43-4b3c-b7bd-35ffa07313da")
+			(uuid "22d78190-07fa-45e2-bfe4-5be3973e9ce9")
 			(effects
 				(font
 					(size 1 1)
@@ -42190,7 +42190,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "783531cf-3843-4733-a304-9ec7838a125b")
+			(uuid "bc5638ce-3105-4cac-af9b-16030baf6e8e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42201,7 +42201,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aebdd73d-504c-44bb-97aa-32b5bfa3ecbe")
+			(uuid "a07fb11b-ff0e-437b-930b-489f4ab01e44")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42571,13 +42571,13 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d88b605b-9d15-482b-a5ce-c449ec29e59c")
-		(at 117.675 44 180)
+		(at 116.875 46.75 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C1"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
-			(uuid "356d9355-bc90-49ab-bd11-a6abd1fbd79a")
+			(uuid "3fd4b64c-18b8-46af-9486-f0db277ff53b")
 			(effects
 				(font
 					(size 1 1)
@@ -42588,7 +42588,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
-			(uuid "75db29a3-560b-441a-a299-bf7b0c86c66b")
+			(uuid "782de85e-ff13-4e06-97f0-5f462a52af74")
 			(effects
 				(font
 					(size 1 1)
@@ -42600,7 +42600,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0caa90a3-387e-4928-bf66-8b8b7f47542b")
+			(uuid "6337d954-30f3-4108-b452-db460b6eb9db")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42611,7 +42611,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7ba80a27-7aeb-497e-ace5-ba990b3231ed")
+			(uuid "3332d82d-4f40-4948-ab38-0b60fdcae3cb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42729,11 +42729,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "d90937ba-8d93-4271-8cd6-a4ec149d7639")
-		(at 114.75 144.5)
+		(at 114.75 85)
 		(property "Reference" "SW55"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "40a48944-0fc5-49b3-922f-b2f3cfff3928")
+			(uuid "bc05b78d-3602-47f6-9514-3f6a97df84e4")
 			(effects
 				(font
 					(size 1 1)
@@ -42744,7 +42744,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "8861060c-ca76-4143-8705-c355fad22221")
+			(uuid "32e1330e-71fd-437f-ba5d-855783a97dd4")
 			(effects
 				(font
 					(size 1 1)
@@ -42756,7 +42756,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "832e1613-003d-418a-aa59-1302c07afd79")
+			(uuid "7e769007-78f1-49ae-939e-b2d3b98ff254")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42767,7 +42767,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d26426ab-1cf0-42cc-b875-97479073daf6")
+			(uuid "443f3dae-8640-4885-af2a-a6bc815557a0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43147,11 +43147,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "d94e16f3-ec84-4e4f-9d1b-480daab7cd48")
-		(at 97.75 119)
+		(at 97.75 59.5)
 		(property "Reference" "SW42"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "2e955e08-d21a-49f0-b38b-dd364cc43aa5")
+			(uuid "24fd3538-b944-48d6-a032-097f3de350b4")
 			(effects
 				(font
 					(size 1 1)
@@ -43162,7 +43162,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "34ea5db4-e1b6-47ee-9d42-707a2815d6d9")
+			(uuid "3beb32e3-ce31-4424-b8cf-01fbf648f711")
 			(effects
 				(font
 					(size 1 1)
@@ -43174,7 +43174,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8341a4fd-1405-47e4-9456-3bf460c1f5e1")
+			(uuid "0ed989e4-458c-491a-985b-072bcaea637c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43185,7 +43185,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "70077a2e-f1b2-45e4-8c04-fc9bae9e1e74")
+			(uuid "119b5e2f-8a53-4df5-9303-d6820274ca66")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43565,11 +43565,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "da94c2d5-2d3b-41ae-807a-89b533770c77")
-		(at 85 114.75 90)
+		(at 85 55.25 90)
 		(property "Reference" "D31"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "4f218a3b-43cb-45b2-b16c-1bbda1c90638")
+			(uuid "2b551d7d-2960-408c-96dd-757d6f33adb4")
 			(effects
 				(font
 					(size 1 1)
@@ -43580,7 +43580,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "b670ccd0-ac7e-4077-b52d-03fc87d092b3")
+			(uuid "76036f22-fac8-40d8-9fa3-53176266940e")
 			(effects
 				(font
 					(size 1 1)
@@ -43592,7 +43592,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "07763a3e-3984-422b-beca-113b35ff9396")
+			(uuid "9745d6ca-abe7-4e8d-b092-66b5947b831b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43603,7 +43603,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "61ed882e-70af-44f3-8f5e-b473a3bc9d7f")
+			(uuid "30ac0799-e845-4137-bd04-c6201b57b131")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43973,11 +43973,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "dcac550b-e288-4087-a7ef-7d8012585d62")
-		(at 93.5 140.25 90)
+		(at 93.5 80.75 90)
 		(property "Reference" "D39"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "121ac452-0728-4aea-845c-9b5cd166b2e0")
+			(uuid "a0609018-b698-4163-b8a9-b0f87b8efa7e")
 			(effects
 				(font
 					(size 1 1)
@@ -43988,7 +43988,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "875df35a-1d9c-40ad-8fd0-8ae0839a84b1")
+			(uuid "eae7494e-f7e3-4b21-a037-c6e52b5244cf")
 			(effects
 				(font
 					(size 1 1)
@@ -44000,7 +44000,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ee98575e-650f-44dd-b8f1-64476a5825bb")
+			(uuid "ef855557-eecd-4978-9ace-967b3f96ebe7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44011,7 +44011,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af837c36-e22c-466e-bff5-7478779370c4")
+			(uuid "0bc98594-aabf-4ea4-8ccd-48e755b2148f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44381,11 +44381,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "dd064fc5-2c26-417e-a045-acef254c0bce")
-		(at 127.5 114.75 90)
+		(at 127.5 55.25 90)
 		(property "Reference" "D56"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "cb919056-2380-4d05-8f64-13efec086523")
+			(uuid "e934e465-89ee-4f35-b19e-0a549f6e44a8")
 			(effects
 				(font
 					(size 1 1)
@@ -44396,7 +44396,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "15b340a1-a6a0-4967-b236-6e4d5fe1bfad")
+			(uuid "2d7eb4dd-1dde-437a-8530-be224b1e4f2c")
 			(effects
 				(font
 					(size 1 1)
@@ -44408,7 +44408,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bfc6b1bc-8dc5-4573-bf2d-9dcd91b1ea14")
+			(uuid "8cef14d3-8321-454b-8ccb-443257a58409")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44419,7 +44419,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6064bb53-1c0e-4349-afb8-f3ac9b0581a9")
+			(uuid "658e478e-f95d-473a-968a-a3c6bb34359e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44789,11 +44789,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "e22511b2-8ac3-4754-8321-361b58c4b0b2")
-		(at 106.25 119)
+		(at 106.25 59.5)
 		(property "Reference" "SW47"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "48f34b84-d009-46c1-a3fb-c8607ddadf12")
+			(uuid "c5cf581a-767f-45e2-9391-946adf3b5b20")
 			(effects
 				(font
 					(size 1 1)
@@ -44804,7 +44804,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "cc6445e6-f44b-4fff-a16c-a91ffd50e97a")
+			(uuid "a6b08cd4-5024-4c04-99a0-a24ef5b75adb")
 			(effects
 				(font
 					(size 1 1)
@@ -44816,7 +44816,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8c8034c7-2aab-42b5-996e-a80d4bfeeec0")
+			(uuid "7050a12b-4919-46e9-b8ac-a6a8ce77299f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44827,7 +44827,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8468c322-1303-4742-8d37-34cf5225c653")
+			(uuid "9f06fec6-a262-42c6-93a9-ee47db1ca701")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45207,11 +45207,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "e25ea006-f5b4-4eab-93f4-56d8199d0cc4")
-		(at 89.25 119)
+		(at 89.25 59.5)
 		(property "Reference" "SW37"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "927c2e4d-6607-41a6-a86d-437b484ad43f")
+			(uuid "1073be43-85eb-45f6-831b-2cf3ce2300d2")
 			(effects
 				(font
 					(size 1 1)
@@ -45222,7 +45222,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "a48307f5-5646-430e-b887-da0b62e18402")
+			(uuid "e5f00fac-6ab4-4a0f-8154-75dcd25d53fc")
 			(effects
 				(font
 					(size 1 1)
@@ -45234,7 +45234,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d2af7d67-1b66-4679-8627-8271acb27da9")
+			(uuid "da7d8cd5-7c34-438a-84bb-363d900c8256")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45245,7 +45245,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "535cb8bc-4b3b-4fe3-8646-0297c3e9dc7e")
+			(uuid "2fcd7acd-0ff3-47f1-999c-5a1c6fba2d11")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45625,11 +45625,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "e3d9f582-7a16-44c5-b7b4-6b1ecc501790")
-		(at 123.25 110.5)
+		(at 123.25 51)
 		(property "Reference" "SW56"
-			(at 0 -5.85 0)
+			(at -4.692154 -2.526272 0)
 			(layer "F.SilkS")
-			(uuid "4a9cbba5-1a29-43a0-afd9-97c362248375")
+			(uuid "9260f199-1cbf-4642-93e6-b02f3db260bc")
 			(effects
 				(font
 					(size 1 1)
@@ -45640,7 +45640,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "337cd187-071e-4976-bddc-4f3946b356ca")
+			(uuid "ba18b7e9-1509-472e-a1aa-16cd72a0e9de")
 			(effects
 				(font
 					(size 1 1)
@@ -45652,7 +45652,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "98c6b905-85ba-4dc4-8fa2-3f4a448a8dd7")
+			(uuid "9b0ca0a8-c75c-4c3c-a4c5-0cd99db171a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45663,7 +45663,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ec4c028e-a127-4887-8d9d-d1b0656c966a")
+			(uuid "009f4c7f-bff4-4d9a-81b4-15787e4c4413")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46043,11 +46043,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "e6d7bcb1-e2b9-46ae-ba9a-1e3cb73a18a8")
-		(at 51 114.75 90)
+		(at 51 55.25 90)
 		(property "Reference" "D11"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "e8d7c647-b06f-4b76-bc35-fbb6a4860258")
+			(uuid "642bda81-5107-4df4-a0f0-d7ad2e854b8b")
 			(effects
 				(font
 					(size 1 1)
@@ -46058,7 +46058,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "8ee54264-5d3d-427a-b05f-ee2fb3942cd5")
+			(uuid "d1a76f39-a7c3-4f23-8d9b-c872d726656f")
 			(effects
 				(font
 					(size 1 1)
@@ -46070,7 +46070,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bf6c126b-b2a2-4e09-883a-ff9808f99c41")
+			(uuid "cefefd34-a976-4333-a9d5-1c207d8af331")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46081,7 +46081,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3cc51137-103f-47c0-814b-a8c5b408f126")
+			(uuid "d4c1a694-619f-46d5-9982-6d6a63b31a3c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46451,11 +46451,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "e6f8322c-778d-4841-95dd-58e0b5a36848")
-		(at 89.25 127.5)
+		(at 89.25 68)
 		(property "Reference" "SW38"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "0632038a-a614-4e89-81d3-2ca0025b5aad")
+			(uuid "4ca53994-93ca-4870-ac1d-438c5ab23eb3")
 			(effects
 				(font
 					(size 1 1)
@@ -46466,7 +46466,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "7a410927-f53f-4395-b891-9cd7b2f0e79c")
+			(uuid "20475cda-ec05-40fa-9642-af2601fd10fa")
 			(effects
 				(font
 					(size 1 1)
@@ -46478,7 +46478,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "05ef1641-b486-40ca-b18c-254e17dff3c1")
+			(uuid "9eb062b6-82b2-474f-91c4-2e0632e22ab0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46489,7 +46489,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c51c668-a37d-47f3-88df-b1a4322c0343")
+			(uuid "c27c5cda-5c19-46d1-ac93-4464196f45d6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46869,11 +46869,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "eb474c09-ddac-4f0e-bb9a-cff8d5a560de")
-		(at 123.25 144.5)
+		(at 123.25 85)
 		(property "Reference" "SW60"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "095dfed4-b48b-4fd5-9edc-c6b03c7cb8e1")
+			(uuid "c0a66f4a-b4db-4ede-9dc8-70c8e6c5d80f")
 			(effects
 				(font
 					(size 1 1)
@@ -46884,7 +46884,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "482b47bb-5b95-4527-9e62-00886fac832b")
+			(uuid "5ee91c19-f38b-41f6-b369-5c305a9afcfa")
 			(effects
 				(font
 					(size 1 1)
@@ -46896,7 +46896,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3ea9565a-1092-47e1-a5bf-d078ac0a6e9d")
+			(uuid "6712958c-a59e-41e2-affb-c1baea308c7c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46907,7 +46907,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "31b4fd27-5b4f-4356-9dfb-2e0287976ff3")
+			(uuid "bb5e3c71-e853-42c2-98df-7a35e6142dd0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47287,11 +47287,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "ee9e2bfb-00d0-4be5-a41c-d2293f278535")
-		(at 119 131.75 90)
+		(at 119 72.25 90)
 		(property "Reference" "D53"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "0f8f3e49-c809-4b9e-bba8-1cbfe23255cf")
+			(uuid "9fd84647-8831-442c-8db0-2478e97fb35f")
 			(effects
 				(font
 					(size 1 1)
@@ -47302,7 +47302,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "5c2c946a-f7b0-442b-b4a1-5bc7165830d1")
+			(uuid "6835601c-09f3-4941-b33b-9437d7e96b9f")
 			(effects
 				(font
 					(size 1 1)
@@ -47314,7 +47314,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "403f8771-ee9e-4b8d-84d8-6145490fa1c0")
+			(uuid "68deee5e-cfc4-4238-8d43-66ce38030ae8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47325,7 +47325,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d44b8178-15ef-4df6-9f3f-fbf146dd1313")
+			(uuid "ce5ee5e8-fe5f-480a-84a3-1147a7fe60b9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47695,11 +47695,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "eeb9ded2-da33-413a-acf3-b8d8be42ef90")
-		(at 72.25 110.5)
+		(at 72.25 51)
 		(property "Reference" "SW26"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "682cc8d7-ba0c-4909-a806-10c27b913580")
+			(uuid "2296c600-5000-487a-8198-27ce7a5d8bc2")
 			(effects
 				(font
 					(size 1 1)
@@ -47710,7 +47710,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "d9040631-4c4b-47e6-bc23-ef198dbdc2e2")
+			(uuid "ca222ab0-0fcd-482a-b31d-8f679838965f")
 			(effects
 				(font
 					(size 1 1)
@@ -47722,7 +47722,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4f123a1c-01f3-4eac-b632-8de2c8e2fd15")
+			(uuid "673e14e7-2c66-46e1-8c94-3c3212e24635")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47733,7 +47733,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "71e2edcd-0d7b-4c11-a222-b2a8ff2b0904")
+			(uuid "502b2051-7c79-48b1-b731-1eff0b6c7e2f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48113,11 +48113,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "ef079753-43ca-4cdf-9229-0d40a84e9adc")
-		(at 127.5 123.25 90)
+		(at 127.5 63.75 90)
 		(property "Reference" "D57"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "856b885f-a951-4c7c-be91-d9d9c96fa0b0")
+			(uuid "3669b9ac-d5d3-4a8a-b59e-14213f62da80")
 			(effects
 				(font
 					(size 1 1)
@@ -48128,7 +48128,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "54f7ccfc-9f3e-484b-8980-12eb6cbf801d")
+			(uuid "da3763fd-858e-4ada-ba8c-53c03a9ed35c")
 			(effects
 				(font
 					(size 1 1)
@@ -48140,7 +48140,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bfb08d9e-24c9-4388-8b0b-339f0db2f5fa")
+			(uuid "f7d63c35-8bae-48f9-89fb-a17b8c823a08")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48151,7 +48151,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1812c30b-1088-4b71-9ac4-33c8bae14048")
+			(uuid "69a52e95-6199-4b76-98fa-4abd78e8d3f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48521,11 +48521,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "f00bd6f4-4a55-427b-8e20-f76bd6e78f90")
-		(at 63.75 127.5)
+		(at 63.75 68)
 		(property "Reference" "SW23"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "69feb913-9877-461c-9ef4-4785a7c2ca7a")
+			(uuid "14f65506-1916-449b-a764-1e4fd1be220f")
 			(effects
 				(font
 					(size 1 1)
@@ -48536,7 +48536,7 @@
 		(property "Value" "Switch"
 			(at 0 14.45 0)
 			(layer "F.Fab")
-			(uuid "ed1afd8e-9643-4f52-aecd-8111f0707709")
+			(uuid "3c3e83b2-0239-4186-a986-0945b603afee")
 			(effects
 				(font
 					(size 1 1)
@@ -48548,7 +48548,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f2c1ee66-3c3b-432a-a9e3-c510b83c885a")
+			(uuid "205b8045-33ea-41c1-988e-64de3026c756")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48559,7 +48559,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a325d926-ec0c-4ab6-9433-e760bb2a8e15")
+			(uuid "8e5b5e4f-6fb2-4849-b8a1-0d29a29a8507")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48939,13 +48939,13 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "f1da1db4-ae41-4508-8de3-4910d6885753")
-		(at 128.452154 33.926272)
+		(at 127.652154 36.676272)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R5"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
-			(uuid "d04887bf-82ca-4895-9005-f2b9cd1ebcc1")
+			(uuid "9c13b553-08e0-46a9-8fe8-0c6ec1775c06")
 			(effects
 				(font
 					(size 1 1)
@@ -48956,7 +48956,7 @@
 		(property "Value" "27"
 			(at 0 1.17 0)
 			(layer "F.Fab")
-			(uuid "c5d8c4ad-3967-4b3e-ac5a-2338c2e6f5ce")
+			(uuid "ace73c2c-11e6-46eb-b3d8-28ac854281d6")
 			(effects
 				(font
 					(size 1 1)
@@ -48968,7 +48968,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2734a505-6998-4851-806e-4e3cf75533f8")
+			(uuid "dc29a4ca-1bf8-44bc-b4e6-4b13cd228cdf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48979,7 +48979,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "655294ac-e208-43b9-94c9-eb5ebedd01e6")
+			(uuid "b60ab0cf-f3bd-4d80-b716-b859ec6de2d4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49097,11 +49097,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "f2749c25-4f7f-4cda-8ded-f3c8dfd7dbc6")
-		(at 46.75 136)
+		(at 46.75 76.5)
 		(property "Reference" "SW14"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "66a086cf-d8bc-4e6f-b325-c7da448f5776")
+			(uuid "326c246d-8476-4b31-bc8a-8892ec118e59")
 			(effects
 				(font
 					(size 1 1)
@@ -49112,7 +49112,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "a38c2eec-4cc2-419c-adab-b4c8d0e677fe")
+			(uuid "aa0dd9c7-bbb1-442c-868f-8516295bdbbd")
 			(effects
 				(font
 					(size 1 1)
@@ -49124,7 +49124,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "25ea7d5c-3a96-48c6-ba50-ae45bbb71e8f")
+			(uuid "70c363ae-03b4-403d-aba3-a38e57bb912d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49135,7 +49135,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "877f3d7f-9296-4449-905f-af47e4cbf23d")
+			(uuid "1f3a32fe-1043-4a7f-a68d-4b1c3913dc9b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49515,11 +49515,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "f46ff824-ff9e-47d4-a4fc-5644cba040ed")
-		(at 63.75 110.5)
+		(at 63.75 51)
 		(property "Reference" "SW21"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "fcce4c8a-1f30-4fd0-a23e-dc71cb82626f")
+			(uuid "4c2c8027-d846-44bc-83a2-106cee3ad951")
 			(effects
 				(font
 					(size 1 1)
@@ -49530,7 +49530,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "23233c1c-a86d-4516-8c11-eca3f9f9999b")
+			(uuid "7e994f61-601c-4487-b9db-24501dbc6500")
 			(effects
 				(font
 					(size 1 1)
@@ -49542,7 +49542,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "10971058-1f8e-4de0-8ea5-0a256dea32b2")
+			(uuid "de317156-ec4d-44f2-9884-f8bb6f3816b8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49553,7 +49553,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fccc48a2-31be-49b3-86d4-7d9082288075")
+			(uuid "b54de2b8-a32a-48aa-a401-160e46a83dca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49933,11 +49933,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "f48053ab-963e-451b-a5a6-cbfd03a45803")
-		(at 93.5 131.75 90)
+		(at 93.5 72.25 90)
 		(property "Reference" "D38"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "323c3947-0e5d-442d-af20-314da34caebf")
+			(uuid "22ad7b8e-1eaf-42ca-8126-f31a46acc2ff")
 			(effects
 				(font
 					(size 1 1)
@@ -49948,7 +49948,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "95a217f6-ef95-4984-9eda-db47ec2891f3")
+			(uuid "229e4765-1943-4bb3-94f0-91756b407fde")
 			(effects
 				(font
 					(size 1 1)
@@ -49960,7 +49960,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3db943b4-cc85-48d8-a4f8-b9fdec23282b")
+			(uuid "3bf4ec1e-1a53-436d-b6a8-c809dd2f55a6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49971,7 +49971,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9338616e-4def-47cd-8c83-594cb9d46b25")
+			(uuid "972c2683-b234-4e73-9dce-2f2aa77fdac3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50341,11 +50341,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "f512a13a-0f73-4d79-9400-60e034334173")
-		(at 114.75 127.5)
+		(at 114.75 68)
 		(property "Reference" "SW53"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "3c9d8385-04a5-4f04-80f7-6d10b46a2603")
+			(uuid "afa0becf-81c0-42fe-a057-73c3a2ca0c6a")
 			(effects
 				(font
 					(size 1 1)
@@ -50356,7 +50356,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "cb945313-a263-4859-ae19-0900ade2bf17")
+			(uuid "3dbd7c1b-60c2-4890-aff6-6e26c0b9e585")
 			(effects
 				(font
 					(size 1 1)
@@ -50368,7 +50368,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "905093e8-4814-4d0e-9392-9368e93857a8")
+			(uuid "84c7ba4b-197a-42b7-a2c6-fba1c77e4717")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50379,7 +50379,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "492b4630-7122-4f31-a63f-5265b4211c91")
+			(uuid "d85c1b67-efd2-4c4f-9c6e-3f0059056ae2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50759,11 +50759,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "f5bf8303-2ab1-4431-91b1-17c7cb2d0f85")
-		(at 42.5 123.25 90)
+		(at 42.5 63.75 90)
 		(property "Reference" "D7"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "2346792d-f62e-4e36-ae4c-d14e5a1f15dc")
+			(uuid "a1ded7f9-55a7-4234-a847-e70b4483c386")
 			(effects
 				(font
 					(size 1 1)
@@ -50774,7 +50774,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "cebe6fff-30a8-4a8b-8e80-9e92b1a90d56")
+			(uuid "13f6ed08-6a2f-44b3-8ec6-e825d608005a")
 			(effects
 				(font
 					(size 1 1)
@@ -50786,7 +50786,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b6e7aba0-7d44-4ad4-9dc2-524e44911177")
+			(uuid "0c39f4c8-7520-4b19-9790-4dc19d7da573")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50797,7 +50797,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1aa495c8-66e0-4ab0-bfe7-d4c471859620")
+			(uuid "291af153-280e-4074-93ea-06a0e41f5739")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51167,11 +51167,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "f6dd1a8d-1b13-4f7b-89ac-e280dc62e586")
-		(at 51 123.25 90)
+		(at 51 63.75 90)
 		(property "Reference" "D12"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "b5cfbbc6-b2f7-41a8-a77b-613b183c2f0f")
+			(uuid "75da93c4-647e-4c67-b703-c5411b761eaf")
 			(effects
 				(font
 					(size 1 1)
@@ -51182,7 +51182,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "2a90c2b3-8f8a-43d6-a1b3-7417d30ac5ee")
+			(uuid "fbb8174f-3aca-4dbf-856e-e52529827bf1")
 			(effects
 				(font
 					(size 1 1)
@@ -51194,7 +51194,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "95ce7225-e346-4181-af3c-b427d7d851c3")
+			(uuid "0ae5e1f7-1fa7-4056-a320-38502afeacc9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51205,7 +51205,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5822b29-ec9e-4206-9797-acb3ac6b4af3")
+			(uuid "9b63ca54-786f-4335-8f29-ce1a58ae3d1d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51925,11 +51925,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "f9b55fce-f4cb-4267-883c-47a665cbc08a")
-		(at 102 123.25 90)
+		(at 102 63.75 90)
 		(property "Reference" "D42"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "8b89b770-4447-447a-98b7-36f0dba8d031")
+			(uuid "cd4cc941-81f9-4112-9e1f-c754c340867d")
 			(effects
 				(font
 					(size 1 1)
@@ -51940,7 +51940,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "2a59cb9c-2778-4864-aa5d-94c3e166de2f")
+			(uuid "f80f5a3d-23b1-44f0-bc27-20d7df73b9fa")
 			(effects
 				(font
 					(size 1 1)
@@ -51952,7 +51952,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ec6d3e01-5c13-4f69-94ef-92fdee4b844d")
+			(uuid "4657d212-e641-4954-bc7e-a87f4d5b3efa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51963,7 +51963,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b4fa619-2a62-477e-9b69-fe4347e52f46")
+			(uuid "bb328e02-e409-4456-bb1b-e26107fa09e4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52333,12 +52333,12 @@
 	(footprint "easyeda2kicad:CRYSTAL-SMD_4P-L3.2-W2.5-BL"
 		(layer "F.Cu")
 		(uuid "fade673a-ce1f-4a4a-8b0a-91fe3803c096")
-		(at 111.75 31.75 -90)
+		(at 110.95 34.5 -90)
 		(descr "YSX321SL 16MHZ 9PF 10PPM -40~+85℃")
 		(property "Reference" "Y1"
 			(at 0 -2.5 90)
 			(layer "F.SilkS")
-			(uuid "e29c6080-a5bd-4cac-a1e5-24fe4f58fe81")
+			(uuid "d0da7610-9e30-42d1-822e-720dbf6aa4b2")
 			(effects
 				(font
 					(size 1 1)
@@ -52349,7 +52349,7 @@
 		(property "Value" "16Mhz"
 			(at 0 2.75 90)
 			(layer "F.Fab")
-			(uuid "031a52ee-c2d1-4d20-a513-00319766ee8c")
+			(uuid "b4800054-a0e2-47f9-b81b-43f042aff239")
 			(effects
 				(font
 					(size 1 1)
@@ -52361,7 +52361,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8b76989b-de49-4bda-a4a1-06a36db95d3b")
+			(uuid "467393a1-0089-4237-a9ce-95e551bc1568")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52372,7 +52372,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "625821b6-edea-42f2-9213-ceaa9ac088a8")
+			(uuid "69940f3e-20b8-45f2-af8b-1988554d69a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52746,11 +52746,11 @@
 	(footprint "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 		(layer "F.Cu")
 		(uuid "fcf2183f-47cf-4049-97cc-9a155493d27b")
-		(at 46.75 119)
+		(at 46.75 59.5)
 		(property "Reference" "SW12"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "08f41df9-5393-4458-bd04-5f3329164093")
+			(uuid "e7b07132-ac98-4639-9925-6ca39cd927dd")
 			(effects
 				(font
 					(size 1 1)
@@ -52761,7 +52761,7 @@
 		(property "Value" "Switch"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "51c7a00d-8ad1-4984-98e0-ee905c3cdc93")
+			(uuid "a9e69c89-3b17-4d72-9f14-99b90645524c")
 			(effects
 				(font
 					(size 1 1)
@@ -52773,7 +52773,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "99e17023-844b-43be-9e1a-07a8a029d914")
+			(uuid "9a20c836-c091-4826-99d0-4f18cc702ec8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52784,7 +52784,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "018478a5-863e-48ab-9b29-f71e9a724a21")
+			(uuid "34fe94e8-8d71-48d9-86b5-7b14a19ecf99")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53164,11 +53164,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "fd421fb8-0582-4975-9267-65e3980d0e47")
-		(at 110.5 114.75 90)
+		(at 110.5 55.25 90)
 		(property "Reference" "D46"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "ef70eba2-33e2-463d-aebe-eb3abf2dfbb6")
+			(uuid "9f025746-7d75-4d1b-bb8a-de2cfa090e8c")
 			(effects
 				(font
 					(size 1 1)
@@ -53179,7 +53179,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "1a5fb557-40c9-44d6-bbc2-584b8d0aa5a1")
+			(uuid "2bd964e5-5e92-4ce2-9905-a0a9e31c4fb6")
 			(effects
 				(font
 					(size 1 1)
@@ -53191,7 +53191,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "18baf687-a270-40b8-b794-bcf399e8d0f2")
+			(uuid "91df9b2b-122a-4f84-9b3a-ec6eb849078a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53202,7 +53202,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bd64ae7d-15d2-4908-9629-13fd73b8eb1e")
+			(uuid "8c465b5f-f5df-43bd-becc-acfc79f7788e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53572,11 +53572,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "fd9d6af0-67ba-4279-b532-ed610fa217b1")
-		(at 42.5 148.75 90)
+		(at 42.5 89.25 90)
 		(property "Reference" "D10"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "4c68712a-c2ae-4dea-b653-0f2387da358c")
+			(uuid "382e54e4-4a40-4f8f-a425-52b307689165")
 			(effects
 				(font
 					(size 1 1)
@@ -53587,7 +53587,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "8148ccd1-120e-44d8-b3a9-c841e4833e53")
+			(uuid "b4b9b22d-e21e-47c2-a10a-65cf97d67ebe")
 			(effects
 				(font
 					(size 1 1)
@@ -53599,7 +53599,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c2d790a8-45bf-4d01-866f-1335c67f96ac")
+			(uuid "6d7ec68e-4a04-460c-a4ed-560019252b3a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53610,7 +53610,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cbdebe33-07f6-4ca5-bb07-3a2a67750c39")
+			(uuid "a2d222ac-2aea-487d-a498-ef8c306ab949")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53980,11 +53980,11 @@
 	(footprint "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-RD"
 		(layer "F.Cu")
 		(uuid "fe7c8ba1-1b8d-4c57-8b43-1ab9cac2adc0")
-		(at 34 131.75 90)
+		(at 34 72.25 90)
 		(property "Reference" "D3"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "566c48b8-5f13-4a68-bc25-d24e025f6530")
+			(uuid "3ba7a4c8-e48a-47b4-afd7-f733975513d3")
 			(effects
 				(font
 					(size 1 1)
@@ -53995,7 +53995,7 @@
 		(property "Value" "1N5819WS"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "3d636eac-6e4c-4013-a7cb-91fee0d9af1f")
+			(uuid "e10dead9-ae05-4946-8eb7-4bece96908c8")
 			(effects
 				(font
 					(size 1 1)
@@ -54007,7 +54007,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9b8efb85-23b7-403d-9ab5-44926da3508e")
+			(uuid "4c77171d-18e0-4511-9060-257de0468396")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54018,7 +54018,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9d22f5c8-2d63-4976-8bc8-92fd9c510735")
+			(uuid "d60404ab-6557-4dbd-8914-eddd26acf211")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55536,8 +55536,8 @@
 		)
 	)
 	(gr_rect
-		(start 28.25 28)
-		(end 130.25 94)
+		(start 24 30.75)
+		(end 129 96.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -55545,17 +55545,6 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "b1827070-6711-42da-abb3-941ebd64eb97")
-	)
-	(gr_rect
-		(start 63.5 86.5)
-		(end 93 94)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "86493efd-9d81-4cb1-b598-249c72db1c1c")
 	)
 	(group ""
 		(uuid "2803c906-c45b-4896-b38c-140c3b3bf981")
@@ -55565,14 +55554,6 @@
 		(uuid "5a581138-7958-4b49-910e-5465dd22f276")
 		(members "9591d1f5-fe79-4ee5-9f88-6b091adf8eb6" "c889c40e-2b05-4830-a1e3-4debbdf274da"
 			"fade673a-ce1f-4a4a-8b0a-91fe3803c096"
-		)
-	)
-	(group ""
-		(uuid "fbb03e6c-b24b-447d-981b-877372da07d3")
-		(members "0cf10e05-dee4-41b2-b8f0-423aeac6bdc0" "174258ee-0575-4d3c-b403-e4891f386f72"
-			"1dc7f16c-b068-479f-8b88-6cdb09a85dcb" "25545919-a32e-48fd-a8aa-fa160b8ecb52"
-			"704c4396-f9b0-40e4-b5ae-9fac1996d2c7" "aac73380-30e5-44b2-a4f3-9773f8b1076c"
-			"be6cbf77-8d92-48a1-94a0-a180526788bf" "d88b605b-9d15-482b-a5ce-c449ec29e59c"
 		)
 	)
 	(embedded_fonts no)
