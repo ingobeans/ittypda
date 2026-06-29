@@ -652,7 +652,7 @@
         "uuid": "d1aa8f6c-1644-4347-b86d-2b771500f753"
       }
     ],
-    "used_designators": "B1,J2-12,Q1,#PWR7,#PWR21,#PWR23-27,SW25,SW35,SW61,C15,LED1",
+    "used_designators": "MainD+1,J2-12,B1,Q1,#PWR7,#PWR21,#PWR23-27,SW25,SW35,SW61,LED1,C15,D+1,D\\-1,GND1-2,JVBAT1,VBAT1,MainD\\-1,MainGND1,PowerD+1,MainVBAT1,PowerD\\-1,PowerGND1,PowerVBAT1",
     "variants": []
   },
   "sheets": [
