@@ -46713,7 +46713,7 @@
 	(footprint "easyeda2kicad:CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN"
 		(layer "F.Cu")
 		(uuid "e21855d3-1224-49c7-b3b1-90a30f7ca3db")
-		(at 123.55 128.4)
+		(at 123.675 120.95)
 		(property "Reference" "CN1"
 			(at 2.5 0 90)
 			(layer "F.SilkS")
@@ -56762,7 +56762,7 @@
 		(uuid "4c81f853-998c-45a1-a926-ae21a9d017ba")
 	)
 	(gr_line
-		(start 75.75 133.8)
+		(start 75.725 128.675)
 		(end 75.75 142.5)
 		(stroke
 			(width 0.05)
@@ -56866,7 +56866,7 @@
 	)
 	(gr_line
 		(start 129 100.5)
-		(end 129.025 133.8)
+		(end 129 128.675)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -56875,8 +56875,8 @@
 		(uuid "28270744-d991-4176-a3aa-527c4d5b23c3")
 	)
 	(gr_line
-		(start 129.025 133.8)
-		(end 75.75 133.8)
+		(start 129 128.675)
+		(end 75.725 128.675)
 		(stroke
 			(width 0.05)
 			(type default)
