@@ -19774,7 +19774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:USB-C_SMD-TYPE-C-31-M-12_1"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 38.1 184.15 0)
 			(hide yes)
 			(show_name no)
