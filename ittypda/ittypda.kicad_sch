@@ -5929,6 +5929,18 @@
 		(uuid "1faabdfe-38c4-4e31-833f-b58be32b003d")
 	)
 	(rectangle
+		(start 236.22 190.5)
+		(end 330.2 251.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3878cb74-98f2-42c4-970b-d43617eac57a")
+	)
+	(rectangle
 		(start 236.22 58.42)
 		(end 391.16 190.5)
 		(stroke
@@ -6087,6 +6099,16 @@
 		)
 		(uuid "2923afde-54ca-4fcf-a722-5132469c3536")
 	)
+	(text "Secondary board connector"
+		(exclude_from_sim no)
+		(at 263.398 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c6effc8-507e-470a-b7f9-9b7f622f589e")
+	)
 	(text "Microcontroller"
 		(exclude_from_sim no)
 		(at 390.652 189.484 0)
@@ -6139,6 +6161,16 @@
 		)
 		(uuid "5b2a84ab-38dd-4e57-885a-f29027d677b8")
 	)
+	(text "Inter-board connectors"
+		(exclude_from_sim no)
+		(at 318.008 249.682 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "69863526-c744-4f49-b647-9a2ff3fcd9d9")
+	)
 	(text "Debug pins"
 		(exclude_from_sim no)
 		(at 389.89 80.01 0)
@@ -6180,6 +6212,16 @@
 			)
 		)
 		(uuid "aa1edea8-e17b-4699-865a-87e3ac8ab223")
+	)
+	(text "Mainboard connector"
+		(exclude_from_sim no)
+		(at 298.958 206.756 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ae7c83a1-f2bd-440a-8df9-35d3462789c5")
 	)
 	(text "Decouplers"
 		(exclude_from_sim no)
@@ -9791,7 +9833,7 @@
 	)
 	(global_label "Out3V3"
 		(shape input)
-		(at 257.81 205.74 180)
+		(at 264.16 219.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9801,7 +9843,7 @@
 		)
 		(uuid "0c600c57-b5b9-4a44-81de-5a53758c4b3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.112 205.74 0)
+			(at 254.462 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10127,7 +10169,7 @@
 	)
 	(global_label "InD+"
 		(shape input)
-		(at 289.56 210.82 0)
+		(at 300.99 224.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10137,7 +10179,7 @@
 		)
 		(uuid "40b450f6-a0dc-44a2-9f66-231447ddda4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.1414 210.82 0)
+			(at 308.5714 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10415,7 +10457,7 @@
 	)
 	(global_label "OutVBAT"
 		(shape input)
-		(at 257.81 208.28 180)
+		(at 264.16 222.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10425,7 +10467,7 @@
 		)
 		(uuid "679fd464-86c6-468b-b2a3-9ad951ea7bcb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.2048 208.28 0)
+			(at 253.5548 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10895,7 +10937,7 @@
 	)
 	(global_label "OutD-"
 		(shape input)
-		(at 257.81 213.36 180)
+		(at 264.16 227.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10905,7 +10947,7 @@
 		)
 		(uuid "b3a964a7-26af-47b9-af69-e3a9f5b46db2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.7772 213.36 0)
+			(at 255.1272 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11135,7 +11177,7 @@
 	)
 	(global_label "InD-"
 		(shape input)
-		(at 289.56 213.36 0)
+		(at 300.99 227.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11145,7 +11187,7 @@
 		)
 		(uuid "dc501a2f-cd85-47b8-9733-c2cf8a9f8631")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.1414 213.36 0)
+			(at 308.5714 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11207,7 +11249,7 @@
 	)
 	(global_label "InVBAT"
 		(shape input)
-		(at 289.56 208.28 0)
+		(at 300.99 222.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11217,7 +11259,7 @@
 		)
 		(uuid "e61c3e98-3ebe-4213-b941-912a4dd6bd7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.7138 208.28 0)
+			(at 310.1438 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11303,7 +11345,7 @@
 	)
 	(global_label "OutD+"
 		(shape input)
-		(at 257.81 210.82 180)
+		(at 264.16 224.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11313,7 +11355,7 @@
 		)
 		(uuid "ec224874-b6fd-4e61-939a-f7bc6053d654")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.7772 210.82 0)
+			(at 255.1272 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12624,7 +12666,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 284.48 208.28 0)
+		(at 295.91 222.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12635,7 +12677,7 @@
 		(fields_autoplaced yes)
 		(uuid "083d59cb-0cdf-4fd6-bc3a-7769cd5a83dc")
 		(property "Reference" "J14"
-			(at 285.115 198.12 0)
+			(at 296.545 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12645,7 +12687,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05_Pin"
-			(at 285.115 200.66 0)
+			(at 296.545 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12655,7 +12697,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 284.48 208.28 0)
+			(at 295.91 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12666,7 +12708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 208.28 0)
+			(at 295.91 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12677,7 +12719,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 284.48 208.28 0)
+			(at 295.91 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16577,7 +16619,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 203.2 270)
+		(at 264.16 217.17 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16588,7 +16630,7 @@
 		(fields_autoplaced yes)
 		(uuid "32e050b0-e035-4fb1-8202-35ab42c0416b")
 		(property "Reference" "#PWR021"
-			(at 251.46 203.2 0)
+			(at 257.81 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16599,7 +16641,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 203.1999 90)
+			(at 260.35 217.1699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16610,7 +16652,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 203.2 0)
+			(at 264.16 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16621,7 +16663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 203.2 0)
+			(at 264.16 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16632,7 +16674,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 203.2 0)
+			(at 264.16 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23917,7 +23959,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 289.56 205.74 270)
+		(at 300.99 219.71 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23928,7 +23970,7 @@
 		(fields_autoplaced yes)
 		(uuid "7dc69a6f-0331-4bd2-be94-d449dcc2a24a")
 		(property "Reference" "#PWR029"
-			(at 285.75 205.74 0)
+			(at 297.18 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23939,7 +23981,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 293.37 205.7399 90)
+			(at 304.8 219.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23950,7 +23992,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 289.56 205.74 0)
+			(at 300.99 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23961,7 +24003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 205.74 0)
+			(at 300.99 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23972,7 +24014,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 289.56 205.74 0)
+			(at 300.99 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30803,7 +30845,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 289.56 203.2 90)
+		(at 300.99 217.17 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30814,7 +30856,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2610f5b-8400-4e43-be12-975f055e4271")
 		(property "Reference" "#PWR028"
-			(at 295.91 203.2 0)
+			(at 307.34 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30825,7 +30867,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 293.37 203.1999 90)
+			(at 304.8 217.1699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30836,7 +30878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 289.56 203.2 0)
+			(at 300.99 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30847,7 +30889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 203.2 0)
+			(at 300.99 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30858,7 +30900,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 289.56 203.2 0)
+			(at 300.99 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35847,7 +35889,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 262.89 208.28 0)
+		(at 269.24 222.25 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -35859,7 +35901,7 @@
 		(fields_autoplaced yes)
 		(uuid "e810c45c-7973-4f79-9207-7d01f2156ca2")
 		(property "Reference" "J13"
-			(at 262.255 198.12 0)
+			(at 268.605 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35869,7 +35911,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05_Pin"
-			(at 262.255 200.66 0)
+			(at 268.605 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35879,7 +35921,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 262.89 208.28 0)
+			(at 269.24 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35890,7 +35932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 208.28 0)
+			(at 269.24 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35901,7 +35943,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 262.89 208.28 0)
+			(at 269.24 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
