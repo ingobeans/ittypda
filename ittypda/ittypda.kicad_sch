@@ -6233,17 +6233,6 @@
 		)
 		(uuid "c1171dc8-044a-4ee7-8f72-1b5ced602eac")
 	)
-	(text "Todo: check whether\nstates should be\ninverted based on\nvibes"
-		(exclude_from_sim no)
-		(at 200.406 156.972 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "cb961f36-44e0-42f4-b770-b61aeb2f043c")
-	)
 	(text "FPC Connector"
 		(exclude_from_sim no)
 		(at 390.398 250.444 0)
@@ -29224,8 +29213,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:MST-12D18G2SMDSLIDESWITCH")
-		(at 220.98 162.56 0)
-		(mirror x)
+		(at 223.52 162.56 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29235,7 +29223,7 @@
 		(dnp no)
 		(uuid "b3d01180-9b58-48bf-844b-e91f5ef4c5d2")
 		(property "Reference" "SW25"
-			(at 216.916 154.432 0)
+			(at 227.584 154.432 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29246,7 +29234,7 @@
 			)
 		)
 		(property "Value" "SLIDE SWITCH"
-			(at 216.916 156.972 0)
+			(at 227.584 156.972 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29257,7 +29245,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SW-SMD_MST-12D18G4-SPDT-SLIDE-SWITCH"
-			(at 220.98 158.75 0)
+			(at 223.52 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29268,7 +29256,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C49023765.pdf"
-			(at 220.98 156.21 0)
+			(at 223.52 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29279,7 +29267,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 162.56 0)
+			(at 223.52 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29290,7 +29278,7 @@
 			)
 		)
 		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 220.98 153.67 0)
+			(at 223.52 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29301,7 +29289,7 @@
 			)
 		)
 		(property "MPN" "MST-12D18G2 SMD Slide Switch"
-			(at 220.98 151.13 0)
+			(at 223.52 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29312,7 +29300,7 @@
 			)
 		)
 		(property "LCSC Part" "C49023767"
-			(at 220.98 148.59 0)
+			(at 223.52 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
