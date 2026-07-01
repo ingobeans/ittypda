@@ -56968,6 +56968,30 @@
 		(layer "Edge.Cuts")
 		(uuid "68ff955f-9a8a-4732-bd26-1d21efce0bd6")
 	)
+	(gr_text "-"
+		(at 122.1 110.35 0)
+		(layer "F.SilkS")
+		(uuid "45ba8783-1d95-4b73-883f-4088c1306236")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 124.075 110.325 0)
+		(layer "F.SilkS")
+		(uuid "964eb07f-51e8-4405-a90a-166e292739d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 35.2 49.15)
 		(end 35.2 50.1)
