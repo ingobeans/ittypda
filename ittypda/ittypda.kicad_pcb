@@ -40421,15 +40421,7 @@
 		(path "/d8c4c12f-23ae-4634-b808-a5fd429fc7de")
 		(sheetname "/")
 		(sheetfile "ittypda.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "16"
-					"15"
-				)
-			)
-		)
-		(attr smd)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 5.7 4.6)
@@ -65692,7 +65684,7 @@
 		)
 		(polygon
 			(pts
-				(xy 22.275 29.2) (xy 133.025 29.2) (xy 133.025 97.625) (xy 21.825 97.625) (xy 21.825 29.65)
+				(xy 21.8275 29.1975) (xy 133.025 29.2) (xy 133.025 97.625) (xy 21.825 97.625) (xy 21.8225 29.2025)
 			)
 		)
 		(filled_polygon
