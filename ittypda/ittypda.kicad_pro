@@ -76,7 +76,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|105200000|100287500|9b142873-4472-4420-be61-bb52ffa0782f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|98400000|100287500|fe6bdbde-5d7b-4a07-b617-760cfaea45d2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "unconnected_items|120504662|95229805|F.Cu|4|beba6209-30d9-4601-bab3-c7f89730626b|834b621e-b4e4-4e06-8cd7-7586a6f12ef1",
+          "The two pcbs are seperate so their ground planes wont be linked"
+        ]
+      ],
       "meta": {
         "version": 2
       },
