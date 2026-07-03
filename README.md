@@ -9,10 +9,10 @@ it's mainly intended for note-taking/writing, playing silly little videogames, a
 
 ## specs & parts
 
-* microprocessor: [STM32F401RET6](https://www.st.com/en/microcontrollers-microprocessors/stm32f401re.html)
-    * 84 MHz
+* microprocessor: [STM32F411RET6](https://www.st.com/en/microcontrollers-microprocessors/stm32f411re.html)
+    * Up to 100 MHz
     * 512 Kb flash
-    * 96 Kb RAM
+    * 128 Kb RAM
 * display: [3.5" IPS display (no touch version)](https://www.lcdwiki.com/3.5inch_IPS_SPI_Module_ST7796)
 * storage: SD card slot included on display
 * charging/data transfer over USB-C
