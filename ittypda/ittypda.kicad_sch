@@ -13541,7 +13541,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 249.936 89.408 0)
 			(show_name no)
 			(do_not_autoplace no)
