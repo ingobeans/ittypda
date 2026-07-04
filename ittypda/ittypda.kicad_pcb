@@ -59457,6 +59457,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Board V1"
+		(at 33.2 94.625 0)
+		(layer "F.SilkS")
+		(uuid "1740092d-c271-487c-b67a-5484248ad113")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "3V3"
 		(at 96.18 33.2 0)
 		(layer "F.SilkS")
