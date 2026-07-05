@@ -22,9 +22,9 @@ unsigned char rowsAmt = sizeof(rows) / sizeof(rows[0]);
 unsigned char heldSwitches[60] = {0};
 
 void readSwitches() {
-  for (unsigned char c = 0; c < sizeof(cols) / sizeof(cols[0]); c++) {
+  for (unsigned char c = 0; c < colsAmt; c++) {
     HAL_GPIO_WritePin(cols[c].bus, cols[c].pin, 1);
-    for (unsigned char r = 0; r < sizeof(rows) / sizeof(rows[0]); r++) {
+    for (unsigned char r = 0; r < rowsAmt; r++) {
       heldSwitches[c * rowsAmt + r] =
           HAL_GPIO_ReadPin(rows[r].bus, rows[r].pin);
     }
