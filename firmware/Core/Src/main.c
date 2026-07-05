@@ -1,12 +1,17 @@
 /* USER CODE BEGIN Header */
-#include "system.h"
+
+/*
+hello!
+this file is the entrypoint while the actual system's code lives in system.c
+*/
+
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "system.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/

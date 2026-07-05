@@ -1,7 +1,8 @@
 #include "main.h"
+#include "rust.h"
 
 typedef struct {
-  int pin;
+  u16 pin;
   GPIO_TypeDef *bus;
 } SPECIFIC_PIN;
 
@@ -17,14 +18,14 @@ SPECIFIC_PIN rows[] = {{GPIO_PIN_14, GPIOB},
                        {GPIO_PIN_7, GPIOC},
                        {GPIO_PIN_8, GPIOC}};
 
-unsigned char colsAmt = sizeof(cols) / sizeof(cols[0]);
-unsigned char rowsAmt = sizeof(rows) / sizeof(rows[0]);
-unsigned char heldSwitches[60] = {0};
+u8 colsAmt = sizeof(cols) / sizeof(cols[0]);
+u8 rowsAmt = sizeof(rows) / sizeof(rows[0]);
+u8 heldSwitches[60] = {0};
 
 void readSwitches() {
-  for (unsigned char c = 0; c < colsAmt; c++) {
+  for (u8 c = 0; c < colsAmt; c++) {
     HAL_GPIO_WritePin(cols[c].bus, cols[c].pin, 1);
-    for (unsigned char r = 0; r < rowsAmt; r++) {
+    for (u8 r = 0; r < rowsAmt; r++) {
       heldSwitches[c * rowsAmt + r] =
           HAL_GPIO_ReadPin(rows[r].bus, rows[r].pin);
     }
