@@ -31,6 +31,8 @@ message("Build type: " ${CMAKE_BUILD_TYPE})
 # Enable CMake support for ASM and C languages
 enable_language(C ASM)
 
+set(SOURCES Core/Src/system.c Core/Inc/system.h)
+
 # Create an executable object type
 add_executable(${CMAKE_PROJECT_NAME})
 
@@ -45,12 +47,16 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
+    ${SOURCES}
 )
 
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
 )
+
+#target_include_directories(ittypda PRIVATE ${CMAKE_PROJECT_NAME}/Core/Inc)
+#target_include_directories(ittypda PRIVATE "Core/Inc")
 
 # Add project symbols (macros)
 target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE
