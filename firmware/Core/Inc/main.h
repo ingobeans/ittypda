@@ -1,5 +1,16 @@
 /* USER CODE BEGIN Header */
+
+// this if only passes in for my clangd lsp
+// i use it for some development definitions
+#ifndef STM32F411xE
+
 #define STM32F411xE
+
+// not the actual compiler but for some reason this is the only one that doesnt
+// cause my language server to have a panic attack:
+#define __ARMCC_VERSION 6010050
+
+#endif
 /* USER CODE END Header */
 
 /* Define to prevent recursive inclusion -------------------------------------*/

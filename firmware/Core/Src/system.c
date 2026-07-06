@@ -1,6 +1,5 @@
 #include "main.h"
 #include "rust.h"
-#include "stm32f4xx_hal_def.h"
 
 #define COLS_AMT 12
 #define ROWS_AMT 5
