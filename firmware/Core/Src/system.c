@@ -48,7 +48,7 @@ char charKeysAlt[ROWS_AMT][COLS_AMT] = {
     "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00",
     "\x00|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"};
 
-char getKeyAt(u8 col, u8 row) {
+char getKeyAt(u8 row, u8 col) {
   u8 shift = heldSwitches[3 * COLS_AMT + 0];
   u8 alt = heldSwitches[4 * COLS_AMT + 3] || heldSwitches[4 * COLS_AMT + 8];
   if (shift && alt)
