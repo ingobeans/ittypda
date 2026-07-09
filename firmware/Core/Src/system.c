@@ -1,5 +1,7 @@
+#include "system.h"
 #include "main.h"
 #include "rust.h"
+#include "st7789.h"
 
 #define COLS_AMT 12
 #define ROWS_AMT 5
@@ -69,6 +71,11 @@ void readSwitches() {
     HAL_GPIO_WritePin(cols[c].bus, cols[c].pin, 0);
     // todo: maybe add delay here if interference.
   }
+}
+
+void init() {
+  ST7789_Init();
+  HAL_GPIO_WritePin(GPIOA, LED, 1);
 }
 
 void update() {
