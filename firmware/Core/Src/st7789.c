@@ -9,7 +9,7 @@ uint16_t DMA_MIN_SIZE = 16;
  * Then you can specify the framebuffer size to the full resolution below.
  */
 #define HOR_LEN 32 //	Also mind the resolution of your screen!
-uint16_t disp_buf[ST7789_WIDTH * HOR_LEN];
+uint8_t disp_buf[ST7789_WIDTH * HOR_LEN];
 #endif
 
 /**
