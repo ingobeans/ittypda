@@ -42513,7 +42513,6 @@
 		(embedded_fonts no)
 	)
 	(footprint "easyeda2kicad:SW-SMD_MST-12D18G4-SPDT-SLIDE-SWITCH"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "c7189cc1-93db-402c-8aae-11d0a6286e20")
 		(at 101.8 103.4875 180)
