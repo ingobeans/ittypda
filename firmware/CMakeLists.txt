@@ -31,7 +31,7 @@ message("Build type: " ${CMAKE_BUILD_TYPE})
 # Enable CMake support for ASM and C languages
 enable_language(C ASM)
 
-set(SOURCES Core/Src/system.c Core/Inc/system.h Core/Src/fonts.c Core/Src/st7789.c Core/Inc/fonts.h Core/Inc/st7789.h)
+# set(SOURCES Core/Src/system.c Core/Inc/system.h Core/Src/fonts.c Core/Src/st7789.c Core/Inc/fonts.h Core/Inc/st7789.h)
 
 # Create an executable object type
 add_executable(${CMAKE_PROJECT_NAME})
@@ -47,7 +47,20 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
-    ${SOURCES}
+    Core/Src/fonts.c
+    Core/Inc/fonts.h
+    Core/Src/graphics.c
+    Core/Inc/graphics.h
+    Core/Src/system.c
+    Core/Inc/system.h
+    Core/Src/st7789.c
+    Core/Src/sd_diskio_spi.c
+    Core/Src/sd_functions.c
+    Core/Src/sd_spi.c
+    Core/Inc/st7789.h
+    Core/Inc/sd_diskio_spi.h
+    Core/Inc/sd_functions.h
+    Core/Inc/sd_spi.h
 )
 
 # Add include paths

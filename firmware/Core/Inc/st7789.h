@@ -3,9 +3,10 @@
 
 #include "fonts.h"
 #include "main.h"
+#include "system.h"
 
 /* choose a Hardware SPI port to use. */
-#define ST7789_SPI_PORT hspi3
+#define ST7789_SPI_PORT HSPI
 extern SPI_HandleTypeDef ST7789_SPI_PORT;
 
 /* choose whether use DMA or not */
@@ -15,15 +16,6 @@ extern SPI_HandleTypeDef ST7789_SPI_PORT;
 // #define CFG_NO_CS
 
 /* Pin connection*/
-
-// my defs
-#define LCD_CS GPIO_PIN_13  // C
-#define LCD_RST GPIO_PIN_14 // C
-#define LCD_RS GPIO_PIN_15  // C
-
-#define LED GPIO_PIN_0 // C
-
-#define SD_CS GPIO_PIN_1 // C
 
 // #define MOSI GPIO_PIN_12 // C
 // #define MISO GPIO_PIN_11 // C
@@ -314,6 +306,22 @@ void ST7789_TearEffect(uint8_t tear);
 
 /* Simple test function. */
 void ST7789_Test(void);
+
+// exposed functions:
+
+void ST7789_WriteData(uint8_t *buff, size_t buff_size);
+void ST7789_SetAddressWindow(uint16_t x0, uint16_t y0, uint16_t x1,
+                             uint16_t y1);
+
+#ifdef USE_DMA
+/* If you're using DMA, then u need a "framebuffer" to store datas to be
+ * displayed. If your MCU don't have enough RAM, please avoid using DMA(or set 5
+ * to 1). And if your MCU have enough RAM(even larger than full-frame size),
+ * Then you can specify the framebuffer size to the full resolution below.
+ */
+#define HOR_LEN 40 //	Also mind the resolution of your screen!
+extern uint8_t disp_buf[ST7789_WIDTH * HOR_LEN * 2];
+#endif
 
 #ifndef ST7789_ROTATION
 #error You should at least choose a display rotation!

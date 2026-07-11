@@ -8,8 +8,7 @@ uint16_t DMA_MIN_SIZE = 16;
  * to 1). And if your MCU have enough RAM(even larger than full-frame size),
  * Then you can specify the framebuffer size to the full resolution below.
  */
-#define HOR_LEN 32 //	Also mind the resolution of your screen!
-uint8_t disp_buf[ST7789_WIDTH * HOR_LEN];
+uint8_t disp_buf[ST7789_WIDTH * HOR_LEN * 2];
 #endif
 
 /**
@@ -30,7 +29,7 @@ static void ST7789_WriteCommand(uint8_t cmd) {
  * @param buff_size -> size of the data buffer
  * @return none
  */
-static void ST7789_WriteData(uint8_t *buff, size_t buff_size) {
+void ST7789_WriteData(uint8_t *buff, size_t buff_size) {
   ST7789_Select();
   ST7789_DC_Set();
 
@@ -99,8 +98,8 @@ void ST7789_SetRotation(uint8_t m) {
  * @param xi&yi -> coordinates of window
  * @return none
  */
-static void ST7789_SetAddressWindow(uint16_t x0, uint16_t y0, uint16_t x1,
-                                    uint16_t y1) {
+void ST7789_SetAddressWindow(uint16_t x0, uint16_t y0, uint16_t x1,
+                             uint16_t y1) {
   ST7789_Select();
   uint16_t x_start = x0 + X_SHIFT, x_end = x1 + X_SHIFT;
   uint16_t y_start = y0 + Y_SHIFT, y_end = y1 + Y_SHIFT;

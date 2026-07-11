@@ -1,7 +1,9 @@
 #include "system.h"
-#include "main.h"
+#include "graphics.h"
 #include "rust.h"
+#include "sd_functions.h"
 #include "st7789.h"
+
 
 #define COLS_AMT 12
 #define ROWS_AMT 5
@@ -74,8 +76,19 @@ void readSwitches() {
 }
 
 void init() {
+  initSPI(SPI_BAUDRATEPRESCALER_2);
   ST7789_Init();
   HAL_GPIO_WritePin(GPIOA, LED, 1);
+
+  initSPI(SPI_BAUDRATEPRESCALER_256);
+  if (sd_mount() == FR_OK) {
+    initSPI(SPI_BAUDRATEPRESCALER_8);
+    drawIbiImage("images/home.ibi");
+    sd_unmount();
+  }
+
+  print("hello, world!");
+  print_flush();
 }
 
 void update() {
