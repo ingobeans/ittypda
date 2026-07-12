@@ -1,4 +1,5 @@
 #include "graphics.h"
+#include "fonts.h"
 #include "main.h"
 #include <stdarg.h>
 #include <stdio.h>
@@ -96,9 +97,13 @@ void initSPI(u32 BaudRatePrescaler) {
   }
 }
 
-int streamFile(char *filename, void (*f)()) {
+typedef struct {
+  u32 totalBytesRead;
+  u16 chunkIndex;
+} STREAM_FILE_CTX;
+
+int streamFile(char *filename, void (*f)(STREAM_FILE_CTX)) {
   FIL file;
-  UINT total_bytes_read = 12;
 
   FRESULT res = f_open(&file, filename, FA_READ);
   if (res != FR_OK) {
@@ -107,8 +112,9 @@ int streamFile(char *filename, void (*f)()) {
   }
 
   UINT bytes_read = 0;
+  STREAM_FILE_CTX ctx = {12, 0};
   while (1) {
-    res = f_lseek(&file, total_bytes_read);
+    res = f_lseek(&file, ctx.totalBytesRead);
     if (res != FR_OK) {
       print("f_seek failed with code: %d\r\n", res);
     }
@@ -116,30 +122,110 @@ int streamFile(char *filename, void (*f)()) {
     if (res != FR_OK) {
       print("f_read failed with code: %d\r\n", res);
     }
-    total_bytes_read += bytes_read;
+    ctx.totalBytesRead += bytes_read;
     if (bytes_read != FILE_STREAM_BUF_SIZE) {
       // end of file reached
       break;
     }
 
     // use streamed data here!
-    f();
+    f(ctx);
+    ctx.chunkIndex++;
   }
   res = f_close(&file);
   if (res != FR_OK) {
     print("f_close failed with code: %d\r\n", res);
     return res;
   }
+  print("%d bytes read!", ctx.totalBytesRead);
 }
 
-void _drawIbiImageCallback() {
+void _drawIBICallback() {
   initSPI(SPI_BAUDRATEPRESCALER_2);
   ST7789_Select();
   ST7789_WriteData(FILE_STREAM_BUF, FILE_STREAM_BUF_SIZE);
   ST7789_UnSelect();
   initSPI(SPI_BAUDRATEPRESCALER_8);
 }
-int drawIbiImage(char *filename) {
+int drawIBI(char *filename) {
   ST7789_SetAddressWindow(0, 0, ST7789_WIDTH - 1, ST7789_HEIGHT - 1);
-  streamFile(filename, _drawIbiImageCallback);
+  streamFile(filename, _drawIBICallback);
+}
+
+void writeCharToBuffer(u16 x, i16 y, char ch, FontDef font, u16 color,
+                       u8 *buffer, u16 bufferWidth, u16 bufferHeight) {
+  uint32_t b, j;
+  u32 count = 0;
+  if (y > 0) {
+    count += bufferWidth * 2 * y;
+  }
+  i16 start = 0;
+  if (y < 0) {
+    start = -y;
+  }
+
+  for (i16 i = start; i < font.height; i++) {
+    if (i + y >= bufferHeight) {
+      break;
+    }
+    count += x * 2;
+
+    unsigned char bc = ch;
+    if (bc >= 128) {
+      bc -= 1;
+    }
+    b = font.data[((bc - 32) * font.height + i)];
+    for (j = 0; j < font.width; j++) {
+      if ((b << j) & 0x8000) {
+        buffer[count] = color >> 8;
+        buffer[count + 1] = color & 0xFF;
+      }
+      count += 2;
+    }
+    // move count by remaining horizontal bytes
+    count += (bufferWidth - font.width - x) * 2;
+  }
+}
+
+char *textOverlayText;
+FontDef *textOverlayFont;
+u16 textOverlayX;
+u16 textOverlayY;
+
+void _drawIBITextOverlayCallback(STREAM_FILE_CTX ctx) {
+  i16 currentChunkY = ctx.chunkIndex * FILE_STREAM_BUF_SIZE / 480 / 2;
+  if ((currentChunkY + HOR_LEN >= textOverlayY &&
+       currentChunkY + HOR_LEN <= textOverlayY + textOverlayFont->height) ||
+      (currentChunkY >= textOverlayY &&
+       currentChunkY <= textOverlayY + textOverlayFont->height)) {
+    // draw text!!
+    i16 y = textOverlayY;
+    u16 x = textOverlayX;
+    u16 i = 0;
+    while (textOverlayText[i]) {
+      if (x + textOverlayFont->width >= ST7789_WIDTH ||
+          y + textOverlayFont->height >= ST7789_HEIGHT) {
+        break;
+      }
+      writeCharToBuffer(x, y - currentChunkY, textOverlayText[i],
+                        *textOverlayFont, WHITE, FILE_STREAM_BUF, 480,
+                        FILE_STREAM_BUF_SIZE / 480 / 2);
+      x += textOverlayFont->width;
+      i++;
+    }
+  }
+  initSPI(SPI_BAUDRATEPRESCALER_2);
+  ST7789_Select();
+  ST7789_WriteData(FILE_STREAM_BUF, FILE_STREAM_BUF_SIZE);
+  ST7789_UnSelect();
+  initSPI(SPI_BAUDRATEPRESCALER_8);
+}
+int drawIBITextOverlay(u16 x, u16 y, char *text, FontDef *font,
+                       char *filename) {
+  ST7789_SetAddressWindow(0, 0, ST7789_WIDTH - 1, ST7789_HEIGHT - 1);
+  textOverlayText = text;
+  textOverlayFont = font;
+  textOverlayX = x;
+  textOverlayY = y;
+  streamFile(filename, _drawIBITextOverlayCallback);
 }

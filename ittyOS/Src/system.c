@@ -62,20 +62,21 @@ void init() {
   initSPI(SPI_BAUDRATEPRESCALER_2);
   ST7789_Init();
   HAL_GPIO_WritePin(GPIOA, LED, 1);
+  print("\n\n\n\n");
 
   initSPI(SPI_BAUDRATEPRESCALER_256);
   if (sd_mount() == FR_OK) {
     initSPI(SPI_BAUDRATEPRESCALER_8);
-    drawIbiImage("images/home.ibi");
+    // drawIBI("images/home.ibi");
+    drawIBITextOverlay(5, 65, "Hello there!!!", &Font_16x26, "images/home.ibi");
     sd_unmount();
   } else {
     initSPI(SPI_BAUDRATEPRESCALER_2);
   }
 
-  clear_print_buffer();
-  print("hello, world !!\n");
+  // clear_print_buffer();
   // ST7789_Fill_Color(BLACK);
-  print_flush(Font_11x18);
+  // print_flush(Font_11x18);
 }
 
 void update() {
