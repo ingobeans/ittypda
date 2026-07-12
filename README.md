@@ -34,10 +34,6 @@ easyeda2kicad --full --lcsc_id C318884 C191023 C22435642 C13738 C81080 C49023767
 
 which will download footprints/symbols/3d models for the switches, diodes, etc.
 
-<hr>
-
-<sup>made with <3</sup>
-
 ## compile ittyOS
 
 so, for development purposes, ittyOS is made to be partially portable. this is so i can build it either for a devboard i have on hand, or for the actual ittyPDA device.
@@ -53,3 +49,7 @@ then, to build, navigate to the firmware you want to build's directory.
 1. `cmake --preset Debug` (you only have to run this once)
 2. `cmake --build --preset Debug`
 3. `STM32_Programmer_CLI -c port=swd -w build/Debug/<DEVBOARD OR ITTYPDA HERE>.elf -v -rst`
+
+<hr>
+
+<sup>made with <3</sup>
