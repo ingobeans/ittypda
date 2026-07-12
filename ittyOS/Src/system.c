@@ -78,9 +78,8 @@ void init() {
     DRAW_IBI_CONFIG cfg = {87, 0, 78, 0};
     clear_print_buffer();
     drawIBI("images/cat.ibi", (480 - 250) / 2, (320 - 162) / 2 + 60, cfg);
-    DRAW_IBI_CONFIG cfg2 = {87, 23, 78, 60};
-    drawIBI("images/cat.ibi", (480 - 250) / 2 + 110, (320 - 162) / 2 + 60,
-            cfg2);
+    DRAW_IBI_CONFIG cfg2 = {87, 23, 78, 60, 1};
+    drawIBI("images/cat.ibi", 480 / 2, 320 / 2, cfg2);
     sd_unmount();
   } else {
     initSPI(SPI_BAUDRATEPRESCALER_2);

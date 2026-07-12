@@ -248,6 +248,10 @@ int drawIBI(char *filename, u16 x, u16 y, DRAW_IBI_CONFIG drawIBIConfig) {
     return 1;
   }
   ctx.readStartOffset = drawIBIRealWidth * 2 * drawIBIConfig.cropY + 12;
+  if (activeDrawIBIConfig->centered) {
+    x -= drawIBIWidth / 2;
+    y -= drawIBIHeight / 2;
+  }
   ST7789_SetAddressWindow(x, y, x + drawIBIWidth - 1, y + drawIBIHeight - 1);
   if (res != FR_OK) {
     print("f_close failed with code: %d\r\n", res);

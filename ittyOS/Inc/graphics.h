@@ -10,6 +10,9 @@ typedef struct {
   u16 cropWidth;
   /// Configure crop height. 0 counts as no height bounds.
   u16 cropHeight;
+  /// Whether the image should be drawn centered around the position gived to
+  /// the draw function
+  u8 centered;
 } DRAW_IBI_CONFIG;
 
 extern DRAW_IBI_CONFIG DEFAULT_DRAW_IBI_CONFIG;
