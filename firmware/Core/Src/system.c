@@ -1,10 +1,11 @@
 #include "system.h"
+#include "fonts.h"
 #include "graphics.h"
 #include "rust.h"
 #include "sd_functions.h"
 #include "st7789.h"
 
-
+#ifdef wa
 #define COLS_AMT 12
 #define ROWS_AMT 5
 
@@ -74,6 +75,7 @@ void readSwitches() {
     // todo: maybe add delay here if interference.
   }
 }
+#endif
 
 void init() {
   initSPI(SPI_BAUDRATEPRESCALER_2);
@@ -87,12 +89,14 @@ void init() {
     sd_unmount();
   }
 
-  print("hello, world!");
-  print_flush();
+  clear_print_buffer();
+  print("hello, world !!\n");
+  ST7789_Fill_Color(BLACK);
+  print_flush(Font_11x18);
 }
 
 void update() {
-  readSwitches();
-  getKeyAt(1, 1);
+  // readSwitches();
+  // getKeyAt(1, 1);
   HAL_Delay(60);
 }

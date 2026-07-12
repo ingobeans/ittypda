@@ -30,10 +30,16 @@ void print(char *fmt, ...) {
   va_end(argptr);
 }
 
-void print_flush() {
-  u16 LINE_HEIGHT = 12;
+void clear_print_buffer() { print_length = 0; }
+
+void print_flush(FontDef font) {
+  u16 line_height = font.height * 6 / 5;
   u16 offset = 0;
   char buf[128];
+
+  if (print_length < PRINT_BUFFER_MAX - 1) {
+    print_output[print_length + 1] = 0;
+  }
 
   int p = 0;
   for (int i = 0; i < PRINT_BUFFER_MAX; i++) {
@@ -42,14 +48,14 @@ void print_flush() {
       break;
 
     if (c == '\r') {
-    } else if (c == '\n' || p >= 67) {
+    } else if (c == '\n' || p >= (480 / font.width)) {
       buf[p] = 0;
       p = 0;
-      ST7789_WriteString(0, offset, buf, Font_7x10, WHITE, BLACK);
-      offset += LINE_HEIGHT;
-      if (offset >= 24 * LINE_HEIGHT) {
-        ST7789_WriteString(0, offset, "...continuing in 5 second", Font_7x10,
-                           WHITE, BLACK);
+      ST7789_WriteString(0, offset, buf, font, WHITE, BLACK);
+      offset += line_height;
+      if (offset >= 320 - 2 * line_height) {
+        ST7789_WriteString(0, offset, "...continuing in 5 seconds", font, WHITE,
+                           BLACK);
         HAL_Delay(5000);
         offset = 0;
         ST7789_Fill_Color(BLACK);
@@ -65,7 +71,7 @@ void print_flush() {
     }
   }
   buf[p] = 0;
-  ST7789_WriteString(0, offset, buf, Font_7x10, WHITE, BLACK);
+  ST7789_WriteString(0, offset, buf, font, WHITE, BLACK);
 }
 
 void initSPI(u32 BaudRatePrescaler) {
@@ -129,7 +135,6 @@ int drawIbiImage(char *filename) {
     return res;
   }
 
-  print("finished reading! %d bytes read. %d. s\n", total_bytes_read - 12,
-        file.fptr);
+  print("finished reading! %d bytes read.\n", total_bytes_read - 12, file.fptr);
   return 0;
 }
