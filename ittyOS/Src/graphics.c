@@ -96,8 +96,7 @@ void initSPI(u32 BaudRatePrescaler) {
   }
 }
 
-int drawIbiImage(char *filename) {
-  // char *filename = "test.txt";
+int streamFile(char *filename, void (*f)()) {
   FIL file;
   UINT total_bytes_read = 12;
 
@@ -107,7 +106,6 @@ int drawIbiImage(char *filename) {
     return res;
   }
 
-  ST7789_SetAddressWindow(0, 0, ST7789_WIDTH - 1, ST7789_HEIGHT - 1);
   UINT bytes_read = 0;
   while (1) {
     res = f_lseek(&file, total_bytes_read);
@@ -124,21 +122,24 @@ int drawIbiImage(char *filename) {
       break;
     }
 
-    // use data here!
-
-    initSPI(SPI_BAUDRATEPRESCALER_2);
-    ST7789_Select();
-    ST7789_WriteData(FILE_STREAM_BUF, FILE_STREAM_BUF_SIZE);
-    ST7789_UnSelect();
-    initSPI(SPI_BAUDRATEPRESCALER_8);
+    // use streamed data here!
+    f();
   }
-
   res = f_close(&file);
   if (res != FR_OK) {
     print("f_close failed with code: %d\r\n", res);
     return res;
   }
+}
 
-  print("finished reading! %d bytes read.\n", total_bytes_read - 12, file.fptr);
-  return 0;
+void _drawIbiImageCallback() {
+  initSPI(SPI_BAUDRATEPRESCALER_2);
+  ST7789_Select();
+  ST7789_WriteData(FILE_STREAM_BUF, FILE_STREAM_BUF_SIZE);
+  ST7789_UnSelect();
+  initSPI(SPI_BAUDRATEPRESCALER_8);
+}
+int drawIbiImage(char *filename) {
+  ST7789_SetAddressWindow(0, 0, ST7789_WIDTH - 1, ST7789_HEIGHT - 1);
+  streamFile(filename, _drawIbiImageCallback);
 }

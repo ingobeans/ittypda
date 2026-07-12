@@ -74,7 +74,7 @@ void init() {
 
   clear_print_buffer();
   print("hello, world !!\n");
-  ST7789_Fill_Color(BLACK);
+  // ST7789_Fill_Color(BLACK);
   print_flush(Font_11x18);
 }
 
