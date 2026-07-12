@@ -3,6 +3,7 @@
 #include "main.h"
 #include <stdarg.h>
 #include <stdio.h>
+#include <string.h>
 
 #include "fatfs.h"
 #include "ff.h"
@@ -98,58 +99,115 @@ void initSPI(u32 BaudRatePrescaler) {
 }
 
 typedef struct {
+  u8 success;
   u32 totalBytesRead;
   u16 chunkIndex;
+  FIL file;
 } STREAM_FILE_CTX;
 
-int streamFile(char *filename, void (*f)(STREAM_FILE_CTX)) {
-  FIL file;
+STREAM_FILE_CTX beginFileStream(char *filename) {
+  STREAM_FILE_CTX ctx = {0};
 
-  FRESULT res = f_open(&file, filename, FA_READ);
+  FRESULT res = f_open(&ctx.file, filename, FA_READ);
   if (res != FR_OK) {
     print("f_open failed with code: %d\r\n", res);
-    return res;
+    ctx.success = res;
+    return ctx;
   }
+  return ctx;
+}
 
+int streamFile(STREAM_FILE_CTX *ctx, void f(STREAM_FILE_CTX *)) {
   UINT bytes_read = 0;
-  STREAM_FILE_CTX ctx = {12, 0};
+  FRESULT res;
   while (1) {
-    res = f_lseek(&file, ctx.totalBytesRead);
+    res = f_lseek(&ctx->file, ctx->totalBytesRead);
     if (res != FR_OK) {
       print("f_seek failed with code: %d\r\n", res);
     }
-    res = f_read(&file, FILE_STREAM_BUF, FILE_STREAM_BUF_SIZE, &bytes_read);
+    res =
+        f_read(&ctx->file, FILE_STREAM_BUF, FILE_STREAM_BUF_SIZE, &bytes_read);
     if (res != FR_OK) {
       print("f_read failed with code: %d\r\n", res);
     }
-    ctx.totalBytesRead += bytes_read;
+    // use streamed data here!
+    f(ctx);
+    ctx->totalBytesRead += bytes_read;
+
     if (bytes_read != FILE_STREAM_BUF_SIZE) {
       // end of file reached
       break;
     }
 
-    // use streamed data here!
-    f(ctx);
-    ctx.chunkIndex++;
+    ctx->chunkIndex++;
   }
-  res = f_close(&file);
+  res = f_close(&ctx->file);
   if (res != FR_OK) {
     print("f_close failed with code: %d\r\n", res);
     return res;
   }
-  print("%d bytes read!", ctx.totalBytesRead);
+  return 0;
 }
 
-void _drawIBICallback() {
+u32 drawIBIWidth;
+u32 drawIBIHeight;
+
+int mint(u32 a, u32 b) {
+  if (b < a) {
+    return b;
+  } else {
+    return a;
+  }
+}
+
+void _drawIBICallback(STREAM_FILE_CTX *ctx) {
+  u32 remainingBytes =
+      drawIBIWidth * drawIBIHeight * 2 - ctx->totalBytesRead + 12;
+  u32 streamBytesAmt = mint(remainingBytes, FILE_STREAM_BUF_SIZE);
+  initSPI(SPI_BAUDRATEPRESCALER_2);
+  ST7789_Select();
+  ST7789_WriteData(FILE_STREAM_BUF, streamBytesAmt);
+  ST7789_UnSelect();
+  initSPI(SPI_BAUDRATEPRESCALER_8);
+}
+int drawIBI(char *filename, u16 x, u16 y) {
+  STREAM_FILE_CTX ctx = beginFileStream(filename);
+  char header[12];
+  char magic[5] = {0};
+  FRESULT res = f_read(&ctx.file, header, 12, 0);
+  memcpy(magic, header, 4);
+  memcpy(&drawIBIWidth, &header[4], 4);
+  memcpy(&drawIBIHeight, &header[8], 4);
+  print("magic: '%s' - width: %d - height: %d\n", magic, drawIBIWidth,
+        drawIBIHeight);
+  if (strcmp(magic, "ibi!")) {
+    print("error: bad magic\n");
+    return 1;
+  }
+  ST7789_SetAddressWindow(x, y, x + drawIBIWidth - 1, y + drawIBIHeight - 1);
+  if (res != FR_OK) {
+    print("f_close failed with code: %d\r\n", res);
+    return res;
+  }
+  ctx.totalBytesRead = 12;
+  streamFile(&ctx, _drawIBICallback);
+  print("total bytes: %d\ntarget bytes: %d\n", ctx.totalBytesRead - 12,
+        drawIBIWidth * drawIBIHeight * 2);
+  return 0;
+}
+
+void _drawIBIFullscreenCallback() {
   initSPI(SPI_BAUDRATEPRESCALER_2);
   ST7789_Select();
   ST7789_WriteData(FILE_STREAM_BUF, FILE_STREAM_BUF_SIZE);
   ST7789_UnSelect();
   initSPI(SPI_BAUDRATEPRESCALER_8);
 }
-int drawIBI(char *filename) {
+int drawIBIFullscreen(char *filename) {
   ST7789_SetAddressWindow(0, 0, ST7789_WIDTH - 1, ST7789_HEIGHT - 1);
-  streamFile(filename, _drawIBICallback);
+  STREAM_FILE_CTX ctx = beginFileStream(filename);
+  ctx.totalBytesRead = 12;
+  streamFile(&ctx, _drawIBIFullscreenCallback);
 }
 
 void writeCharToBuffer(u16 x, i16 y, char ch, FontDef font, u16 color,
@@ -192,8 +250,8 @@ FontDef *textOverlayFont;
 u16 textOverlayX;
 u16 textOverlayY;
 
-void _drawIBITextOverlayCallback(STREAM_FILE_CTX ctx) {
-  i16 currentChunkY = ctx.chunkIndex * FILE_STREAM_BUF_SIZE / 480 / 2;
+void _drawIBITextOverlayCallback(STREAM_FILE_CTX *ctx) {
+  i16 currentChunkY = ctx->chunkIndex * FILE_STREAM_BUF_SIZE / 480 / 2;
   if ((currentChunkY + HOR_LEN >= textOverlayY &&
        currentChunkY + HOR_LEN <= textOverlayY + textOverlayFont->height) ||
       (currentChunkY >= textOverlayY &&
@@ -227,5 +285,7 @@ int drawIBITextOverlay(u16 x, u16 y, char *text, FontDef *font,
   textOverlayFont = font;
   textOverlayX = x;
   textOverlayY = y;
-  streamFile(filename, _drawIBITextOverlayCallback);
+  STREAM_FILE_CTX ctx = beginFileStream(filename);
+  ctx.totalBytesRead = 12;
+  streamFile(&ctx, _drawIBITextOverlayCallback);
 }
