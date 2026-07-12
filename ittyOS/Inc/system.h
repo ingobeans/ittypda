@@ -1,4 +1,4 @@
-#define VERSION "0.3.3"
+#define VERSION "0.3.4"
 
 #include "conf.h"
 #include "main.h"

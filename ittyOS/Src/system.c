@@ -4,6 +4,7 @@
 #include "rust.h"
 #include "sd_functions.h"
 #include "st7789.h"
+#include "stm32f4xx_hal.h"
 
 #ifdef KEYBOARD_MATRIX
 
@@ -71,7 +72,15 @@ void init() {
     // drawIBIFullscreen("images/home.ibi");
     // drawIBITextOverlay(5, 65, "Hello there!!!", &Font_16x26,
     // "images/home.ibi");
-    drawIBI("images/cat.ibi", (480 - 250) / 2, (320 - 162) / 2);
+    drawIBI("images/cat.ibi", 0, 0, DEFAULT_DRAW_IBI_CONFIG);
+    DRAW_IBI_CONFIG cfg3 = {0, 0, 0, 104};
+    drawIBI("images/cat.ibi", 480 - 260, 320 - 125, cfg3);
+    DRAW_IBI_CONFIG cfg = {87, 0, 78, 0};
+    clear_print_buffer();
+    drawIBI("images/cat.ibi", (480 - 250) / 2, (320 - 162) / 2 + 60, cfg);
+    DRAW_IBI_CONFIG cfg2 = {87, 23, 78, 60};
+    drawIBI("images/cat.ibi", (480 - 250) / 2 + 110, (320 - 162) / 2 + 60,
+            cfg2);
     sd_unmount();
   } else {
     initSPI(SPI_BAUDRATEPRESCALER_2);
