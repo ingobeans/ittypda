@@ -8,6 +8,9 @@
 #define LED GPIO_PIN_0
 #define LED_PORT GPIOC
 
+#define DEBUG_LED GPIO_PIN_15
+#define DEBUG_LED_PORT GPIOA
+
 // #define MOSI GPIO_PIN_12
 // #define MOSI_PORT GPIOC
 // #define MISO GPIO_PIN_11
@@ -17,6 +20,7 @@
 
 #define SD_CS GPIO_PIN_1
 #define SD_CS_PORT GPIOC
+#define DEBUG_LED_ON_STATE 1
 
 #define HSPI hspi3
 

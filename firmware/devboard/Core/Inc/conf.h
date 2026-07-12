@@ -8,6 +8,10 @@
 #define LED GPIO_PIN_3
 #define LED_PORT GPIOA
 
+#define DEBUG_LED GPIO_PIN_13
+#define DEBUG_LED_PORT GPIOC
+#define DEBUG_LED_ON_STATE 0
+
 // #define MOSI GPIO_PIN_7
 // #define MOSI_PORT GPIOA
 // #define MISO GPIO_PIN_6

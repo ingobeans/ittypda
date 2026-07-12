@@ -59,9 +59,10 @@ void readSwitches() {
 #endif
 
 void init() {
+  HAL_GPIO_WritePin(DEBUG_LED_PORT, DEBUG_LED, !DEBUG_LED_ON_STATE);
   initSPI(SPI_BAUDRATEPRESCALER_2);
   ST7789_Init();
-  HAL_GPIO_WritePin(GPIOA, LED, 1);
+  HAL_GPIO_WritePin(LED_PORT, LED, 1);
   print("\n\n\n\n");
 
   initSPI(SPI_BAUDRATEPRESCALER_256);
