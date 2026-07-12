@@ -19,7 +19,7 @@ if(NOT CMAKE_BUILD_TYPE)
 endif()
 
 # Set the project name
-set(CMAKE_PROJECT_NAME ittypda)
+set(CMAKE_PROJECT_NAME devboard)
 
 # Enable compile command to ease indexing with e.g. clangd
 set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
@@ -30,8 +30,6 @@ message("Build type: " ${CMAKE_BUILD_TYPE})
 
 # Enable CMake support for ASM and C languages
 enable_language(C ASM)
-
-# set(SOURCES Core/Src/system.c Core/Inc/system.h Core/Src/fonts.c Core/Src/st7789.c Core/Inc/fonts.h Core/Inc/st7789.h)
 
 # Create an executable object type
 add_executable(${CMAKE_PROJECT_NAME})
@@ -44,32 +42,35 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined library search paths
 )
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
-    Core/Src/fonts.c
-    Core/Inc/fonts.h
-    Core/Src/graphics.c
-    Core/Inc/graphics.h
-    Core/Src/system.c
-    Core/Inc/system.h
-    Core/Src/st7789.c
-    Core/Src/sd_diskio_spi.c
-    Core/Src/sd_functions.c
-    Core/Src/sd_spi.c
-    Core/Inc/st7789.h
-    Core/Inc/sd_diskio_spi.h
-    Core/Inc/sd_functions.h
-    Core/Inc/sd_spi.h
+    Core/Inc/conf.h
+    ../../ittyOS/Src/fonts.c
+    ../../ittyOS/Inc/fonts.h
+    ../../ittyOS/Src/graphics.c
+    ../../ittyOS/Inc/graphics.h
+    ../../ittyOS/Src/st7789.c
+    ../../ittyOS/Src/sd_diskio_spi.c
+    ../../ittyOS/Src/sd_functions.c
+    ../../ittyOS/Src/sd_spi.c
+    ../../ittyOS/Inc/st7789.h
+    ../../ittyOS/Src/system.c
+    ../../ittyOS/Inc/system.h
+    ../../ittyOS/Inc/sd_diskio_spi.h
+    ../../ittyOS/Inc/sd_functions.h
+    ../../ittyOS/Inc/sd_spi.h
 )
 
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
+    ../../ittyOS/
+    ../../ittyOS/Src
+    ../../ittyOS/Inc
 )
-
-#target_include_directories(ittypda PRIVATE ${CMAKE_PROJECT_NAME}/Core/Inc)
-#target_include_directories(ittypda PRIVATE "Core/Inc")
 
 # Add project symbols (macros)
 target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE

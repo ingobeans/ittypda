@@ -1,0 +1,11 @@
+*/startup*.s
+
+*/.clangd
+*/Middlewares
+*/Drivers
+*/FatFs
+*/cmake
+*/Build
+*/Core/Inc/*
+*/Core/Src/*
+!*/Core/Src/main.c

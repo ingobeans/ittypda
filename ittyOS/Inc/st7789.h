@@ -22,13 +22,13 @@ extern SPI_HandleTypeDef ST7789_SPI_PORT;
 // #define SCK GPIO_PIN_12 // B
 
 // lib defs
-#define ST7789_RST_PORT GPIOC
+#define ST7789_RST_PORT LCD_RST_PORT
 #define ST7789_RST_PIN LCD_RST
-#define ST7789_DC_PORT GPIOC
+#define ST7789_DC_PORT LCD_RS_PORT
 #define ST7789_DC_PIN LCD_RS
 
 #ifndef CFG_NO_CS
-#define ST7789_CS_PORT GPIOC
+#define ST7789_CS_PORT LCD_CS_PORT
 #define ST7789_CS_PIN LCD_CS
 #endif
 

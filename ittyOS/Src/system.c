@@ -5,26 +5,7 @@
 #include "sd_functions.h"
 #include "st7789.h"
 
-#ifdef wa
-#define COLS_AMT 12
-#define ROWS_AMT 5
-
-typedef struct {
-  u16 pin;
-  GPIO_TypeDef *bus;
-} SPECIFIC_PIN;
-
-SPECIFIC_PIN cols[] = {{GPIO_PIN_0, GPIOA}, {GPIO_PIN_1, GPIOA},
-                       {GPIO_PIN_2, GPIOA}, {GPIO_PIN_3, GPIOA},
-                       {GPIO_PIN_4, GPIOA}, {GPIO_PIN_5, GPIOA},
-                       {GPIO_PIN_6, GPIOA}, {GPIO_PIN_7, GPIOA},
-                       {GPIO_PIN_4, GPIOC}, {GPIO_PIN_5, GPIOC}};
-
-SPECIFIC_PIN rows[] = {{GPIO_PIN_14, GPIOB},
-                       {GPIO_PIN_15, GPIOB},
-                       {GPIO_PIN_6, GPIOC},
-                       {GPIO_PIN_7, GPIOC},
-                       {GPIO_PIN_8, GPIOC}};
+#ifdef KEYBOARD_MATRIX
 
 u8 heldSwitches[60] = {0};
 
@@ -87,6 +68,8 @@ void init() {
     initSPI(SPI_BAUDRATEPRESCALER_8);
     drawIbiImage("images/home.ibi");
     sd_unmount();
+  } else {
+    initSPI(SPI_BAUDRATEPRESCALER_2);
   }
 
   clear_print_buffer();

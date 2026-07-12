@@ -17,6 +17,10 @@
 char print_output[PRINT_BUFFER_MAX];
 uint16_t print_length = 0;
 
+// included in stdio.h but my LSP doesnt understand that
+int vsnprintf(char *restrict buffer, size_t bufsz, const char *restrict format,
+              va_list vlist);
+
 void print(char *fmt, ...) {
   char *formatted_string = &print_output[print_length];
   if (print_length >= PRINT_BUFFER_MAX) {

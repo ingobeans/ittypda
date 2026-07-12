@@ -7,6 +7,8 @@ ittyPDA is an itty-bitty PDA/cyberdeck thingy. its smaller than a nintendo ds bu
 
 it's mainly intended for note-taking/writing, playing silly little videogames, and just being a very hackable little computer.
 
+this repo contains both the hardware designs, under the `ittypda/` subdirectory, as well as the operating system.
+
 ## specs & parts
 
 * microprocessor: [STM32F411RET6](https://www.st.com/en/microcontrollers-microprocessors/stm32f411re.html)
@@ -35,3 +37,19 @@ which will download footprints/symbols/3d models for the switches, diodes, etc.
 <hr>
 
 <sup>made with <3</sup>
+
+## compile ittyOS
+
+so, for development purposes, ittyOS is made to be partially portable. this is so i can build it either for a devboard i have on hand, or for the actual ittyPDA device.
+
+the shared ittyOS code is under `ittyOS/`, but the low level configuration for these two boards are under `firmware/`.
+
+you'll need to generate the code, since the low-level drivers for these boards are very large and therefore gitignored. you'll need STM32CubeMX. then just open the project file for the firmware you want to build, and hit generate code. 
+
+you'll also have to tell your LSP which CMakeLists you're using.
+
+then, to build, navigate to the firmware you want to build's directory.
+
+1. `cmake --preset Debug` (you only have to run this once)
+2. `cmake --build --preset Debug`
+3. `STM32_Programmer_CLI -c port=swd -w build/Debug/<DEVBOARD OR ITTYPDA HERE>.elf -v -rst`
