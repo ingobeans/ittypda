@@ -9,3 +9,4 @@
 */Core/Inc/*
 */Core/Src/*
 !*/Core/Src/main.c
+!*/Core/Inc/conf.h
