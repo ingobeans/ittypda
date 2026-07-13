@@ -6733,6 +6733,17 @@
 		)
 		(uuid "2923afde-54ca-4fcf-a722-5132469c3536")
 	)
+	(text "TS is floating to enter TTDM"
+		(exclude_from_sim no)
+		(at 105.664 212.852 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "2e2e8edf-3406-45c6-bb34-eba3179e8a1e")
+	)
 	(text "Secondary board connector"
 		(exclude_from_sim no)
 		(at 263.398 207.01 0)
@@ -6899,7 +6910,7 @@
 		)
 		(uuid "cfca1f6a-845a-4dea-8670-d603c829126a")
 	)
-	(text "ISET2 pulled low to increase\nmaximum output current"
+	(text "ISET2 pulled high to specify\nmaximum input current (500mA)\nfor USB"
 		(exclude_from_sim no)
 		(at 105.664 204.724 0)
 		(effects
@@ -7466,12 +7477,6 @@
 		(uuid "9bdc45d5-cb5f-4ddf-b744-612b8ce9ed3f")
 	)
 	(junction
-		(at 144.78 191.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3e41aba-fcf7-4c7d-8814-81a51d7e43ad")
-	)
-	(junction
 		(at 132.08 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7604,6 +7609,12 @@
 		(uuid "ca0e7a2b-dff4-4f99-9838-09a2e2495aa8")
 	)
 	(junction
+		(at 101.6 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca78fa0c-786f-4fb6-b21b-0a819612e7ca")
+	)
+	(junction
 		(at 36.83 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7614,6 +7625,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc401fc3-fa20-4fb9-8ef1-c70d82619522")
+	)
+	(junction
+		(at 137.16 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccbf9dae-9b25-43b2-962d-69ad8542fcb7")
 	)
 	(junction
 		(at 365.76 41.91)
@@ -7778,6 +7795,10 @@
 		(uuid "fe3823f4-95b2-4d83-90f4-81535f7df050")
 	)
 	(no_connect
+		(at 137.16 181.61)
+		(uuid "0cf5e395-160c-4a67-9585-f31e9ef6695e")
+	)
+	(no_connect
 		(at 361.95 229.87)
 		(uuid "4af658a1-7a2e-4f08-b2b7-3d00ee30b049")
 	)
@@ -7871,6 +7892,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 175.26) (xy 101.6 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c331061-53ba-4243-93ff-3c011c9b2a15")
+	)
+	(wire
+		(pts
 			(xy 48.26 191.77) (xy 48.26 194.31)
 		)
 		(stroke
@@ -7958,6 +7989,16 @@
 			(type default)
 		)
 		(uuid "127db871-d73b-48ff-b0b7-4d4a84b42205")
+	)
+	(wire
+		(pts
+			(xy 137.16 186.69) (xy 139.7 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f9a114-304c-4429-9850-5c803551f740")
 	)
 	(wire
 		(pts
@@ -8111,7 +8152,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 191.77) (xy 138.43 191.77)
+			(xy 138.43 191.77) (xy 151.13 191.77)
 		)
 		(stroke
 			(width 0)
@@ -8261,6 +8302,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 171.45) (xy 101.6 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "357f6341-64fc-4db0-a7eb-9862bc48d5b4")
+	)
+	(wire
+		(pts
 			(xy 162.56 45.72) (xy 162.56 64.77)
 		)
 		(stroke
@@ -8298,16 +8349,6 @@
 			(type default)
 		)
 		(uuid "36e27c94-34a8-4a62-bc91-ecff4fd9737b")
-	)
-	(wire
-		(pts
-			(xy 144.78 191.77) (xy 151.13 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3807b11b-b1fe-4566-954e-8baf0c0c0a2d")
 	)
 	(wire
 		(pts
@@ -8531,16 +8572,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 186.69) (xy 138.43 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47f5a461-eb48-4b69-9186-8705c6a444fe")
-	)
-	(wire
-		(pts
 			(xy 138.43 179.07) (xy 151.13 179.07)
 		)
 		(stroke
@@ -8761,7 +8792,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 186.69) (xy 138.43 186.69)
+			(xy 135.89 186.69) (xy 137.16 186.69)
 		)
 		(stroke
 			(width 0)
@@ -8778,16 +8809,6 @@
 			(type default)
 		)
 		(uuid "5de216c2-280d-47da-b20a-e3b9dc9905d6")
-	)
-	(wire
-		(pts
-			(xy 77.47 175.26) (xy 101.6 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fce432f-ddd2-4358-b837-ea41c8140806")
 	)
 	(wire
 		(pts
@@ -9471,16 +9492,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 182.88) (xy 144.78 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a82406cb-ec31-4ea4-857c-baab87f957b4")
-	)
-	(wire
-		(pts
 			(xy 86.36 243.84) (xy 86.36 245.11)
 		)
 		(stroke
@@ -9628,6 +9639,16 @@
 			(type default)
 		)
 		(uuid "b49e361e-dcd3-483d-87cb-ab593d75b76e")
+	)
+	(wire
+		(pts
+			(xy 139.7 186.69) (xy 139.7 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b609a66d-2cc6-4f53-be0a-cedaf546c9f6")
 	)
 	(wire
 		(pts
@@ -10051,16 +10072,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 181.61) (xy 144.78 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e03243ad-3a5b-493e-b5f2-f766d8510d39")
-	)
-	(wire
-		(pts
 			(xy 120.65 39.37) (xy 120.65 45.72)
 		)
 		(stroke
@@ -10118,6 +10129,16 @@
 			(type default)
 		)
 		(uuid "e3d59f2e-cc8b-40fc-8c67-dc7d7371ac4b")
+	)
+	(wire
+		(pts
+			(xy 139.7 171.45) (xy 101.6 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a3ba2a-fd6c-4996-b551-54ec5f6b3f43")
 	)
 	(wire
 		(pts
@@ -10348,16 +10369,6 @@
 			(type default)
 		)
 		(uuid "f1a0252f-c8b9-4cfc-813e-2030f60eb80c")
-	)
-	(wire
-		(pts
-			(xy 144.78 190.5) (xy 144.78 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1b4b4c8-36c2-414f-a0ee-16f922a73223")
 	)
 	(wire
 		(pts
@@ -33399,86 +33410,6 @@
 			(project "ittypda"
 				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
 					(reference "D32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 144.78 186.69 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c515c388-eca3-4260-ad80-0eb70cc0ceff")
-		(property "Reference" "R10"
-			(at 142.748 186.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 146.812 186.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 143.002 186.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 144.78 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8d190eb9-94ca-46ff-8eca-e4becfd6796d")
-		)
-		(pin "2"
-			(uuid "fd109704-82dd-40b4-b500-41d5706669bb")
-		)
-		(instances
-			(project "ittypda"
-				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
-					(reference "R10")
 					(unit 1)
 				)
 			)
