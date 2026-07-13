@@ -64,7 +64,6 @@ void catTest() {
   DRAW_IBI_CONFIG cfg3 = {0, 0, 0, 104};
   drawIBI("images/cat.ibi", 480 - 260, 320 - 125, cfg3);
   DRAW_IBI_CONFIG cfg = {87, 0, 78, 0};
-  clear_print_buffer();
   drawIBI("images/cat.ibi", (480 - 250) / 2, (320 - 162) / 2 + 60, cfg);
   DRAW_IBI_CONFIG cfg2 = {87, 23, 78, 60, 1};
   drawIBI("images/cat.ibi", 480 / 2, 320 / 2, cfg2);
@@ -76,14 +75,10 @@ void init() {
   initSPI(LCD_SPI_SPEED);
   ST7789_Init();
   HAL_GPIO_WritePin(LED_PORT, LED, 1);
-  HAL_Delay(600);
-  // print("\n\n\n\n");
 
   initSPI(SD_MOUNT_SPI_SPEED);
   if (sd_mount() == FR_OK) {
     initSPI(SD_SPI_SPEED);
-    // drawIBITextOverlay(5, 65, "Hello there!!!", &Font_16x26,
-    // "images/home.ibi");
     drawIBI("images/wallpaper2.ibi", 0, 0, DEFAULT_DRAW_IBI_CONFIG);
     DRAW_IBI_CONFIG cfg = {0};
     cfg.cropX = 480 - 100;
@@ -96,21 +91,14 @@ void init() {
     drawIBITextOverlay("images/wallpaper2.ibi", 480 - 100, 0, "12:46",
                        &Font_16x26, 0, 0, cfg);
     HAL_Delay(1000);
-    // ST7789_SetAddressWindow(0, 0, ST7789_WIDTH - 1, HOR_LEN - 1);
-    // ST7789_WriteData(disp_buf, sizeof(disp_buf));
-    // catTest();
-
-    // DRAW_IBI_CONFIG cfg2 = {87, 23, 78, 60, 1};
-    // drawIBI("images/cat.ibi", 480 / 2, 320 / 2, cfg2);
     catTest();
     sd_unmount();
   }
   initSPI(LCD_SPI_SPEED);
 
-  // clear_print_buffer();
-  // print("hello there");
+  // clearPrintBuffer();
   // ST7789_Fill_Color(BLACK);
-  // print_flush(Font_7x10);
+  printFlush(Font_7x10);
 }
 
 void update() {

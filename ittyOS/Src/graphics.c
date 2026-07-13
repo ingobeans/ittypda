@@ -14,40 +14,39 @@
 
 // print buffer
 #define PRINT_BUFFER_MAX 2048
-char print_output[PRINT_BUFFER_MAX];
-uint16_t print_length = 0;
+char printBuffer[PRINT_BUFFER_MAX];
+u16 printLength = 0;
 
 // included in stdio.h but my LSP doesnt understand that
 int vsnprintf(char *restrict buffer, size_t bufsz, const char *restrict format,
               va_list vlist);
 
 void print(char *fmt, ...) {
-  char *formatted_string = &print_output[print_length];
-  if (print_length >= PRINT_BUFFER_MAX) {
-    print_output[PRINT_BUFFER_MAX - 1] = '#';
+  if (printLength >= PRINT_BUFFER_MAX) {
+    printBuffer[PRINT_BUFFER_MAX - 1] = '#';
     return;
   }
   va_list argptr;
   va_start(argptr, fmt);
-  print_length += vsnprintf(formatted_string,
-                            PRINT_BUFFER_MAX - print_length - 1, fmt, argptr);
+  printLength += vsnprintf(&printBuffer[printLength],
+                           PRINT_BUFFER_MAX - printLength - 1, fmt, argptr);
   va_end(argptr);
 }
 
-void clear_print_buffer() { print_length = 0; }
+void clearPrintBuffer() { printLength = 0; }
 
-void print_flush(FontDef font) {
-  u16 line_height = font.height * 6 / 5;
+void printFlush(FontDef font) {
+  u16 lineHeight = font.height * 6 / 5;
   u16 offset = 0;
   char buf[128];
 
-  if (print_length < PRINT_BUFFER_MAX - 1) {
-    print_output[print_length + 1] = 0;
+  if (printLength < PRINT_BUFFER_MAX - 1) {
+    printBuffer[printLength + 1] = 0;
   }
 
   int p = 0;
   for (int i = 0; i < PRINT_BUFFER_MAX; i++) {
-    char c = print_output[i];
+    char c = printBuffer[i];
     if (c == 0)
       break;
 
@@ -56,8 +55,8 @@ void print_flush(FontDef font) {
       buf[p] = 0;
       p = 0;
       ST7789_WriteString(0, offset, buf, font, WHITE, BLACK);
-      offset += line_height;
-      if (offset >= 320 - 2 * line_height) {
+      offset += lineHeight;
+      if (offset >= 320 - 2 * lineHeight) {
         ST7789_WriteString(0, offset, "...continuing in 5 seconds", font, WHITE,
                            BLACK);
         HAL_Delay(5000);
@@ -110,6 +109,10 @@ STREAM_FILE_CTX beginFileStream(char *filename) {
 
 int streamFile(STREAM_FILE_CTX *ctx, int f(STREAM_FILE_CTX *)) {
   FRESULT res;
+  if (ctx->success) {
+    print("streamFile started with failed STREAM_FILE_CTX: %d\n", ctx->success);
+    return ctx->success;
+  }
   if (!ctx->chunkSize) {
     ctx->chunkSize = FILE_STREAM_BUF_SIZE;
   }
@@ -185,7 +188,6 @@ int _drawIBICallback(STREAM_FILE_CTX *ctx) {
   if (activeDrawIBIConfig->callback != 0) {
     activeDrawIBIConfig->callback(ctx);
   }
-  print("\nw:%d.\n", streamBytesAmt);
   initSPI(LCD_SPI_SPEED);
   ST7789_Select();
   ST7789_WriteData(FILE_STREAM_BUF, streamBytesAmt);
@@ -217,7 +219,6 @@ int drawIBI(char *filename, u16 x, u16 y, DRAW_IBI_CONFIG drawIBIConfig) {
     ctx.chunkSize =
         FILE_STREAM_BUF_SIZE / (drawIBIRealWidth * 2) * (drawIBIRealWidth * 2);
   }
-  print("cs: %d", ctx.chunkSize);
 
   if (activeDrawIBIConfig->cropWidth) {
     drawIBIWidth = activeDrawIBIConfig->cropWidth;
@@ -267,7 +268,7 @@ int drawIBIFullscreen(char *filename) {
 
 void writeCharToBuffer(u16 x, i16 y, char ch, FontDef font, u16 color,
                        u8 *buffer, u16 bufferWidth, u16 bufferHeight) {
-  uint32_t b, j;
+  u32 b, j;
   u32 count = 0;
   if (y > 0) {
     count += bufferWidth * 2 * y;
