@@ -59,36 +59,57 @@ void readSwitches() {
 }
 #endif
 
+void catTest() {
+  drawIBI("images/cat.ibi", 0, 0, DEFAULT_DRAW_IBI_CONFIG);
+  DRAW_IBI_CONFIG cfg3 = {0, 0, 0, 104};
+  drawIBI("images/cat.ibi", 480 - 260, 320 - 125, cfg3);
+  DRAW_IBI_CONFIG cfg = {87, 0, 78, 0};
+  clear_print_buffer();
+  drawIBI("images/cat.ibi", (480 - 250) / 2, (320 - 162) / 2 + 60, cfg);
+  DRAW_IBI_CONFIG cfg2 = {87, 23, 78, 60, 1};
+  drawIBI("images/cat.ibi", 480 / 2, 320 / 2, cfg2);
+}
+
 void init() {
   HAL_GPIO_WritePin(DEBUG_LED_PORT, DEBUG_LED, !DEBUG_LED_ON_STATE);
+  HAL_Delay(160);
   initSPI(SPI_BAUDRATEPRESCALER_2);
   ST7789_Init();
   HAL_GPIO_WritePin(LED_PORT, LED, 1);
+  HAL_Delay(600);
   // print("\n\n\n\n");
 
   initSPI(SPI_BAUDRATEPRESCALER_256);
   if (sd_mount() == FR_OK) {
     initSPI(SPI_BAUDRATEPRESCALER_8);
-    // drawIBIFullscreen("images/home.ibi");
     // drawIBITextOverlay(5, 65, "Hello there!!!", &Font_16x26,
     // "images/home.ibi");
-    drawIBI("images/cat.ibi", 0, 0, DEFAULT_DRAW_IBI_CONFIG);
-    DRAW_IBI_CONFIG cfg3 = {0, 0, 0, 104};
-    drawIBI("images/cat.ibi", 480 - 260, 320 - 125, cfg3);
-    DRAW_IBI_CONFIG cfg = {87, 0, 78, 0};
-    clear_print_buffer();
-    drawIBI("images/cat.ibi", (480 - 250) / 2, (320 - 162) / 2 + 60, cfg);
-    DRAW_IBI_CONFIG cfg2 = {87, 23, 78, 60, 1};
-    drawIBI("images/cat.ibi", 480 / 2, 320 / 2, cfg2);
+    drawIBI("images/wallpaper2.ibi", 0, 0, DEFAULT_DRAW_IBI_CONFIG);
+    DRAW_IBI_CONFIG cfg = {0};
+    cfg.cropX = 480 - 100;
+    cfg.cropWidth = 100;
+    cfg.cropHeight = 27;
+    drawIBITextOverlay("images/wallpaper2.ibi", 480 - 100, 0, "12:45",
+                       &Font_16x26, 0, 0, cfg);
+    HAL_Delay(1000);
+
+    drawIBITextOverlay("images/wallpaper2.ibi", 480 - 100, 0, "12:46",
+                       &Font_16x26, 0, 0, cfg);
+    HAL_Delay(1000);
+    // ST7789_SetAddressWindow(0, 0, ST7789_WIDTH - 1, HOR_LEN - 1);
+    // ST7789_WriteData(disp_buf, sizeof(disp_buf));
+    // catTest();
+
+    // DRAW_IBI_CONFIG cfg2 = {87, 23, 78, 60, 1};
+    // drawIBI("images/cat.ibi", 480 / 2, 320 / 2, cfg2);
     sd_unmount();
-  } else {
-    initSPI(SPI_BAUDRATEPRESCALER_2);
   }
+  initSPI(SPI_BAUDRATEPRESCALER_2);
 
   // clear_print_buffer();
   // print("hello there");
   // ST7789_Fill_Color(BLACK);
-  // print_flush(Font_11x18);
+  // print_flush(Font_7x10);
 }
 
 void update() {
