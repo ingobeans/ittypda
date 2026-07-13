@@ -186,11 +186,11 @@ int _drawIBICallback(STREAM_FILE_CTX *ctx) {
     activeDrawIBIConfig->callback(ctx);
   }
   print("\nw:%d.\n", streamBytesAmt);
-  initSPI(SPI_BAUDRATEPRESCALER_2);
+  initSPI(LCD_SPI_SPEED);
   ST7789_Select();
   ST7789_WriteData(FILE_STREAM_BUF, streamBytesAmt);
   ST7789_UnSelect();
-  initSPI(SPI_BAUDRATEPRESCALER_8);
+  initSPI(SD_SPI_SPEED);
   if ((ctx->totalBytesRead + ctx->bytesRead) / drawIBIRealWidth / 2 >=
       drawIBIHeight) {
     return 1;
@@ -249,11 +249,11 @@ int drawIBI(char *filename, u16 x, u16 y, DRAW_IBI_CONFIG drawIBIConfig) {
 }
 
 int _drawIBIFullscreenCallback() {
-  initSPI(SPI_BAUDRATEPRESCALER_2);
+  initSPI(LCD_SPI_SPEED);
   ST7789_Select();
   ST7789_WriteData(FILE_STREAM_BUF, FILE_STREAM_BUF_SIZE);
   ST7789_UnSelect();
-  initSPI(SPI_BAUDRATEPRESCALER_8);
+  initSPI(SD_SPI_SPEED);
   return 0;
 }
 int drawIBIFullscreen(char *filename) {

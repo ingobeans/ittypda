@@ -73,15 +73,15 @@ void catTest() {
 void init() {
   HAL_GPIO_WritePin(DEBUG_LED_PORT, DEBUG_LED, !DEBUG_LED_ON_STATE);
   HAL_Delay(160);
-  initSPI(SPI_BAUDRATEPRESCALER_2);
+  initSPI(LCD_SPI_SPEED);
   ST7789_Init();
   HAL_GPIO_WritePin(LED_PORT, LED, 1);
   HAL_Delay(600);
   // print("\n\n\n\n");
 
-  initSPI(SPI_BAUDRATEPRESCALER_256);
+  initSPI(SD_MOUNT_SPI_SPEED);
   if (sd_mount() == FR_OK) {
-    initSPI(SPI_BAUDRATEPRESCALER_8);
+    initSPI(SD_SPI_SPEED);
     // drawIBITextOverlay(5, 65, "Hello there!!!", &Font_16x26,
     // "images/home.ibi");
     drawIBI("images/wallpaper2.ibi", 0, 0, DEFAULT_DRAW_IBI_CONFIG);
@@ -102,9 +102,10 @@ void init() {
 
     // DRAW_IBI_CONFIG cfg2 = {87, 23, 78, 60, 1};
     // drawIBI("images/cat.ibi", 480 / 2, 320 / 2, cfg2);
+    catTest();
     sd_unmount();
   }
-  initSPI(SPI_BAUDRATEPRESCALER_2);
+  initSPI(LCD_SPI_SPEED);
 
   // clear_print_buffer();
   // print("hello there");
