@@ -8102,16 +8102,6 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 111.76) (xy 340.36 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bade4e8-4685-4a37-9e9e-7e8c67f6d1a4")
-	)
-	(wire
-		(pts
 			(xy 176.53 102.87) (xy 177.8 102.87)
 		)
 		(stroke
@@ -8419,16 +8409,6 @@
 			(type default)
 		)
 		(uuid "3b4fa4c3-ef59-4a7a-9e5e-f8eab9f160dd")
-	)
-	(wire
-		(pts
-			(xy 332.74 111.76) (xy 330.2 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c3a3f74-3c9c-40ca-8604-e4a30d4714e4")
 	)
 	(wire
 		(pts
@@ -9082,16 +9062,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 116.84) (xy 353.06 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80e538e7-4d8f-411a-8fac-177ce60db6d1")
-	)
-	(wire
-		(pts
 			(xy 252.73 31.75) (xy 252.73 36.83)
 		)
 		(stroke
@@ -9312,16 +9282,6 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 114.3) (xy 340.36 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a1306e0-0e0e-4652-8420-265409705af5")
-	)
-	(wire
-		(pts
 			(xy 176.53 83.82) (xy 177.8 83.82)
 		)
 		(stroke
@@ -9329,16 +9289,6 @@
 			(type default)
 		)
 		(uuid "9abfff7e-cfda-4125-a8aa-5b67dadd2108")
-	)
-	(wire
-		(pts
-			(xy 332.74 114.3) (xy 330.2 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b4718f9-36a5-4ce0-9545-05dda257507c")
 	)
 	(wire
 		(pts
@@ -9529,16 +9479,6 @@
 			(type default)
 		)
 		(uuid "ace1f21e-1ae7-413f-8c33-40047f207b82")
-	)
-	(wire
-		(pts
-			(xy 330.2 119.38) (xy 353.06 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ace7f62c-2442-4483-8950-0141c5f8109f")
 	)
 	(wire
 		(pts
@@ -10694,7 +10634,7 @@
 	)
 	(global_label "InD+"
 		(shape input)
-		(at 344.17 114.3 0)
+		(at 330.2 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10704,7 +10644,7 @@
 		)
 		(uuid "119bfdf3-36c3-4114-bcb9-78982f838b22")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 351.7514 114.3 0)
+			(at 337.7814 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11174,7 +11114,7 @@
 	)
 	(global_label "SWCLK"
 		(shape input)
-		(at 353.06 119.38 0)
+		(at 330.2 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11184,7 +11124,7 @@
 		)
 		(uuid "4e980967-8d6b-43ba-b3a3-0f91590299ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 362.2742 119.38 0)
+			(at 339.4142 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11462,7 +11402,7 @@
 	)
 	(global_label "SWDIO"
 		(shape bidirectional)
-		(at 353.06 116.84 0)
+		(at 330.2 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11472,7 +11412,7 @@
 		)
 		(uuid "790363f0-41e2-4f50-a5bf-f2213f2cd4d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 363.0227 116.84 0)
+			(at 340.1627 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11750,7 +11690,7 @@
 	)
 	(global_label "InD-"
 		(shape input)
-		(at 344.17 111.76 0)
+		(at 330.2 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11760,7 +11700,7 @@
 		)
 		(uuid "94ed2db8-9039-4ba2-a40a-d6c9ad9b9dac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 351.7514 111.76 0)
+			(at 337.7814 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20586,85 +20526,6 @@
 			(project "ittypda"
 				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
 					(reference "SW38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 336.55 114.3 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "54cf0333-e75d-4b02-ab74-70e394ce4d60")
-		(property "Reference" "R4"
-			(at 336.55 114.3 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "27"
-			(at 336.55 116.332 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 336.55 116.078 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 336.55 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 336.55 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0cebaa8a-878f-425d-a5ee-fa9998d62ae4")
-		)
-		(pin "2"
-			(uuid "e5d84bcc-95eb-4758-b25a-46b45c5af84d")
-		)
-		(instances
-			(project "ittypda"
-				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -29654,85 +29515,6 @@
 			(project "ittypda"
 				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 336.55 111.76 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a4bf2eec-8523-448f-a0b4-a9695a7767af")
-		(property "Reference" "R5"
-			(at 336.55 111.76 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "27"
-			(at 336.55 109.728 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 336.55 113.538 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 336.55 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 336.55 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cb969698-d033-4479-a05b-905b659a7503")
-		)
-		(pin "2"
-			(uuid "78ca5a06-51cb-4374-a05f-fe872a7548cd")
-		)
-		(instances
-			(project "ittypda"
-				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
-					(reference "R5")
 					(unit 1)
 				)
 			)
