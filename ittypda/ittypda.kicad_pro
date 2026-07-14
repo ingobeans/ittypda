@@ -94,7 +94,7 @@
           ""
         ],
         [
-          "unconnected_items|89858326|91020500|F.Cu|4|beba6209-30d9-4601-bab3-c7f89730626b|834b621e-b4e4-4e06-8cd7-7586a6f12ef1",
+          "unconnected_items|89858326|102491613|F.Cu|4|834b621e-b4e4-4e06-8cd7-7586a6f12ef1|beba6209-30d9-4601-bab3-c7f89730626b",
           ""
         ]
       ],
@@ -697,7 +697,7 @@
         "uuid": "d1aa8f6c-1644-4347-b86d-2b771500f753"
       }
     ],
-    "used_designators": "L1,#PWR11,#PWR13-14,#PWR20,#PWR30-34,TP1-6,LED2,C13-14,C16-17,R8-13,SW25,U1,U3",
+    "used_designators": "#PWR11,#PWR13-14,#PWR20,#PWR30-35,L1,TP1-6,C13-14,C16-18,LED2,R8-13,SW25,U1-3",
     "variants": []
   },
   "sheets": [
