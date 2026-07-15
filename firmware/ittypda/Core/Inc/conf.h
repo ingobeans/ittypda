@@ -41,8 +41,8 @@ SPECIFIC_PIN cols[] = {{GPIO_PIN_0, GPIOA}, {GPIO_PIN_1, GPIOA},
                        {GPIO_PIN_6, GPIOA}, {GPIO_PIN_7, GPIOA},
                        {GPIO_PIN_4, GPIOC}, {GPIO_PIN_5, GPIOC}};
 
-SPECIFIC_PIN rows[] = {{GPIO_PIN_14, GPIOB},
-                       {GPIO_PIN_15, GPIOB},
-                       {GPIO_PIN_6, GPIOC},
+SPECIFIC_PIN rows[] = {{GPIO_PIN_8, GPIOC},
                        {GPIO_PIN_7, GPIOC},
-                       {GPIO_PIN_8, GPIOC}};
+                       {GPIO_PIN_6, GPIOC},
+                       {GPIO_PIN_15, GPIOB},
+                       {GPIO_PIN_14, GPIOB}};
