@@ -15,8 +15,8 @@
 // #define MOSI_PORT GPIOC
 // #define MISO GPIO_PIN_11
 // #define MISO_PORT GPIOC
-// #define SCK GPIO_PIN_12
-// #define SCK_PORT GPIOB
+// #define SCK GPIO_PIN_10
+// #define SCK_PORT GPIOC
 
 #define SD_CS GPIO_PIN_1
 #define SD_CS_PORT GPIOC

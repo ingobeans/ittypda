@@ -6767,7 +6767,7 @@
 	)
 	(text "SPI3\ninterface"
 		(exclude_from_sim no)
-		(at 279.908 135.89 0)
+		(at 279.654 134.366 0)
 		(effects
 			(font
 				(size 1 1)
@@ -10972,6 +10972,30 @@
 			)
 		)
 	)
+	(global_label "SCK"
+		(shape input)
+		(at 294.64 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ded0de0-b20c-4598-8967-96f7942065d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 287.9053 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Col10"
 		(shape input)
 		(at 330.2 127 0)
@@ -11489,30 +11513,6 @@
 		(uuid "7f571c28-ffb4-4785-9ce5-3f8938d06067")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 337.4789 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SCK"
-		(shape input)
-		(at 330.2 154.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8262dbb3-564e-4414-ab26-0cb8d29cb445")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 336.9347 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
