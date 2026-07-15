@@ -94,7 +94,7 @@
           ""
         ],
         [
-          "unconnected_items|89858326|91020500|F.Cu|4|beba6209-30d9-4601-bab3-c7f89730626b|834b621e-b4e4-4e06-8cd7-7586a6f12ef1",
+          "unconnected_items|89858326|89819500|F.Cu|4|beba6209-30d9-4601-bab3-c7f89730626b|834b621e-b4e4-4e06-8cd7-7586a6f12ef1",
           ""
         ]
       ],
@@ -154,12 +154,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "ignore",
+        "track_not_centered_on_via": "warning",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "tuning_profile_track_geometries": "ignore",
+        "tuning_profile_track_geometries": "warning",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -509,7 +509,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
