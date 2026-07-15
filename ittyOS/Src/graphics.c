@@ -116,32 +116,47 @@ int streamFile(STREAM_FILE_CTX *ctx, int f(STREAM_FILE_CTX *)) {
   if (!ctx->chunkSize) {
     ctx->chunkSize = FILE_STREAM_BUF_SIZE;
   }
+  if (!ctx->subchunkCount) {
+    ctx->subchunkCount = 1;
+  }
   while (1) {
     res = f_lseek(&ctx->file, ctx->totalBytesRead + ctx->readStartOffset);
     if (res != FR_OK) {
       print("f_seek failed with code: %d\r\n", res);
     }
-    res = f_read(&ctx->file, FILE_STREAM_BUF, ctx->chunkSize, &ctx->bytesRead);
+    res = f_read(&ctx->file,
+                 &FILE_STREAM_BUF[ctx->subchunkIndex * ctx->chunkSize],
+                 ctx->chunkSize, &ctx->bytesRead);
+    ctx->totalBytesRead += ctx->bytesRead;
     if (res != FR_OK) {
       print("f_read failed with code: %d\r\n", res);
     }
     if (ctx->bytesRead == 0) {
+      if (ctx->subchunkIndex > 0) {
+        f(ctx);
+      }
       break;
     }
 
-    // use streamed data here!
-    if (f != 0 && f(ctx)) {
-      ctx->totalBytesRead += ctx->bytesRead;
-      break;
-    };
-    ctx->totalBytesRead += ctx->bytesRead;
+    if (ctx->subchunkIndex >= ctx->subchunkCount - 1) {
+      ctx->subchunkIndex = 0;
+      // use streamed data here!
+      if (f != 0 && f(ctx)) {
+        break;
+      };
+      ctx->chunkIndex++;
+    } else {
+      ctx->subchunkIndex += 1;
+    }
+    ctx->readStartOffset += ctx->stepSize;
 
     if (ctx->bytesRead != ctx->chunkSize) {
+      if (ctx->subchunkIndex < ctx->subchunkCount - 1) {
+        f(ctx);
+      }
       // end of file reached
       break;
     }
-
-    ctx->chunkIndex++;
   }
   res = f_close(&ctx->file);
   if (res != FR_OK) {
@@ -167,23 +182,10 @@ u32 drawIBIWidth;
 u32 drawIBIHeight;
 
 int _drawIBICallback(STREAM_FILE_CTX *ctx) {
-  u32 targetBytes = drawIBIRealWidth * 2 * drawIBIHeight;
-  u32 streamBytesAmt = mint(targetBytes - ctx->totalBytesRead, ctx->bytesRead);
-
-  u32 realRowsAmount = streamBytesAmt / drawIBIRealWidth / 2;
-
-  u32 rowSize = drawIBIWidth * 2;
-  if (activeDrawIBIConfig->cropX || activeDrawIBIConfig->cropWidth) {
-    for (u32 i = 0; i < realRowsAmount; i++) {
-      memcpy(&FILE_STREAM_BUF[rowSize * i],
-             &FILE_STREAM_BUF[drawIBIRealWidth * 2 * i +
-                              activeDrawIBIConfig->cropX * 2],
-             rowSize);
-    }
-
-    streamBytesAmt = mint(streamBytesAmt, rowSize * realRowsAmount);
-  }
-
+  u32 targetBytes = drawIBIWidth * 2 * drawIBIHeight;
+  u32 streamBytesAmt = mint(targetBytes - ctx->totalBytesRead +
+                                ctx->bytesRead * ctx->subchunkCount,
+                            ctx->bytesRead * ctx->subchunkCount);
   // run callback
   if (activeDrawIBIConfig->callback != 0) {
     activeDrawIBIConfig->callback(ctx);
@@ -193,8 +195,8 @@ int _drawIBICallback(STREAM_FILE_CTX *ctx) {
   ST7789_WriteData(FILE_STREAM_BUF, streamBytesAmt);
   ST7789_UnSelect();
   initSPI(SD_SPI_SPEED);
-  if ((ctx->totalBytesRead + ctx->bytesRead) / drawIBIRealWidth / 2 >=
-      drawIBIHeight) {
+  // HAL_Delay(700);
+  if (ctx->totalBytesRead >= drawIBIWidth * drawIBIHeight * 2) {
     return 1;
   }
   return 0;
@@ -212,14 +214,6 @@ int drawIBI(char *filename, u16 x, u16 y, DRAW_IBI_CONFIG drawIBIConfig) {
         drawIBIHeight);
   drawIBIRealWidth = drawIBIWidth;
 
-  if (activeDrawIBIConfig->cropWidth || (activeDrawIBIConfig->cropX)) {
-    // if x-axis is cropped, chunk size needs to be aligned to image width
-
-    // find largest chunk size, less than FILE_STREAM_BUF_SIZE, aligned to image
-    ctx.chunkSize =
-        FILE_STREAM_BUF_SIZE / (drawIBIRealWidth * 2) * (drawIBIRealWidth * 2);
-  }
-
   if (activeDrawIBIConfig->cropWidth) {
     drawIBIWidth = activeDrawIBIConfig->cropWidth;
   } else if (activeDrawIBIConfig->cropX) {
@@ -231,11 +225,22 @@ int drawIBI(char *filename, u16 x, u16 y, DRAW_IBI_CONFIG drawIBIConfig) {
     drawIBIHeight = drawIBIHeight - activeDrawIBIConfig->cropY;
   }
 
+  if (activeDrawIBIConfig->cropWidth || (activeDrawIBIConfig->cropX)) {
+    // if x-axis is cropped, chunk size needs to be aligned to image width
+
+    // find largest chunk size, less than FILE_STREAM_BUF_SIZE, aligned to image
+    ctx.subchunkCount =
+        mint(FILE_STREAM_BUF_SIZE / (drawIBIRealWidth * 2), drawIBIHeight);
+    ctx.stepSize = (drawIBIRealWidth - drawIBIWidth) * 2;
+    ctx.chunkSize = drawIBIWidth * 2;
+  }
+
   if (strcmp(magic, "ibi!")) {
     print("error: bad magic\n");
     return 1;
   }
-  ctx.readStartOffset = drawIBIRealWidth * 2 * drawIBIConfig.cropY + 12;
+  ctx.readStartOffset =
+      drawIBIRealWidth * 2 * drawIBIConfig.cropY + 12 + drawIBIConfig.cropX * 2;
   if (activeDrawIBIConfig->centered) {
     x -= drawIBIWidth / 2;
     y -= drawIBIHeight / 2;
@@ -246,6 +251,8 @@ int drawIBI(char *filename, u16 x, u16 y, DRAW_IBI_CONFIG drawIBIConfig) {
     return res;
   }
   streamFile(&ctx, _drawIBICallback);
+  // print("stream %d bytes\nsubcount: %d\nchunkSize: %d\n", ctx.totalBytesRead,
+  //       ctx.subchunkCount, ctx.chunkSize);
   return 0;
 }
 
@@ -307,8 +314,10 @@ u16 textOverlayX;
 u16 textOverlayY;
 
 void _drawIBITextOverlayCallback(STREAM_FILE_CTX *ctx) {
-  i16 currentChunkY = ctx->totalBytesRead / 480 / 2;
-  i16 chunkHeight = ctx->chunkSize / drawIBIRealWidth / 2;
+  i16 currentChunkY =
+      (ctx->totalBytesRead - ctx->chunkSize * ctx->subchunkCount) /
+      drawIBIWidth / 2;
+  i16 chunkHeight = ctx->chunkSize * ctx->subchunkCount / drawIBIWidth / 2;
   if ((currentChunkY + chunkHeight >= textOverlayY &&
        currentChunkY + chunkHeight <= textOverlayY + textOverlayFont->height) ||
       (currentChunkY >= textOverlayY &&

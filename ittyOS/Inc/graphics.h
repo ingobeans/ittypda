@@ -9,6 +9,9 @@ typedef struct {
   u32 bytesRead;
   u32 chunkSize;
   u16 chunkIndex;
+  u16 stepSize;
+  u16 subchunkIndex;
+  u16 subchunkCount;
   FIL file;
 } STREAM_FILE_CTX;
 

@@ -80,6 +80,7 @@ void init() {
   if (sd_mount() == FR_OK) {
     initSPI(SD_SPI_SPEED);
     drawIBI("images/wallpaper2.ibi", 0, 0, DEFAULT_DRAW_IBI_CONFIG);
+
     DRAW_IBI_CONFIG cfg = {0};
     cfg.cropX = 480 - 100;
     cfg.cropWidth = 100;
@@ -87,11 +88,14 @@ void init() {
     drawIBITextOverlay("images/wallpaper2.ibi", 480 - 100, 0, "12:45",
                        &Font_16x26, 0, 0, cfg);
     HAL_Delay(1000);
-
     drawIBITextOverlay("images/wallpaper2.ibi", 480 - 100, 0, "12:46",
                        &Font_16x26, 0, 0, cfg);
     HAL_Delay(1000);
+
     catTest();
+    DRAW_IBI_CONFIG cfg2 = {87, 23, 78, 60, 1};
+    drawIBI("images/cat.ibi", 480 / 2, 320 / 2, cfg2);
+    HAL_Delay(600);
     sd_unmount();
   }
   initSPI(LCD_SPI_SPEED);
