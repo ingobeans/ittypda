@@ -288,6 +288,22 @@ void writeCharToBuffer(u16 x, i16 y, char ch, FontDef font, u16 color,
   }
 }
 
+void writeStringToBuffer(u16 x, i16 y, char *str, FontDef font, u16 color,
+                         u8 *buffer, u16 bufferWidth, u16 bufferHeight) {
+  while (*str) {
+    writeCharToBuffer(x, y, *str, font, color, buffer, bufferWidth,
+                      bufferHeight);
+    x += font.width;
+    str++;
+  }
+}
+
+void memset_u16(char *buf, u16 value, u8 size) {
+  for (int i = 0; i < size; i += 2) {
+    memcpy(&buf[i], &value, 2);
+  }
+}
+
 char *textOverlayText;
 FontDef *textOverlayFont;
 u16 textOverlayX;

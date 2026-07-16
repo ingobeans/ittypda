@@ -63,7 +63,7 @@ void systemInit() {
   initSPI(LCD_SPI_SPEED);
   ST7789_Init();
   HAL_GPIO_WritePin(LED_PORT, LED, 1);
-  HOME.init();
+  NOTES.init();
 }
 
 void systemUpdate() {

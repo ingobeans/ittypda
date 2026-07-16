@@ -1,5 +1,5 @@
 #pragma once
-#define VERSION "0.3.8"
+#define VERSION "0.3.9"
 
 #include "conf.h"
 #include "graphics.h" // IWYU pragma: keep

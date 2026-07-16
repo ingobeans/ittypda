@@ -50,6 +50,7 @@ FILE(GLOB ProgramInclude ../../ittyOS/Programs/*)
 
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     ${CSources}
+    ../../ittyOS/Programs/programs.c
 )
 
 # Add include paths

@@ -43,3 +43,8 @@ void clearPrintBuffer();
 int drawIBITextOverlay(char *filename, u16 x, u16 y, char *text, FontDef *font,
                        u16 textX, u16 textY, DRAW_IBI_CONFIG cfg);
 int drawIBI(char *filename, u16 x, u16 y, DRAW_IBI_CONFIG drawIBIConfig);
+void writeCharToBuffer(u16 x, i16 y, char ch, FontDef font, u16 color,
+                       u8 *buffer, u16 bufferWidth, u16 bufferHeight);
+void writeStringToBuffer(u16 x, i16 y, char *str, FontDef font, u16 color,
+                         u8 *buffer, u16 bufferWidth, u16 bufferHeight);
+void memset_u16(char *buf, u16 value, u8 size);
