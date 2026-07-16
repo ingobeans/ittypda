@@ -18,11 +18,12 @@ void notesInit() {
       j = 29;
     }
 
-    // draw gray horizontal paddings
+    // draw gray horizontal margins
     for (j; j < HOR_LEN; j++) {
-      const int padWidth = 52;
-      memset_u16(&disp_buf[j * 480 * 2], 0x6529, padWidth * 2);
-      memset_u16(&disp_buf[j * 480 * 2 + (480 - 70) * 2], 0x6529, padWidth * 2);
+      const int marginWidth = 52;
+      memset_u16(&disp_buf[j * 480 * 2], 0x6529, marginWidth * 2);
+      memset_u16(&disp_buf[j * 480 * 2 + (480 - marginWidth) * 2], 0x6529,
+                 marginWidth * 2);
     }
 
     ST7789_WriteData(disp_buf, sizeof(disp_buf));
