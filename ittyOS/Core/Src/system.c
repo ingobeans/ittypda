@@ -57,16 +57,16 @@ void readSwitches() {
 }
 #endif
 
-void init() {
+void systemInit() {
   HAL_GPIO_WritePin(DEBUG_LED_PORT, DEBUG_LED, !DEBUG_LED_ON_STATE);
   HAL_Delay(160);
   initSPI(LCD_SPI_SPEED);
   ST7789_Init();
   HAL_GPIO_WritePin(LED_PORT, LED, 1);
-  HOME_PROGRAM.init();
+  HOME.init();
 }
 
-void update() {
+void systemUpdate() {
   // readSwitches();
   // getKeyAt(1, 1);
   HAL_Delay(60);

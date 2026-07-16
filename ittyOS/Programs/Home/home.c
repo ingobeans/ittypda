@@ -37,7 +37,7 @@ void homeInit() {
 
   // clearPrintBuffer();
   // ST7789_Fill_Color(BLACK);
-  //   printFlush(Font_7x10);
+  // printFlush(Font_7x10);
 }
 
-extern PROGRAM HOME_PROGRAM = {"home", homeInit, 0};
+extern PROGRAM HOME = {"home", homeInit, 0};

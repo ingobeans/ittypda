@@ -107,9 +107,9 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  init();
+  systemInit();
   while (1) {
-    update();
+    systemUpdate();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

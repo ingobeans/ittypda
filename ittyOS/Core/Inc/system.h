@@ -4,11 +4,12 @@
 #include "conf.h"
 #include "graphics.h" // IWYU pragma: keep
 #include "main.h"
+#include "print.h" // IWYU pragma: keep
 #include "rust.h"
 #include "sd_functions.h" // IWYU pragma: keep
 
-void update();
-void init();
+void systemUpdate();
+void systemInit();
 
 typedef struct {
   char *name;

@@ -45,7 +45,8 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 add_definitions(-w)
 # Add sources to executable
 
-FILE(GLOB CSources ../../ittyOS/Core/Src/*.c)
+FILE(GLOB CSources ../../ittyOS/Core/Src/*.c ../../ittyOS/Programs/*/*.c)
+FILE(GLOB ProgramInclude ../../ittyOS/Programs/*)
 
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     ${CSources}
@@ -58,6 +59,7 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     ../../ittyOS/Core/Src
     ../../ittyOS/Core/Inc
     ../../ittyOS/Programs
+    ${ProgramInclude}
 )
 
 # Add project symbols (macros)
