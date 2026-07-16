@@ -11,3 +11,4 @@ mockup2.blend
 ittypda/production
 compile_commands.json
 build/
+.vscode/*
