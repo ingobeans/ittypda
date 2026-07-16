@@ -17,7 +17,7 @@
 #include "fatfs.h"
 #include "ff.h"
 #include "ffconf.h"
-#include "graphics.h"
+#include "print.h"
 #include "sd_diskio_spi.h"
 #include "sd_spi.h"
 #include <stdio.h>

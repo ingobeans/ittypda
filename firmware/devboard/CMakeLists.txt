@@ -43,32 +43,27 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 )
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-
+add_definitions(-w)
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
-    Core/Inc/conf.h
-    ../../ittyOS/Src/fonts.c
-    ../../ittyOS/Inc/fonts.h
-    ../../ittyOS/Src/graphics.c
-    ../../ittyOS/Inc/graphics.h
-    ../../ittyOS/Src/st7789.c
-    ../../ittyOS/Src/sd_diskio_spi.c
-    ../../ittyOS/Src/sd_functions.c
-    ../../ittyOS/Src/sd_spi.c
-    ../../ittyOS/Inc/st7789.h
-    ../../ittyOS/Src/system.c
-    ../../ittyOS/Inc/system.h
-    ../../ittyOS/Inc/sd_diskio_spi.h
-    ../../ittyOS/Inc/sd_functions.h
-    ../../ittyOS/Inc/sd_spi.h
+    ../../ittyOS/Core/Src/fonts.c
+    ../../ittyOS/Core/Src/print.c
+    ../../ittyOS/Core/Src/graphics.c
+    ../../ittyOS/Core/Src/st7789.c
+    ../../ittyOS/Core/Src/sd_diskio_spi.c
+    ../../ittyOS/Core/Src/sd_functions.c
+    ../../ittyOS/Core/Src/sd_spi.c
+    ../../ittyOS/Core/Src/system.c
 )
 
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
-    ../../ittyOS/
-    ../../ittyOS/Src
+    ../../ittyOS/Core/
+    ../../ittyOS/Core/Src
+    ../../ittyOS/Core/Inc
+    ../../ittyOS/Programs
     ../../ittyOS/Inc
 )
 

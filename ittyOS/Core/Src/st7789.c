@@ -1,4 +1,5 @@
 #include "st7789.h"
+#include "fonts.h"
 
 #ifdef USE_DMA
 #include <string.h>

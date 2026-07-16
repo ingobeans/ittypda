@@ -1,37 +1,17 @@
 #include "graphics.h"
 #include "fonts.h"
 #include "main.h"
+#include "print.h"
+#include "st7789.h"
 #include <stdarg.h>
 #include <stdio.h>
 #include <string.h>
 
-#include "st7789.h"
 #include "stm32f4xx_hal.h"
 
 // use disp_buf for file streaming too
 #define FILE_STREAM_BUF disp_buf
 #define FILE_STREAM_BUF_SIZE sizeof(disp_buf)
-
-// print buffer
-#define PRINT_BUFFER_MAX 2048
-char printBuffer[PRINT_BUFFER_MAX];
-u16 printLength = 0;
-
-// included in stdio.h but my LSP doesnt understand that
-int vsnprintf(char *restrict buffer, size_t bufsz, const char *restrict format,
-              va_list vlist);
-
-void print(char *fmt, ...) {
-  if (printLength >= PRINT_BUFFER_MAX) {
-    printBuffer[PRINT_BUFFER_MAX - 1] = '#';
-    return;
-  }
-  va_list argptr;
-  va_start(argptr, fmt);
-  printLength += vsnprintf(&printBuffer[printLength],
-                           PRINT_BUFFER_MAX - printLength - 1, fmt, argptr);
-  va_end(argptr);
-}
 
 void clearPrintBuffer() { printLength = 0; }
 

@@ -1,3 +1,6 @@
+#ifndef GRAPHICS
+#define GRAPHICS
+
 #include "ff.h"
 #include "fonts.h"
 #include "rust.h"
@@ -33,7 +36,6 @@ typedef struct {
 
 extern DRAW_IBI_CONFIG DEFAULT_DRAW_IBI_CONFIG;
 
-void print(char *fmt, ...);
 void printFlush(FontDef font);
 int drawIBIFullscreen(char *filename);
 void initSPI(u32 BaudRatePrescaler);
@@ -41,3 +43,5 @@ void clearPrintBuffer();
 int drawIBITextOverlay(char *filename, u16 x, u16 y, char *text, FontDef *font,
                        u16 textX, u16 textY, DRAW_IBI_CONFIG cfg);
 int drawIBI(char *filename, u16 x, u16 y, DRAW_IBI_CONFIG drawIBIConfig);
+
+#endif

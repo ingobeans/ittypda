@@ -12,6 +12,11 @@
 #define DEBUG_LED_PORT GPIOC
 #define DEBUG_LED_ON_STATE 0
 
+// technically out of spec i think but my sd card allows it :>
+#define SD_MOUNT_SPI_SPEED SPI_BAUDRATEPRESCALER_4
+#define SD_SPI_SPEED SPI_BAUDRATEPRESCALER_4
+#define LCD_SPI_SPEED SPI_BAUDRATEPRESCALER_2
+
 // #define MOSI GPIO_PIN_7
 // #define MOSI_PORT GPIOA
 // #define MISO GPIO_PIN_6
