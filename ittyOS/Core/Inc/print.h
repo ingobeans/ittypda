@@ -1,4 +1,4 @@
-#ifndef PRINT_INC
+#pragma once
 #define PRINT_INC
 
 #include "rust.h"
@@ -11,5 +11,3 @@ extern char printBuffer[PRINT_BUFFER_MAX];
 extern u16 printLength;
 
 void print(char *fmt, ...);
-
-#endif

@@ -1,4 +1,4 @@
-#ifndef VERSION
+#pragma once
 #define VERSION "0.3.8"
 
 #include "conf.h"
@@ -15,5 +15,3 @@ typedef struct {
   void (*init)(void);
   void (*update)(void);
 } PROGRAM;
-
-#endif

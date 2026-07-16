@@ -39,22 +39,16 @@ add_subdirectory(cmake/stm32cubemx)
 
 # Link directories setup
 target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
-    # Add user defined library search paths
 )
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 add_definitions(-w)
 # Add sources to executable
+
+FILE(GLOB CSources ../../ittyOS/Core/Src/*.c)
+
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
-    # Add user sources here
-    ../../ittyOS/Core/Src/fonts.c
-    ../../ittyOS/Core/Src/print.c
-    ../../ittyOS/Core/Src/graphics.c
-    ../../ittyOS/Core/Src/st7789.c
-    ../../ittyOS/Core/Src/sd_diskio_spi.c
-    ../../ittyOS/Core/Src/sd_functions.c
-    ../../ittyOS/Core/Src/sd_spi.c
-    ../../ittyOS/Core/Src/system.c
+    ${CSources}
 )
 
 # Add include paths
@@ -64,7 +58,6 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     ../../ittyOS/Core/Src
     ../../ittyOS/Core/Inc
     ../../ittyOS/Programs
-    ../../ittyOS/Inc
 )
 
 # Add project symbols (macros)
