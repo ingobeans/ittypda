@@ -7,7 +7,7 @@ ittyPDA is an itty-bitty PDA/cyberdeck thingy. its smaller than a nintendo ds bu
 
 it's mainly intended for note-taking/writing, playing silly little videogames, and just being a very hackable little computer.
 
-this repo contains both the hardware designs, under the `ittypda/` subdirectory, as well as the operating system.
+this repo contains both the hardware designs, under the `ittypda/` subdirectory, as well as the operating system under `ittyOS/`.
 
 ## specs & parts
 
