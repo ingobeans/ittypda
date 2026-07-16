@@ -5,6 +5,8 @@
 #include "system.h"
 #include <string.h>
 
+const char notesName[6] = "Notes";
+
 void notesInit() {
   // draw status bar
   ST7789_SetAddressWindow(0, 0, 480 - 1, 320 - 1);
@@ -14,7 +16,7 @@ void notesInit() {
 
     u8 j = 0;
     if (i == 0) {
-      drawToolbar();
+      drawToolbar(notesName);
       j = 29;
     }
 
@@ -34,4 +36,4 @@ void notesInit() {
   // printFlush(Font_11x18);
 }
 
-extern PROGRAM NOTES = {"home", notesInit, 0};
+extern PROGRAM NOTES = {notesName, notesInit, 0};

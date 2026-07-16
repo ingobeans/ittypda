@@ -254,7 +254,8 @@ int drawIBIFullscreen(char *filename) {
 }
 
 void writeCharToBuffer(u16 x, i16 y, char ch, FontDef font, u16 color,
-                       u8 *buffer, u16 bufferWidth, u16 bufferHeight) {
+                       u16 bgColor, u8 colorOverwrite, u8 *buffer,
+                       u16 bufferWidth, u16 bufferHeight) {
   u32 b, j;
   u32 count = 0;
   if (y > 0) {
@@ -280,6 +281,9 @@ void writeCharToBuffer(u16 x, i16 y, char ch, FontDef font, u16 color,
       if ((b << j) & 0x8000) {
         buffer[count] = color >> 8;
         buffer[count + 1] = color & 0xFF;
+      } else if (colorOverwrite) {
+        buffer[count] = bgColor >> 8;
+        buffer[count + 1] = bgColor & 0xFF;
       }
       count += 2;
     }
@@ -291,7 +295,18 @@ void writeCharToBuffer(u16 x, i16 y, char ch, FontDef font, u16 color,
 void writeStringToBuffer(u16 x, i16 y, char *str, FontDef font, u16 color,
                          u8 *buffer, u16 bufferWidth, u16 bufferHeight) {
   while (*str) {
-    writeCharToBuffer(x, y, *str, font, color, buffer, bufferWidth,
+    writeCharToBuffer(x, y, *str, font, color, 0, 0, buffer, bufferWidth,
+                      bufferHeight);
+    x += font.width;
+    str++;
+  }
+}
+
+void writeStringToBufferBG(u16 x, i16 y, char *str, FontDef font, u16 color,
+                           u16 bgColor, u8 *buffer, u16 bufferWidth,
+                           u16 bufferHeight) {
+  while (*str) {
+    writeCharToBuffer(x, y, *str, font, color, bgColor, 1, buffer, bufferWidth,
                       bufferHeight);
     x += font.width;
     str++;
@@ -328,8 +343,8 @@ void _drawIBITextOverlayCallback(STREAM_FILE_CTX *ctx) {
         break;
       }
       writeCharToBuffer(x, y - currentChunkY, textOverlayText[i],
-                        *textOverlayFont, WHITE, FILE_STREAM_BUF, drawIBIWidth,
-                        chunkHeight);
+                        *textOverlayFont, WHITE, 0, 0, FILE_STREAM_BUF,
+                        drawIBIWidth, chunkHeight);
       x += textOverlayFont->width;
       i++;
     }
