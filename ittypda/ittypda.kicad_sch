@@ -268,7 +268,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x05_Pin"
+		(symbol "Connector:Conn_01x06_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -288,8 +288,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x05_Pin"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x06_Pin"
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -320,7 +320,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x05, script generated"
+			(property "Description" "Generic connector, single row, 01x06, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -363,7 +363,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x05_Pin_1_1"
+			(symbol "Conn_01x06_Pin_1_1"
 				(rectangle
 					(start 0.8636 5.207)
 					(end 0 4.953)
@@ -411,6 +411,17 @@
 				(rectangle
 					(start 0.8636 -4.953)
 					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -470,6 +481,18 @@
 				(polyline
 					(pts
 						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
 					)
 					(stroke
 						(width 0.1524)
@@ -562,6 +585,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7948,10 +7989,6 @@
 		(uuid "827ebd39-9ed5-4c4d-a41d-732a235eff25")
 	)
 	(no_connect
-		(at 294.64 111.76)
-		(uuid "8e64d68c-3b92-4795-bd6b-e45776f6b637")
-	)
-	(no_connect
 		(at 294.64 101.6)
 		(uuid "9e060748-0068-4259-ad8f-ac9ba1ab1795")
 	)
@@ -11067,6 +11104,30 @@
 			)
 		)
 	)
+	(global_label "InBCHG"
+		(shape input)
+		(at 294.64 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2bf08779-4511-4c76-93dd-9fd2e3f65431")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.7605 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "BCHGOUT"
 		(shape input)
 		(at 24.13 242.57 90)
@@ -11152,6 +11213,30 @@
 		(uuid "3264e126-2498-49c3-aba0-c6103c335297")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 283.3696 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BCHGOUT"
+		(shape input)
+		(at 264.16 229.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35dd1778-c8f2-4749-88da-30a84bb251ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.4057 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12184,6 +12269,30 @@
 		(uuid "cf7aaf92-d910-4c4d-981b-3564206b986d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 64.77 32.0911 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "InBCHG"
+		(shape input)
+		(at 300.99 229.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d35866d5-7da5-414f-bf6d-4ac35c10e016")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 310.8695 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13851,95 +13960,6 @@
 			(project "ittypda"
 				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
 					(reference "SW30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 295.91 222.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "083d59cb-0cdf-4fd6-bc3a-7769cd5a83dc")
-		(property "Reference" "J14"
-			(at 296.545 212.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x05_Pin"
-			(at 296.545 214.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 295.91 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 295.91 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 295.91 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3611947d-328c-4d99-8294-24d688ae8117")
-		)
-		(pin "5"
-			(uuid "47012086-f194-4208-b046-555ea1f1a212")
-		)
-		(pin "4"
-			(uuid "12440ccb-8cde-4b23-9ae8-f6480ef36b82")
-		)
-		(pin "2"
-			(uuid "25d9b440-a37d-4cf1-8d2f-cbc4c2b5fbef")
-		)
-		(pin "3"
-			(uuid "b5cd2f57-518c-4bf5-986f-5baa3b4ca717")
-		)
-		(instances
-			(project "ittypda"
-				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
-					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -19378,6 +19398,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 295.91 222.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "460433da-1b7f-460c-9ffb-bc99c1457bed")
+		(property "Reference" "J3"
+			(at 296.545 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06_Pin"
+			(at 296.545 214.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 295.91 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 295.91 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "bd50b079-2183-41f8-96cd-4e98a215d2e1")
+		)
+		(pin "2"
+			(uuid "90fc29ad-de23-4b79-b3d9-a30eb890bdf4")
+		)
+		(pin "3"
+			(uuid "2ddfdf08-32c4-46e6-acdc-bb1a7f37c62e")
+		)
+		(pin "4"
+			(uuid "3710c3b7-005f-4dc0-bc23-ff7999e54350")
+		)
+		(pin "1"
+			(uuid "b06aae6a-4fe5-427c-a97d-2c7efe84527b")
+		)
+		(pin "5"
+			(uuid "398a935c-ede9-445e-abf9-c6c7af6bee55")
+		)
+		(instances
+			(project "ittypda"
+				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Diodes:Schottky,1N5819WS")
 		(at 118.11 57.15 0)
 		(unit 1)
@@ -19794,6 +19906,98 @@
 			(project "ittypda"
 				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 269.24 222.25 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4ae49844-69f2-4f38-a7ad-612cdf90f414")
+		(property "Reference" "J4"
+			(at 268.605 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06_Pin"
+			(at 268.605 214.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 269.24 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 269.24 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "b5e06dcc-6fa0-43bd-a398-97ca3a9e32dc")
+		)
+		(pin "2"
+			(uuid "b03e8c2a-aa89-463a-9d8f-6f9a3d3d9d1a")
+		)
+		(pin "3"
+			(uuid "deada636-019e-413c-baad-ed4e0030e45d")
+		)
+		(pin "4"
+			(uuid "467ac39b-d581-4131-8463-c09026e399ab")
+		)
+		(pin "1"
+			(uuid "43490d39-ca33-4397-b3d2-8d531088f5ed")
+		)
+		(pin "5"
+			(uuid "a352d154-2b8b-46f9-ae26-35c34a0d9f5d")
+		)
+		(instances
+			(project "ittypda"
+				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -38601,96 +38805,6 @@
 			(project "ittypda"
 				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
 					(reference "SW39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 269.24 222.25 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "e810c45c-7973-4f79-9207-7d01f2156ca2")
-		(property "Reference" "J13"
-			(at 268.605 212.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x05_Pin"
-			(at 268.605 214.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 269.24 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 269.24 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a43712f9-c8eb-4248-9062-225b32d3d813")
-		)
-		(pin "5"
-			(uuid "93eef9c0-362f-4606-89df-3a2d94d45f31")
-		)
-		(pin "4"
-			(uuid "43e73631-f477-4de3-8c17-6dbdb5931234")
-		)
-		(pin "2"
-			(uuid "a69ba421-0430-4f54-84a6-7511e03b9214")
-		)
-		(pin "3"
-			(uuid "df2de06a-e60d-4a27-a5f9-b5bc794b95a5")
-		)
-		(instances
-			(project "ittypda"
-				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
-					(reference "J13")
 					(unit 1)
 				)
 			)
