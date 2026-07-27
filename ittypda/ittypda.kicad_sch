@@ -13695,7 +13695,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 203.2 273.05 0)
+		(at 203.2 260.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13706,7 +13706,7 @@
 		(fields_autoplaced yes)
 		(uuid "0588c5c6-5f71-4004-b1ba-9134bb913a8c")
 		(property "Reference" "H2"
-			(at 205.74 271.7799 0)
+			(at 205.74 259.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13717,7 +13717,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 205.74 274.3199 0)
+			(at 205.74 261.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13728,7 +13728,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
-			(at 203.2 273.05 0)
+			(at 203.2 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13739,7 +13739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 273.05 0)
+			(at 203.2 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13750,7 +13750,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 203.2 273.05 0)
+			(at 203.2 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18063,7 +18063,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 203.2 262.89 0)
+		(at 203.2 265.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18074,17 +18074,6 @@
 		(fields_autoplaced yes)
 		(uuid "2eb6b53e-52e4-4e20-812b-afb6e4408629")
 		(property "Reference" "H3"
-			(at 205.74 261.6199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
 			(at 205.74 264.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18095,8 +18084,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "MountingHole"
+			(at 205.74 266.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
-			(at 203.2 262.89 0)
+			(at 203.2 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18107,7 +18107,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 262.89 0)
+			(at 203.2 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18118,7 +18118,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 203.2 262.89 0)
+			(at 203.2 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23332,6 +23332,82 @@
 			(project "ittypda"
 				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 203.2 270.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60396a2b-05f8-4020-980e-2729b56e4532")
+		(property "Reference" "H4"
+			(at 205.74 269.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 205.74 271.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
+			(at 203.2 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 203.2 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ittypda"
+				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -31039,6 +31115,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 203.2 275.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a80eba6e-a00f-4607-80a8-9d0398546866")
+		(property "Reference" "H5"
+			(at 205.74 274.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 205.74 276.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
+			(at 203.2 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 203.2 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ittypda"
+				(path "/d1aa8f6c-1644-4347-b86d-2b771500f753"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 262.89 40.64 0)
 		(unit 1)
@@ -33658,7 +33810,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 203.2 267.97 0)
+		(at 203.2 255.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33669,7 +33821,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf5d7c77-748b-4566-a0ea-4923e7c4f03c")
 		(property "Reference" "H1"
-			(at 205.74 266.6999 0)
+			(at 205.74 253.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33680,7 +33832,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 205.74 269.2399 0)
+			(at 205.74 256.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33691,7 +33843,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
-			(at 203.2 267.97 0)
+			(at 203.2 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33702,7 +33854,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 267.97 0)
+			(at 203.2 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33713,7 +33865,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 203.2 267.97 0)
+			(at 203.2 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
