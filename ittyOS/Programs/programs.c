@@ -61,42 +61,16 @@ void drawIcon(u16 x, i16 y, u16 color, u8 *buffer, u16 bufferWidth,
 u16 batteryX = 480 - 46;
 u16 batteryY = 1;
 
-void drawToolbar(char *name) {
-  drawIcon(batteryX, batteryY, WHITE, disp_buf, 480, HOR_LEN, &charge);
-  memset(&disp_buf[27 * 2 * 480], 0xff, 480 * 2);
-  memset(&disp_buf[28 * 2 * 480], 0xff, 480 * 2);
-
-  for (u8 i = 0; i < 3; i++) {
-    const int barWidth = 320;
-    memset(&disp_buf[(i * 7 + 4) * 2 * 480 + 95 * 2], 0xff, barWidth * 2);
-    memset(&disp_buf[(i * 7 + 4 + 1) * 2 * 480 + 95 * 2], 0xff, barWidth * 2);
-  }
-  writeStringToBuffer(5, 0, "12:56", Font_16x26, WHITE, disp_buf, 480, HOR_LEN);
-  u32 len = strlen(name);
-  u16 width = len * Font_16x26.width;
-  u16 textX = (480 - width) / 2;
-
-  for (u8 i = 0; i < 27; i++) {
-    u16 padW = width + 14;
-    u16 padX = (480 - padW) / 2;
-    memset(&disp_buf[i * 2 * 480 + padX * 2], 0, padW * 2);
-  }
-  writeStringToBuffer(textX, 0, name, Font_16x26, WHITE, disp_buf, 480,
-                      HOR_LEN);
-}
-
 u16 adcValue = 0;
 u16 batteryVoltageTimes10000 = 0;
-u16 batteryPercentage = 0;
+u16 batteryPercentage = 100;
 
-void drawBatteryBars() {
+void drawBatteryBars(int bufferWidth, int xOff, int yOff) {
   // return;
   u16 barFill = batteryPercentage * 48 / 100;
   u16 last = barFill / 8;
   u16 lastExtra = barFill % 8;
-  drawIcon(0, 0, WHITE, disp_buf, 42, 19, &charge);
 
-  int xOff = 3;
   for (int i = 0; i < last + 1; i++) {
     for (int j = 0; j < 15; j++) {
       int off = j;
@@ -135,10 +109,36 @@ void drawBatteryBars() {
           l = off - 10;
         }
       }
-      memset_u16(&disp_buf[(j + 2) * 42 * 2 + (xOff + i * 9) * 2 - off * 2],
+      memset_u16(&disp_buf[(j + yOff) * bufferWidth * 2 + (xOff + i * 9) * 2 -
+                           off * 2],
                  0xffff, l * 2);
     }
   }
+}
+
+void drawToolbar(char *name) {
+  drawIcon(batteryX, batteryY, WHITE, disp_buf, 480, HOR_LEN, &charge);
+  drawBatteryBars(480, 3 + batteryX, 2 + batteryY);
+  memset(&disp_buf[27 * 2 * 480], 0xff, 480 * 2);
+  memset(&disp_buf[28 * 2 * 480], 0xff, 480 * 2);
+
+  for (u8 i = 0; i < 3; i++) {
+    const int barWidth = 320;
+    memset(&disp_buf[(i * 7 + 4) * 2 * 480 + 95 * 2], 0xff, barWidth * 2);
+    memset(&disp_buf[(i * 7 + 4 + 1) * 2 * 480 + 95 * 2], 0xff, barWidth * 2);
+  }
+  writeStringToBuffer(5, 0, "12:56", Font_16x26, WHITE, disp_buf, 480, HOR_LEN);
+  u32 len = strlen(name);
+  u16 width = len * Font_16x26.width;
+  u16 textX = (480 - width) / 2;
+
+  for (u8 i = 0; i < 27; i++) {
+    u16 padW = width + 14;
+    u16 padX = (480 - padW) / 2;
+    memset(&disp_buf[i * 2 * 480 + padX * 2], 0, padW * 2);
+  }
+  writeStringToBuffer(textX, 0, name, Font_16x26, WHITE, disp_buf, 480,
+                      HOR_LEN);
 }
 
 // #define BATTERY_DEBUG
@@ -182,7 +182,8 @@ void updateToolbar() {
                           batteryY + 19 - 1);
   memset(disp_buf, 0, 42 * 19 * 2);
   ST7789_Select();
-  drawBatteryBars();
+  drawIcon(0, 0, WHITE, disp_buf, 42, 19, &charge);
+  drawBatteryBars(42, 3, 2);
   ST7789_WriteData(disp_buf, 42 * 19 * 2);
 
 #ifdef BATTERY_DEBUG
