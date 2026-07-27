@@ -70,8 +70,8 @@ void notesUpdate() {
     batteryPercentage = (emulatedVoltage) / 100 - 320;
   } else if (emulatedVoltage > 37000) {
     batteryPercentage = (emulatedVoltage) * 4 / 100 - 1460;
-  } else if (emulatedVoltage > 31000) {
-    batteryPercentage = ((emulatedVoltage) * 33 / 100 - 10200) / 100;
+  } else if (emulatedVoltage > 33000) {
+    batteryPercentage = ((emulatedVoltage)-33000) / 200;
   } else {
     batteryPercentage = 0;
   }
