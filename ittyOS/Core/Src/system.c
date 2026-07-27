@@ -72,5 +72,5 @@ void systemUpdate() {
   OPEN_PROGRAM.update();
   // readSwitches();
   // getKeyAt(1, 1);
-  HAL_Delay(60);
+  HAL_Delay(16);
 }

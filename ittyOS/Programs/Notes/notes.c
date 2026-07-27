@@ -37,54 +37,6 @@ void notesInit() {
   // printFlush(Font_11x18);
 }
 
-u16 adcValue = 0;
-u16 batteryVoltageTimes10000 = 0;
-u16 batteryPercentage = 0;
-void notesUpdate() {
-  // dont ask why the notes app displays battery charge...
-  // only for testing purposes for the moment
-
-  clearPrintBuffer();
-  print("\n\n");
-  // Start ADC Conversion
-  HAL_ADC_Start(&hadc1);
-  // Poll ADC1 Perihperal & TimeOut = 1mSec
-  HAL_ADC_PollForConversion(&hadc1, 1);
-  // Read The ADC Conversion Result & Map It To PWM DutyCycle
-  if (adcValue) {
-    adcValue *= 3;
-    adcValue += HAL_ADC_GetValue(&hadc1);
-    adcValue /= 4;
-  } else {
-    adcValue = HAL_ADC_GetValue(&hadc1);
-  }
-  batteryVoltageTimes10000 = adcValue * 33 / 4;
-  print("adc reading: %d   \n", adcValue);
-
-  int emulatedVoltage = batteryVoltageTimes10000 * 42000 / 33000;
-
-  // follows the rough shape of this 3.7v lithium battery charge graph:
-  // link:
-  // https://canada1.discourse-cdn.com/flex028/uploads/core_electronics/original/2X/f/f6b21e6a7d5a0e3412f2182c67b25c2558cd663a.png
-  if (emulatedVoltage > 38000) {
-    batteryPercentage = (emulatedVoltage) / 100 - 320;
-  } else if (emulatedVoltage > 37000) {
-    batteryPercentage = (emulatedVoltage) * 4 / 100 - 1460;
-  } else if (emulatedVoltage > 33000) {
-    batteryPercentage = ((emulatedVoltage)-33000) / 200;
-  } else {
-    batteryPercentage = 0;
-  }
-  // batteryPercentage = (emulatedVoltage - 31000) / (420 - 310);
-
-  int wholePart = batteryVoltageTimes10000 / 10000;
-  int modPart = batteryVoltageTimes10000 % 10000;
-  print("voltage: %d.%04d   \n", wholePart, modPart);
-  wholePart = emulatedVoltage / 10000;
-  modPart = emulatedVoltage % 10000;
-  print("voltage (emulated): %d.%04d   \n", wholePart, modPart);
-  print("percentage: %d  \n", batteryPercentage);
-  printFlush(Font_11x18);
-}
+void notesUpdate() { updateToolbar(); }
 
 extern PROGRAM NOTES = {notesName, notesInit, notesUpdate};
