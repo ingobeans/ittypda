@@ -1,5 +1,6 @@
 #include "fonts.h"
 #include "graphics.h"
+#include "print.h"
 #include "programs.h"
 #include "st7789.h"
 #include "stm32f4xx_hal.h"
@@ -38,7 +39,8 @@ void notesInit() {
   // printFlush(Font_11x18);
 }
 
-char textBuffer[2048] = {};
+#define TEXT_BUFFER_LENGTH 1024
+char textBuffer[TEXT_BUFFER_LENGTH] = {};
 u16 bufferPos = 0;
 char keyIsHeld = 0;
 char heldKeyX = 0;
@@ -63,15 +65,22 @@ void notesUpdate() {
       }
     }
   }
-  char heldKey = getKeyAt(heldKeyY, heldKeyX);
-  if (heldKeyX == 11 && heldKeyY == 0) {
-    // backspace
-  }
-  if (heldKey) {
-    textBuffer[bufferPos] = heldKey;
-    bufferPos += 1;
-    if (bufferPos >= 2048) {
-      bufferPos = 0;
+
+  char heldKey = 0;
+  if (keyIsHeld) {
+    heldKey = getKeyAt(heldKeyY, heldKeyX);
+    if (heldKey) {
+      textBuffer[bufferPos] = heldKey;
+      bufferPos += 1;
+      if (bufferPos >= TEXT_BUFFER_LENGTH) {
+        bufferPos = 0;
+      }
+    }
+
+    if (heldKeyX == 11 && heldKeyY == 0) {
+      // backspace
+      bufferPos -= 1;
+      textBuffer[bufferPos] = 0;
     }
   }
   updateToolbar();
@@ -91,7 +100,22 @@ void notesUpdate() {
     writeCharToBuffer(0, 0, textBuffer[oldBufferPos], font, WHITE, BLACK, 1,
                       disp_buf, w, h);
     ST7789_WriteData(disp_buf, w * h * 2);
+  } else if (oldBufferPos > bufferPos) {
+    u16 x = marginWidth + oldBufferPos % writableAreaWidthChars * font.width;
+    u16 y = 32 + oldBufferPos / writableAreaWidthChars * font.height;
+    u16 w = font.width;
+    u16 h = font.height;
+    ST7789_SetAddressWindow(x, y, x + w - 1, y + h - 1);
+    memset(disp_buf, 0, w * h * 2);
+    ST7789_WriteData(disp_buf, w * h * 2);
   }
+
+  // textBuffer[bufferPos] = ' ';
+  // clearPrintBuffer();
+  // print("\n\n\n                     ");
+  // memcpy(&printBuffer[6], ' ', 10);
+  // memcpy(&printBuffer[6], textBuffer, 10);
+  // printFlush(Font_11x18);
 }
 
 extern PROGRAM NOTES = {notesName, notesInit, notesUpdate};
