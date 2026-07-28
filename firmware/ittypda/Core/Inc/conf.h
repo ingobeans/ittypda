@@ -32,8 +32,6 @@
 #define KEYBOARD_MATRIX
 #include "main.h"
 #include "rust.h"
-#define COLS_AMT 12
-#define ROWS_AMT 5
 
 typedef struct {
   u16 pin;

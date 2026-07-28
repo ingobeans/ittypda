@@ -1,6 +1,9 @@
 #include "home.h"
 #include "notes.h"
 
+#define COLS_AMT 12
+#define ROWS_AMT 5
+
 typedef struct {
   u64 *data;
   u16 height;

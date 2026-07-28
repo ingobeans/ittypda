@@ -3,10 +3,10 @@
 #include "rust.h"
 #include "st7789.h"
 #include "stm32f4xx_hal.h"
+#include <string.h>
 
-#ifdef KEYBOARD_MATRIX
-
-u8 heldSwitches[60] = {0};
+extern u8 heldSwitches[60] = {0};
+extern u8 lastHeldSwitches[60] = {0};
 
 /*
 char maps for 'åäö' (i am indeed swedish)
@@ -44,6 +44,7 @@ char getKeyAt(u8 row, u8 col) {
   return charKeys[row][col];
 }
 
+#ifdef KEYBOARD_MATRIX
 void readSwitches() {
   for (u8 c = 0; c < COLS_AMT; c++) {
     HAL_GPIO_WritePin(cols[c].bus, cols[c].pin, 1);
@@ -54,6 +55,27 @@ void readSwitches() {
     HAL_GPIO_WritePin(cols[c].bus, cols[c].pin, 0);
     // todo: maybe add delay here if interference.
   }
+}
+#endif
+#ifndef KEYBOARD_MATRIX
+u8 inputBufferI = 0;
+u8 inputBufferILast = 0;
+u8 bufferedKeys[4][2] = {{2, 1}, {2, 0}, {3, 1}, {11, 0}};
+void readSwitches() {
+  if (inputBufferI >= 4) {
+    u8 x = bufferedKeys[inputBufferILast][0];
+    u8 y = bufferedKeys[inputBufferILast][1];
+    heldSwitches[y * COLS_AMT + x] = 0;
+    return;
+  }
+  u8 x = bufferedKeys[inputBufferILast][0];
+  u8 y = bufferedKeys[inputBufferILast][1];
+  heldSwitches[y * COLS_AMT + x] = 0;
+  x = bufferedKeys[inputBufferI][0];
+  y = bufferedKeys[inputBufferI][1];
+  heldSwitches[y * COLS_AMT + x] = 1;
+  inputBufferILast = inputBufferI;
+  inputBufferI += 1;
 }
 #endif
 
@@ -72,5 +94,6 @@ void systemUpdate() {
   OPEN_PROGRAM.update();
   // readSwitches();
   // getKeyAt(1, 1);
+  memcpy(lastHeldSwitches, heldSwitches, sizeof(heldSwitches));
   HAL_Delay(16);
 }
