@@ -60,9 +60,10 @@ void readSwitches() {
 #ifndef KEYBOARD_MATRIX
 u8 inputBufferI = 0;
 u8 inputBufferILast = 0;
-u8 bufferedKeys[4][2] = {{2, 1}, {2, 0}, {3, 1}, {11, 0}};
+u8 bufferedKeys[][2] = {{2, 1},  {2, 0}, {3, 1}, {11, 0},
+                        {11, 1}, {2, 1}, {2, 1}, {2, 1}};
 void readSwitches() {
-  if (inputBufferI >= 4) {
+  if (inputBufferI >= sizeof(bufferedKeys) / 2) {
     u8 x = bufferedKeys[inputBufferILast][0];
     u8 y = bufferedKeys[inputBufferILast][1];
     heldSwitches[y * COLS_AMT + x] = 0;

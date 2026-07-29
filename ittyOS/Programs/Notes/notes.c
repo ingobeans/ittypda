@@ -46,8 +46,17 @@ char keyIsHeld = 0;
 char heldKeyX = 0;
 char heldKeyY = 0;
 
+u16 cursorX = 0;
+u16 cursorY = 0;
+
+#define NOTES_STATE_NEW_CHAR 1
+#define NOTES_STATE_BACKSPACE 2
+#define NOTES_STATE_NEW_LINE 3
+
 void notesUpdate() {
   readSwitches();
+  u8 state = 0;
+
   u16 oldBufferPos = bufferPos;
   for (int x = 0; x < COLS_AMT; x++) {
     for (int y = 0; y < ROWS_AMT; y++) {
@@ -72,6 +81,8 @@ void notesUpdate() {
     if (heldKey) {
       textBuffer[bufferPos] = heldKey;
       bufferPos += 1;
+      cursorX += 1;
+      state = NOTES_STATE_NEW_CHAR;
       if (bufferPos >= TEXT_BUFFER_LENGTH) {
         bufferPos = 0;
       }
@@ -80,7 +91,14 @@ void notesUpdate() {
     if (heldKeyX == 11 && heldKeyY == 0) {
       // backspace
       bufferPos -= 1;
+      cursorX -= 1;
       textBuffer[bufferPos] = 0;
+      state = NOTES_STATE_BACKSPACE;
+    } else if (heldKeyX == 11 && heldKeyY == 1) {
+      // enter
+      cursorY += 1;
+      cursorX = 0;
+      state = NOTES_STATE_NEW_LINE;
     }
   }
   updateToolbar();
@@ -90,9 +108,9 @@ void notesUpdate() {
 
   u16 w = font.width;
   u16 h = (font.height);
-  if (oldBufferPos < bufferPos) {
-    u16 x = marginWidth + bufferPos % writableAreaWidthChars * font.width;
-    u16 y = 32 + bufferPos / writableAreaWidthChars * font.height;
+  if (state == NOTES_STATE_NEW_CHAR) {
+    u16 x = marginWidth + cursorX * font.width;
+    u16 y = 32 + cursorY * font.height;
     u16 w = font.width;
     u16 h = font.height;
     ST7789_SetAddressWindow(x, y, x + w - 1, y + h - 1);
@@ -100,14 +118,15 @@ void notesUpdate() {
     writeCharToBuffer(0, 0, textBuffer[oldBufferPos], font, WHITE, BLACK, 1,
                       disp_buf, w, h);
     ST7789_WriteData(disp_buf, w * h * 2);
-  } else if (oldBufferPos > bufferPos) {
-    u16 x = marginWidth + oldBufferPos % writableAreaWidthChars * font.width;
-    u16 y = 32 + oldBufferPos / writableAreaWidthChars * font.height;
+  } else if (state == NOTES_STATE_BACKSPACE) {
+    u16 x = marginWidth + (cursorX + 1) * font.width;
+    u16 y = 32 + cursorY * font.height;
     u16 w = font.width;
     u16 h = font.height;
     ST7789_SetAddressWindow(x, y, x + w - 1, y + h - 1);
     memset(disp_buf, 0, w * h * 2);
     ST7789_WriteData(disp_buf, w * h * 2);
+  } else if (state == NOTES_STATE_NEW_LINE) {
   }
 
   // textBuffer[bufferPos] = ' ';
