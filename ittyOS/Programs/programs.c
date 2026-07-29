@@ -149,21 +149,7 @@ void updateToolbar() {
   print("\n\n");
 #endif
 
-  // Start ADC Conversion
-  HAL_ADC_Start(&hadc1);
-  // Poll ADC1 Perihperal & TimeOut = 1mSec
-  HAL_ADC_PollForConversion(&hadc1, 1);
-  // Read The ADC Conversion Result & Map It To PWM DutyCycle
-  if (adcValue) {
-    adcValue *= 3;
-    adcValue += HAL_ADC_GetValue(&hadc1);
-    adcValue /= 4;
-  } else {
-    adcValue = HAL_ADC_GetValue(&hadc1);
-  }
-  batteryVoltageTimes10000 = adcValue * 33 / 4;
-
-  int emulatedVoltage = batteryVoltageTimes10000 * 42000 / 33000;
+  int emulatedVoltage = 42000;
 
   // follows the rough shape of this 3.7v lithium battery charge graph:
   // link:
