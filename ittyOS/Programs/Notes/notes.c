@@ -75,6 +75,9 @@ void notesUpdate() {
     }
   }
 
+  u16 oldCursorX=cursorX;
+  u16 oldCursorY=cursorY;
+
   char heldKey = 0;
   if (keyIsHeld) {
     heldKey = getKeyAt(heldKeyY, heldKeyX);
@@ -91,7 +94,14 @@ void notesUpdate() {
     if (heldKeyX == 11 && heldKeyY == 0) {
       // backspace
       bufferPos -= 1;
-      cursorX -= 1;
+      if (cursorX == 0) {
+        if (cursorY>0) {
+          cursorX = 0;
+          cursorY -= 1;
+        }
+      } else {
+        cursorX -= 1;
+      }
       textBuffer[bufferPos] = 0;
       state = NOTES_STATE_BACKSPACE;
     } else if (heldKeyX == 11 && heldKeyY == 1) {
@@ -119,8 +129,8 @@ void notesUpdate() {
                       disp_buf, w, h);
     ST7789_WriteData(disp_buf, w * h * 2);
   } else if (state == NOTES_STATE_BACKSPACE) {
-    u16 x = marginWidth + (cursorX + 1) * font.width;
-    u16 y = 32 + cursorY * font.height;
+    u16 x = marginWidth + oldCursorX * font.width;
+    u16 y = 32 + oldCursorY * font.height;
     u16 w = font.width;
     u16 h = font.height;
     ST7789_SetAddressWindow(x, y, x + w - 1, y + h - 1);
