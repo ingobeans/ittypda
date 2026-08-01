@@ -54,7 +54,6 @@ u16 cursorY = 0;
 #define NOTES_STATE_NEW_LINE 3
 
 void notesUpdate() {
-  readSwitches();
   u8 state = 0;
 
   u16 oldBufferPos = bufferPos;
@@ -75,8 +74,8 @@ void notesUpdate() {
     }
   }
 
-  u16 oldCursorX=cursorX;
-  u16 oldCursorY=cursorY;
+  u16 oldCursorX = cursorX;
+  u16 oldCursorY = cursorY;
 
   char heldKey = 0;
   if (keyIsHeld) {
@@ -95,7 +94,7 @@ void notesUpdate() {
       // backspace
       bufferPos -= 1;
       if (cursorX == 0) {
-        if (cursorY>0) {
+        if (cursorY > 0) {
           cursorX = 0;
           cursorY -= 1;
         }

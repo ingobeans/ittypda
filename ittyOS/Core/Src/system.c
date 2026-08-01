@@ -3,6 +3,7 @@
 #include "rust.h"
 #include "st7789.h"
 #include "stm32f4xx_hal.h"
+#include "stm32f4xx_hal_gpio.h"
 #include <string.h>
 
 extern u8 heldSwitches[60] = {0};
@@ -60,8 +61,8 @@ void readSwitches() {
 #ifndef KEYBOARD_MATRIX
 u8 inputBufferI = 0;
 u8 inputBufferILast = 0;
-u8 bufferedKeys[][2] = {{2, 1},  {2, 0}, {3, 1}, {11, 0},
-                        {11, 1}, {2, 1}, {2, 1}, {2, 1}};
+u8 bufferedKeys[][2] = {{2, 1}, {2, 0}, {3, 1}, {11, 0}, {11, 1},
+                        {2, 1}, {2, 1}, {2, 1}, {1, 4}};
 void readSwitches() {
   if (inputBufferI >= sizeof(bufferedKeys) / 2) {
     u8 x = bufferedKeys[inputBufferILast][0];
@@ -80,7 +81,8 @@ void readSwitches() {
 }
 #endif
 
-#define OPEN_PROGRAM NOTES
+PROGRAM *openProgram = &NOTES;
+int home = 0;
 
 void systemInit() {
   HAL_GPIO_WritePin(DEBUG_LED_PORT, DEBUG_LED, !DEBUG_LED_ON_STATE);
@@ -88,11 +90,19 @@ void systemInit() {
   initSPI(LCD_SPI_SPEED);
   ST7789_Init();
   HAL_GPIO_WritePin(LED_PORT, LED, 1);
-  OPEN_PROGRAM.init();
+  openProgram->init();
 }
 
 void systemUpdate() {
-  OPEN_PROGRAM.update();
+  readSwitches();
+  if (!home) {
+    if (heldSwitches[4 * COLS_AMT + 1]) {
+      // super key pressed
+      openProgram = &HOME;
+      openProgram->init();
+    }
+  }
+  openProgram->update();
   // readSwitches();
   // getKeyAt(1, 1);
   memcpy(lastHeldSwitches, heldSwitches, sizeof(heldSwitches));
