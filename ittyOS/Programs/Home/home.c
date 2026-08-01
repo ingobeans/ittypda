@@ -27,9 +27,7 @@ void homeInit() {
                        &Font_16x26, 0, 0, cfg);
     HAL_Delay(1000);
 
-    catTest();
-    DRAW_IBI_CONFIG cfg2 = {87, 23, 78, 60, 1};
-    drawIBI("images/cat.ibi", 480 / 2, 320 / 2, cfg2);
+    // catTest();
     HAL_Delay(600);
     sd_unmount();
   }
