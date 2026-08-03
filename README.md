@@ -7,7 +7,7 @@ ittyPDA is an itty-bitty PDA/cyberdeck thingy. its smaller than a nintendo ds bu
 
 it's mainly intended for note-taking/writing, playing silly little videogames, and just being a very hackable little computer.
 
-this repo contains both the hardware designs, under the `ittypda/` subdirectory, as well as the operating system under `ittyOS/`.
+this repo contains both the hardware designs, under the `ittypda/` subdirectory, as well as the operating system under `ittyOS/`. 3D case files are under `case/`.
 
 ## specs & parts
 
@@ -17,10 +17,9 @@ this repo contains both the hardware designs, under the `ittypda/` subdirectory,
     * 128 Kb RAM
 * display: [3.5" IPS display (no touch version)](https://www.lcdwiki.com/3.5inch_IPS_SPI_Module_ST7796)
 * storage: SD card slot included on display
-* charging/data transfer over USB-C
+* charging/data transfer possible over USB-C
 * battery: 2200mAh LiPo - [this is the one I use, but really any battery with a similar size and connector will work](https://www.amazon.se/-/en/gp/product/B0D7VT93JX?smid=A2YUU8D7JQVZCY&th=1)
 * on-board charging circuitry powered by a [BQ24040DSQR](https://www.ti.com/product/BQ24040)
-
 
 ## download symbols/footprints
 
@@ -49,6 +48,16 @@ then, to build, navigate to the firmware you want to build's directory.
 1. `cmake --preset Debug` (you only have to run this once)
 2. `cmake --build --preset Debug`
 3. `STM32_Programmer_CLI -c port=swd -w build/Debug/<DEVBOARD OR ITTYPDA HERE>.elf -v -rst`
+
+## project status
+
+project is in a very early WIP state currently! the PCB is the only finished part so far.
+
+the case is just a minimum-viable-product for now, and the firmware mostly acts as a proof-of-concept regarding graphics streaming and input handling from the keyboard matrix.
+
+thus the project is mostly about the creation of the PCB, with the case and firmware mostly just acting as beta features used to test the PCB itself.
+
+these features will be developed in the coming months though, and when i have guaranteed that the core PCB does work!
 
 <hr>
 
