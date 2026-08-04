@@ -60,7 +60,7 @@ thus the project is mostly about the creation of the PCB, with the case and firm
 
 these features will be developed in the coming months though, and when i have guaranteed that the core PCB does work!
 
-## schematic
+## schematic / PCB
 
 the schematic and PCB are designed in KiCad, files for which are found in `ittypda/`.
 
@@ -73,6 +73,29 @@ the secondary board houses the usb-c port, battery charging ic, voltage regulato
 the two boards mount together like a PCB-sandwich and connect through 7 soldered pads.
 
 <img src=readme/schematic.png width=400>
+
+## firmware - ittyOS
+
+ittyOS is currently in an early proof of concept state, but will have many different apps later on.
+
+implemented:
+* display drivers
+* reading from microSD card
+* streaming image data from microSD to screen
+* input from keyboard
+* program switching
+* basic home screen
+* basic notes app
+
+todo:
+* improve text input
+* usb file transfer
+* more apps!
+    * wordle
+    * journal
+* different themes?
+
+the `../firmware` folder contains the low level hardware setup for different boards that can run ittyOS, while `ittyOS/` contains the shared code and the actual system, which is then linked to from the firmware.
 
 ## case
 
