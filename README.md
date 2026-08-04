@@ -36,7 +36,7 @@ which will download footprints/symbols/3d models for the switches, diodes, etc.
 
 ## project status (important !!)
 
-project is in a very early WIP state currently! the PCB is the only finished part so far.
+project is in a very early WIP state currently! the PCB is the only *finished* part so far.
 
 the case is just a minimum-viable-product for now, and the firmware mostly acts as a proof-of-concept regarding graphics streaming and input handling from the keyboard matrix.
 
