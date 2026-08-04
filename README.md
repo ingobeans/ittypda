@@ -3,7 +3,7 @@
 
 hi! this is my little thing im working on.
 
-ittyPDA is an itty-bitty PDA/cyberdeck thingy. its smaller than a nintendo ds but has a real keyboard and a full color IPS LCD display.
+ittyPDA is an itty-bitty PDA/cyberdeck thingy. its smaller than a nintendo ds but has a real keyboard and a full color IPS LCD display, power by an STM32 microcontroller.
 
 it's mainly intended for note-taking/writing, playing silly little videogames, and just being a very hackable little computer.
 
@@ -20,6 +20,7 @@ this repo contains both the hardware designs, under the `ittypda/` subdirectory,
 * charging/data transfer possible over USB-C
 * battery: 2200mAh LiPo - [this is the one I use, but really any battery with a similar size and connector will work](https://www.amazon.se/-/en/gp/product/B0D7VT93JX?smid=A2YUU8D7JQVZCY&th=1)
 * on-board charging circuitry powered by a [BQ24040DSQR](https://www.ti.com/product/BQ24040)
+    * also battery level sensing
 
 <img src="readme/pcb3d.png" width=250><img src="readme/pcb.png" width=250>
 ## download symbols/footprints
@@ -36,13 +37,13 @@ which will download footprints/symbols/3d models for the switches, diodes, etc.
 
 ## project status (important !!)
 
-project is in a very early WIP state currently! the PCB is the only *finished* part so far.
+project is in a very early WIP state currently! the PCB is the only truly *finished* part so far.
 
 the case is just a minimum-viable-product for now, and the firmware mostly acts as a proof-of-concept regarding graphics streaming and input handling from the keyboard matrix.
 
 thus the project is mostly about the creation of the PCB, with the case and firmware mostly just acting as beta features used to test the PCB itself.
 
-these features will be developed in the coming months though, and when i have guaranteed that the core PCB does work!
+these features will be developed in the coming months though, and when i have guaranteed that the core PCB does work! this is a project i intend to gradually work on for a long time !
 
 ## schematic / PCB
 
