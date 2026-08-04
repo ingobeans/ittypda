@@ -78,6 +78,8 @@ the two boards mount together like a PCB-sandwich and connect through 7 soldered
 
 ittyOS is currently in an early proof of concept state, but will have many different apps later on.
 
+<img src=readme/home.png width=200>
+
 implemented:
 * display drivers
 * reading from microSD card
