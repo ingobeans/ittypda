@@ -100,7 +100,7 @@ then, to build, navigate to the firmware you want to build's directory.
 
 the case files are located under `case/`.
 
-the case is designed in,.. blender. its mostly a MVP for a case, and when i phyiscal PCB this and the firmware will be the major focus for the project moving forwards.
+the case is designed in,.. blender. its mostly a MVP for a case, and when i get the phyiscal PCB, this and the firmware will be the major focus for the project moving forwards.
 
 most parts are designed to friction-fit, though i wont know how well this works in practice, but will find out soon !
 
