@@ -3,7 +3,7 @@
 
 hi! this is my little thing im working on.
 
-ittyPDA is an itty-bitty PDA/cyberdeck thingy. its smaller than a nintendo ds but has a real keyboard and a full color IPS LCD display, power by an STM32 microcontroller.
+ittyPDA is an itty-bitty PDA/cyberdeck thingy. its smaller than a nintendo ds but has a real keyboard and a full color IPS LCD display, powered by an STM32 microcontroller.
 
 it's mainly intended for note-taking/writing, playing silly little videogames, and just being a very hackable little computer.
 
