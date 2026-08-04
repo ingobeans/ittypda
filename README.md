@@ -34,22 +34,6 @@ easyeda2kicad --full --lcsc_id C318884 C191023 C22435642 C13738 C81080 C49023767
 
 which will download footprints/symbols/3d models for the switches, diodes, etc.
 
-## compile ittyOS
-
-so, for development purposes, ittyOS is made to be partially portable. this is so i can build it either for a devboard i have on hand, or for the actual ittyPDA device.
-
-the shared ittyOS code is under `ittyOS/`, but the low level configuration for these two boards are under `firmware/`.
-
-you'll need to generate the code, since the low-level drivers for these boards are very large and therefore gitignored. you'll need STM32CubeMX. then just open the project file for the firmware you want to build, and hit generate code. 
-
-you'll also have to tell your LSP which CMakeLists you're using.
-
-then, to build, navigate to the firmware you want to build's directory.
-
-1. `cmake --preset Debug` (you only have to run this once)
-2. `cmake --build --preset Debug`
-3. `STM32_Programmer_CLI -c port=swd -w build/Debug/<DEVBOARD OR ITTYPDA HERE>.elf -v -rst`
-
 ## project status (important !!)
 
 project is in a very early WIP state currently! the PCB is the only finished part so far.
@@ -97,7 +81,19 @@ todo:
     * journal
 * different themes?
 
+### compile ittyOS
+
 the `../firmware` folder contains the low level hardware setup for different boards that can run ittyOS, while `ittyOS/` contains the shared code and the actual system, which is then linked to from the firmware.
+
+you'll need to generate the firmware code from the STM32 project file, since the low-level drivers for these boards are very large and therefore gitignored. you'll need STM32CubeMX. then just open the project file for the firmware you want to build, and hit generate code. 
+
+you'll also have to tell your LSP which CMakeLists you're using.
+
+then, to build, navigate to the firmware you want to build's directory.
+
+1. `cmake --preset Debug` (you only have to run this once)
+2. `cmake --build --preset Debug`
+3. `STM32_Programmer_CLI -c port=swd -w build/Debug/<DEVBOARD OR ITTYPDA HERE>.elf -v -rst`
 
 ## case
 
