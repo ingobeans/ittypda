@@ -21,6 +21,7 @@ this repo contains both the hardware designs, under the `ittypda/` subdirectory,
 * battery: 2200mAh LiPo - [this is the one I use, but really any battery with a similar size and connector will work](https://www.amazon.se/-/en/gp/product/B0D7VT93JX?smid=A2YUU8D7JQVZCY&th=1)
 * on-board charging circuitry powered by a [BQ24040DSQR](https://www.ti.com/product/BQ24040)
 
+<img src="readme/pcb3d.png" width=250><img src="readme/pcb.png" width=250>
 ## download symbols/footprints
 
 to open the kicad project, youll need to download some footprints. my parts are sourced from JLCPCB's parts / LCSC, and you can use [`easyeda2kicad`](https://github.com/uPesy/easyeda2kicad.py) to download LCSC parts to kicad.
@@ -49,7 +50,7 @@ then, to build, navigate to the firmware you want to build's directory.
 2. `cmake --build --preset Debug`
 3. `STM32_Programmer_CLI -c port=swd -w build/Debug/<DEVBOARD OR ITTYPDA HERE>.elf -v -rst`
 
-## project status
+## project status (important !!)
 
 project is in a very early WIP state currently! the PCB is the only finished part so far.
 
@@ -59,6 +60,29 @@ thus the project is mostly about the creation of the PCB, with the case and firm
 
 these features will be developed in the coming months though, and when i have guaranteed that the core PCB does work!
 
+## schematic
+
+the schematic and PCB are designed in KiCad, files for which are found in `ittypda/`.
+
+the PCB is split in two seperate parts. this is done to achieve a budget 4-layer board, and to get around the fact that JLCPCB's economy PCBA service cant assemble parts on the bottomside of the board.
+
+the mainboard houses the microcontroller, the keypad, and display connector.
+
+the secondary board houses the usb-c port, battery charging ic, voltage regulator, etc.
+
+the two boards mount together like a PCB-sandwich and connect through 7 soldered pads.
+
+<img src=readme/schematic.png width=400>
+
+## case
+
+the case files are located under `case/`.
+
+the case is designed in,.. blender. its mostly a MVP for a case, and when i phyiscal PCB this and the firmware will be the major focus for the project moving forwards.
+
+most parts are designed to friction-fit, though i wont know how well this works in practice, but will find out soon !
+
+![alt text](readme/case1.png)![alt text](readme/case2.png)
 <hr>
 
 <sup>made with <3</sup>
