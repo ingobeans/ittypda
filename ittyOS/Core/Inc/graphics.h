@@ -51,4 +51,4 @@ void writeStringToBuffer(u16 x, i16 y, char *str, FontDef font, u16 color,
 void writeStringToBufferBG(u16 x, i16 y, char *str, FontDef font, u16 color,
                            u16 bgColor, u8 *buffer, u16 bufferWidth,
                            u16 bufferHeight);
-void memset_u16(char *buf, u16 value, u8 size);
+void memset_u16(char *buf, u16 value, u16 size);

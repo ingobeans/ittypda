@@ -313,7 +313,7 @@ void writeStringToBufferBG(u16 x, i16 y, char *str, FontDef font, u16 color,
   }
 }
 
-void memset_u16(char *buf, u16 value, u8 size) {
+void memset_u16(char *buf, u16 value, u16 size) {
   for (int i = 0; i < size; i += 2) {
     memcpy(&buf[i], &value, 2);
   }

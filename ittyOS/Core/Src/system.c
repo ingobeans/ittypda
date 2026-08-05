@@ -81,8 +81,8 @@ void readSwitches() {
 }
 #endif
 
-PROGRAM *openProgram = &NOTES;
-int home = 0;
+PROGRAM *openProgram = &HOME;
+int home = 1;
 
 void systemInit() {
   HAL_GPIO_WritePin(DEBUG_LED_PORT, DEBUG_LED, !DEBUG_LED_ON_STATE);
