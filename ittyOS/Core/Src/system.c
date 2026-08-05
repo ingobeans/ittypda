@@ -63,7 +63,7 @@ u8 inputBufferI = 0;
 u8 inputBufferILast = 0;
 // u8 bufferedKeys[][2] = {{2, 1}, {2, 0}, {3, 1}, {11, 0}, {11, 1},
 //                         {2, 1}, {2, 1}, {2, 1}, {1, 4}};
-u8 bufferedKeys[][2] = {{6, 3}};
+u8 bufferedKeys[][2] = {{6, 3}, {11, 1}};
 void readSwitches() {
   if (inputBufferI >= sizeof(bufferedKeys) / 2) {
     u8 x = bufferedKeys[inputBufferILast][0];
@@ -84,6 +84,15 @@ void readSwitches() {
 
 PROGRAM *openProgram;
 int home = 1;
+PROGRAM *changedOpenProgram;
+int changedProgram = 0;
+int changedProgramHome = 0;
+
+void launchProgram(PROGRAM *p) {
+  changedOpenProgram = p;
+  changedProgramHome = (p->name == HOME.name);
+  changedProgram = 1;
+}
 
 void systemInit() {
   openProgram = programs[0];
@@ -97,6 +106,12 @@ void systemInit() {
 
 void systemUpdate() {
   readSwitches();
+  if (changedProgram) {
+    home = changedProgramHome;
+    changedProgram = 0;
+    openProgram = changedOpenProgram;
+    openProgram->init();
+  }
   if (!home) {
     if (heldSwitches[4 * COLS_AMT + 1]) {
       // super key pressed

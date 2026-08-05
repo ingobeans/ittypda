@@ -1,5 +1,5 @@
 #pragma once
-#define VERSION "0.3.17"
+#define VERSION "0.3.18"
 
 #include "conf.h"
 #include "graphics.h" // IWYU pragma: keep
@@ -21,3 +21,5 @@ typedef struct {
   void (*init)(void);
   void (*update)(void);
 } PROGRAM;
+
+void launchProgram(PROGRAM *p);

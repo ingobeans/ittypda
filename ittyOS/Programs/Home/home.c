@@ -105,6 +105,12 @@ void homeUpdate() {
           // backspace
           homeInputCursor--;
           homeInput[homeInputCursor] = 0;
+        } else if (x == 11 && y == 1) {
+          // enter
+          PROGRAM *p = guessProgram();
+          if (p) {
+            launchProgram(p);
+          }
         }
       }
     }
