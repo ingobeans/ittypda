@@ -5,6 +5,7 @@
 #include "stm32f4xx_hal.h"
 #include "stm32f4xx_hal_gpio.h"
 #include "system.h"
+#include <string.h>
 
 void catTest() {
   drawIBI("images/cat.ibi", 0, 0, DEFAULT_DRAW_IBI_CONFIG);
@@ -20,6 +21,27 @@ const u16 TEXT_COLOR = 0xCE79;
 
 u16 homeInputCursor = 0;
 char homeInput[30] = {0};
+char homeInputGuess[20] = {0};
+
+int homeInputGuessCounter = 0;
+PROGRAM *guessProgram() {
+  for (int i = 0; i < PROGRAMS_AMT; i++) {
+    PROGRAM *p = programs[i];
+    homeInputGuessCounter = 0;
+    while (1) {
+      char a = p->name[homeInputGuessCounter];
+      char b = homeInput[homeInputGuessCounter];
+      if (b == 0) {
+        return p;
+      }
+      if (a != b) {
+        break;
+      }
+      homeInputGuessCounter++;
+    }
+  }
+  return 0;
+}
 
 void homeDrawInputBox() {
   int w = 328;
@@ -29,11 +51,21 @@ void homeDrawInputBox() {
   memset_u16(disp_buf, INPUT_BG, w * h * 2);
   char *print = "Enter program or expression..";
   u16 color = TEXT_COLOR;
+  homeInputGuess[0] = 0;
   if (homeInput[0]) {
     print = homeInput;
     color = 0xffff;
+
+    // guess entry result
+    PROGRAM *p = guessProgram();
+    if (p) {
+      memcpy(homeInputGuess, &p->name[homeInputGuessCounter],
+             strlen(p->name) - homeInputGuessCounter);
+    }
   }
   writeStringToBuffer(5, 5, print, Font_11x18, color, disp_buf, w, h);
+  writeStringToBuffer(5 + strlen(print) * 11, 5, homeInputGuess, Font_11x18,
+                      TEXT_COLOR, disp_buf, w, h);
   ST7789_WriteData(disp_buf, w * h * 2);
 }
 

@@ -61,8 +61,9 @@ void readSwitches() {
 #ifndef KEYBOARD_MATRIX
 u8 inputBufferI = 0;
 u8 inputBufferILast = 0;
-u8 bufferedKeys[][2] = {{2, 1}, {2, 0}, {3, 1}, {11, 0}, {11, 1},
-                        {2, 1}, {2, 1}, {2, 1}, {1, 4}};
+// u8 bufferedKeys[][2] = {{2, 1}, {2, 0}, {3, 1}, {11, 0}, {11, 1},
+//                         {2, 1}, {2, 1}, {2, 1}, {1, 4}};
+u8 bufferedKeys[][2] = {{6, 3}};
 void readSwitches() {
   if (inputBufferI >= sizeof(bufferedKeys) / 2) {
     u8 x = bufferedKeys[inputBufferILast][0];
@@ -85,7 +86,7 @@ PROGRAM *openProgram;
 int home = 1;
 
 void systemInit() {
-  openProgram = &programs[0];
+  openProgram = programs[0];
   HAL_GPIO_WritePin(DEBUG_LED_PORT, DEBUG_LED, !DEBUG_LED_ON_STATE);
   HAL_Delay(160);
   initSPI(LCD_SPI_SPEED);

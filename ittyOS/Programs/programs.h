@@ -11,7 +11,8 @@ typedef struct {
   u16 height;
 } Icon;
 
-extern PROGRAM *programs;
+#define PROGRAMS_AMT 2
+extern PROGRAM *programs[PROGRAMS_AMT];
 
 void drawIcon(u16 x, i16 y, u16 color, u8 *buffer, u16 bufferWidth,
               u16 bufferHeight, Icon *icon);

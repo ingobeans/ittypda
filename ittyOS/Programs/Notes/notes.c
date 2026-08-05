@@ -8,7 +8,7 @@
 #include "system.h"
 #include <string.h>
 
-const char notesName[6] = "Notes";
+const char notesName[6] = "notes";
 
 const int marginWidth = 52;
 void notesInit() {
