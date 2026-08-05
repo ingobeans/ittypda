@@ -81,10 +81,11 @@ void readSwitches() {
 }
 #endif
 
-PROGRAM *openProgram = &HOME;
+PROGRAM *openProgram;
 int home = 1;
 
 void systemInit() {
+  openProgram = &programs[0];
   HAL_GPIO_WritePin(DEBUG_LED_PORT, DEBUG_LED, !DEBUG_LED_ON_STATE);
   HAL_Delay(160);
   initSPI(LCD_SPI_SPEED);
