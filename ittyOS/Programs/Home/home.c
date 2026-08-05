@@ -73,7 +73,7 @@ void homeInit() {
   initSPI(SD_MOUNT_SPI_SPEED);
   if (sd_mount() == FR_OK) {
     initSPI(SD_SPI_SPEED);
-    drawIBI("images/wallpaper2.ibi", 0, 0, DEFAULT_DRAW_IBI_CONFIG);
+    drawIBI("images/wallpaper.ibi", 0, 0, DEFAULT_DRAW_IBI_CONFIG);
 
     DRAW_IBI_CONFIG cfg = {0};
     cfg.cropX = 480 - 100;
