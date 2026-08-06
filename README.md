@@ -57,6 +57,10 @@ the secondary board houses the usb-c port, battery charging ic, voltage regulato
 
 the two boards mount together like a PCB-sandwich and connect through 7 soldered pads.
 
+showcase how the two boards are mounted:
+
+<img src="readme/pcbshowcase.gif" width=400>
+
 <img src=readme/schematic.png width=400>
 
 ## firmware - ittyOS
