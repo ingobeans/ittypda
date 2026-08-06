@@ -82,15 +82,15 @@ void testDrawCallback(int i) {
       }
     }
   }
-  if (i >= 0 && i <= 1) {
-    writeStringToBuffer(0, 30 - 0 * HOR_LEN, "wahoo", Font_16x26, 0xffff,
-                        disp_buf, 480, HOR_LEN);
-  }
   if (i >= 0 && i <= 7) {
     for (int o = 0; o < 40; o++) {
       memset_u16(&disp_buf[o * 480 * 2 + 0 * 2], 0x6529, 52 * 2);
       memset_u16(&disp_buf[o * 480 * 2 + 428 * 2], 0x6529, 52 * 2);
     }
+  }
+  if (i >= 0 && i <= 1) {
+    writeStringToBuffer(0, 30 - i * HOR_LEN, "wahoo", Font_16x26, 0xffff,
+                        disp_buf, 480, HOR_LEN);
   }
   initSPI(LCD_SPI_SPEED);
   // memset_u16(disp_buf, 0xff00, streamBytesAmt);
