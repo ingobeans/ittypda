@@ -111,4 +111,6 @@ most parts are designed to friction-fit, though i wont know how well this works 
 ![alt text](readme/case1.png)![alt text](readme/case2.png)
 <hr>
 
+<sup>no ai usage</sup>
+
 <sup>made with <3</sup>
