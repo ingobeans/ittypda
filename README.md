@@ -109,6 +109,49 @@ the case is designed in,.. blender. its mostly a MVP for a case, and when i get 
 most parts are designed to friction-fit, though i wont know how well this works in practice, but will find out soon !
 
 ![alt text](readme/case1.png)![alt text](readme/case2.png)
+
+## BOMs
+
+### Final bom (bom.csv)
+
+|Name                         |Cost ($)                              |Source                                                                                           |
+|-----------------------------|--------------------------------------|-------------------------------------------------------------------------------------------------|
+|PCB                          |13.43                                 |JLCPCB                                                                                           |
+|PCB Assembly Fees            |48.21                                 |JLCPCB                                                                                           |
+|PCB Assembly Components      |20.55                                 |JLCPCB                                                                                           |
+|PCB Shipping                 |24.07                                 | DHL Express                                                                                     |
+|Customs & taxes              | 26.56                                |                                                                                                 |
+|Total                        |132.77                                |                                                                                                 |
+
+
+### Parts bom (parts-bom.csv)
+
+|Part Name                    |Description                           |Link                                                                                             |Quantity                                                            |Total Price ($)                                                        |
+|-----------------------------|--------------------------------------|-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|-----------------------------------------------------------------------|
+|CL05B104KO5NNNC              |100nF 0402 Ceramic Capacitors         |https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525                                         |16                                                                  |0.0864                                                                 |
+|CL05A475MP5NRNC              |10V 0402 Ceramic Capacitors           |https://jlcpcb.com/partdetail/24469-CL05A475MP5NRNC/C23733                                       |4                                                                   |0.0828                                                                 |
+|CL05C100JB5NNNC              |10pF 0402 Ceramic Capacitors          |https://jlcpcb.com/partdetail/33914-CL05C100JB5NNNC/C32949                                       |4                                                                   |0.0212                                                                 |
+|CL05A105KA5NQNC              |1uF 0402 Ceramic Capacitors           |https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923                                       |8                                                                   |0.1272                                                                 |
+|CL05A225MQ5NSNC              |2.2uF 0402 Ceramic Capacitors         |https://jlcpcb.com/partdetail/13164-CL05A225MQ5NSNC/C12530                                       |2                                                                   |0.0128                                                                 |
+|S2B-PH-SM4-TB(LF)(SN)        |PH JST Connector 2mm                  |https://jlcpcb.com/partdetail/JST-S2B_PH_SM4_TB_LF_SN/C295747                                    |2                                                                   |0.427                                                                  |
+|1N5819WS                     |Schottky Diodes                       |https://jlcpcb.com/partdetail/GuangdongHottech-1N5819WS/C191023                                  |114                                                                 |1.5504                                                                 |
+|05A20L14P                    |FPC Connector                         |https://jlcpcb.com/partdetail/HanElectricity-05A20L14P/C22435642                                 |2                                                                   |0.1404                                                                 |
+|TYPE-C-31-M-12               |USB-C Connectors                      |https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPE_C_31_M12/C165948                          |2                                                                   |0.3686                                                                 |
+|YLED0603Y                    |Yellow 0603 LED                       |https://jlcpcb.com/partdetail/YONGYUTAI-YLED0603Y/C19273152                                      |20                                                                  |0.13                                                                   |
+|0402WGF1002TCE               |10k ohm 0402 Resistor                 |https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744                                        |2                                                                   |0.023                                                                  |
+|0402WGF5101TCE               |5.1k ohm 0402 Resistor                |https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905                                        |4                                                                   |0.0268                                                                 |
+|0402WGF5100TCE               |510 ohm 0402 Resistor                 |https://jlcpcb.com/partdetail/25866-0402WGF5100TCE/C25123                                        |2                                                                   |0.0122                                                                 |
+|0402WGF1001TCE               |1k ohm 0402 Resistor                  |https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702                                        |4                                                                   |0.0392                                                                 |
+|0402WGF100JTCE               |10 ohm 0402 Resistor                  |https://jlcpcb.com/partdetail/25820-0402WGF100JTCE/C25077                                        |6                                                                   |0.0342                                                                 |
+|TS-1187A-B-A-B               |Tactile Switches                      |https://jlcpcb.com/partdetail/XKBConnection-TS_1187A_B_AB/C318884                                |116                                                                 |2.3664                                                                 |
+|MST-12D18G4 SPDT             | Slide Switch                         |https://jlcpcb.com/partdetail/C49023767                                                          |2                                                                   |0.1654                                                                 |
+|MAX17048G+T10                |Battery Sense IC MAX17048GT10         |https://jlcpcb.com/partdetail/2777647-MAX17048GT10/C2682616                                      |2                                                                   |4.3212                                                                 |
+|BQ24040DSQR                  |Lithium Battery Charge IC BQ24040DSQR |https://jlcpcb.com/partdetail/TexasInstruments-BQ24040DSQR/C81080                                |5                                                                   |2.243                                                                  |
+|TLV76133DCYR                 |3.3V Fixed Voltage Regulators - Linear|https://jlcpcb.com/partdetail/TexasInstruments-TLV76133DCYR/C7527500                             |2                                                                   |0.438                                                                  |
+|STM32F411RET6                |Microcontroller                       |https://jlcpcb.com/partdetail/STMicroelectronics-STM32F411RET6/C94355                            |2                                                                   |7.7452                                                                 |
+|X322516MLB4SI                |16MHz 9pF Crystal Oscillator          |https://jlcpcb.com/partdetail/YXC_CrystalOscillators-X322516MLB4SI/C13738                        |2                                                                   |0.1856                                                                 |
+
+
 <hr>
 
 <sup>no ai usage</sup>
